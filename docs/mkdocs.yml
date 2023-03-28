@@ -2,25 +2,25 @@ site_name: Onqlave Platform
 nav:
   - Home: index.md
   - 'Welcome':
-    - 'Alpha Release': alpha_release.md
-    - 'How does it work?': how_it_works.md
+    - 'Alpha Release': welcome/alpha-release.md
+    - 'How does it work?': welcome/how-it-works.md
   - 'Getting Started':
-    - 'Features': features.md
-    - 'Architecture': architecture.md
-    - 'Product Principles': product_principles.md
-    - 'Libraries': libraries.md
+    - 'Features': getting-started/features.md
+    - 'Architecture': getting-started/architecture.md
+    - 'Product Principles': getting-started/product-principles.md
+    - 'Libraries': getting-started/libraries.md
   - 'Guides':
-    - 'WebApp vs CLI': web_app_vs_cli.md
-    - 'WebApp Guide': web_app_guide.md
-    - 'CLI Guide': cli_guide.md
+    - 'WebApp vs CLI': guides/web-app-vs-cli.md
+    - 'WebApp Guide': guides/web-app-guide.md
+    - 'CLI Guide': guides/cli-guide.md
   - 'Resources':
-    - 'Glossary': glosary.md
-    - 'Pricing': pricing.md
-    - 'Blogs': blogs.md
-    - 'OpenAPI Docs': open_api_doc.md
-    - 'OpenAPI Specs': open_api_spec.md
+    - 'Glossary': resources/glosary.md
+    - 'Pricing': resources/pricing.md
+    - 'Blogs': resources/blogs.md
+    - 'OpenAPI Docs': resources/open-api-doc.md
+    - 'OpenAPI Specs': resources/open-api-spec.md
   - 'Others':
-    - 'Change Log': change_log.md
-    - 'API Status': api_status.md
+    - 'Change Log': others/change-log.md
+    - 'API Status': others/api-status.md
   
 theme: readthedocs
