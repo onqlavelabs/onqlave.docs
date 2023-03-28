@@ -23,4 +23,5 @@ nav:
     - 'Change Log': others/change-log.md
     - 'API Status': others/api-status.md
   
-theme: readthedocs
+theme: 
+  name: material
