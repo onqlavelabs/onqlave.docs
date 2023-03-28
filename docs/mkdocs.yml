@@ -14,7 +14,7 @@ nav:
     - 'WebApp Guide': guides/web-app-guide.md
     - 'CLI Guide': guides/cli-guide.md
   - 'Resources':
-    - 'Glossary': resources/glosary.md
+    - 'Glossary': resources/glossary.md
     - 'Pricing': resources/pricing.md
     - 'Blogs': resources/blogs.md
     - 'OpenAPI Docs': resources/open-api-doc.md
