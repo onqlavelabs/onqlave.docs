@@ -1,6 +1,6 @@
 site_name: Onqlave Platform
 nav:
-  - Home: index.md
+  # - Home: index.md
   - 'Welcome':
     - 'Alpha Release': welcome/alpha-release.md
     - 'How does it work?': welcome/how-it-works.md
