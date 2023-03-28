@@ -1,8 +1,26 @@
 site_name: Onqlave Platform
 nav:
   - Home: index.md
-  - Welcome: welcome.md
-  - Getting Started: getting_started.md
-  - Guides: guides.md
-  - About: about.md
+  - 'Welcome':
+    - 'Alpha Release': alpha_release.md
+    - 'How does it work?': how_it_works.md
+  - 'Getting Started':
+    - 'Features': features.md
+    - 'Architecture': architecture.md
+    - 'Product Principles': product_principles.md
+    - 'Libraries': libraries.md
+  - 'Guides':
+    - 'WebApp vs CLI': web_app_vs_cli.md
+    - 'WebApp Guide': web_app_guide.md
+    - 'CLI Guide': cli_guide.md
+  - 'Resources':
+    - 'Glossary': glosary.md
+    - 'Pricing': pricing.md
+    - 'Blogs': blogs.md
+    - 'OpenAPI Docs': open_api_doc.md
+    - 'OpenAPI Specs': open_api_spec.md
+  - 'Others':
+    - 'Change Log': change_log.md
+    - 'API Status': api_status.md
+  
 theme: readthedocs
