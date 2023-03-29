@@ -18,7 +18,7 @@ nav:
       - 'Administration':
         - 'API Key': guides/web-app-guide/administration/apikey.md
         - 'Application': guides/web-app-guide/administration/application.md
-        - 'Cluster': guides/web-app-guide/administration/cluster.md
+        - 'Arx': guides/web-app-guide/administration/arx.md
       - 'Platform':
         - 'Access': guides/web-app-guide/platform/access.md
         - 'Account': guides/web-app-guide/platform/account.md    
@@ -28,10 +28,12 @@ nav:
       - 'Administration':
         - 'API Key': guides/cli-guide/administration/apikey.md
         - 'Application': guides/cli-guide/administration/application.md
-        - 'Cluster': guides/cli-guide/administration/cluster.md
+        - 'Arx': guides/cli-guide/administration/arx.md
       - 'Platform':
         - 'Access': guides/cli-guide/platform/access.md
         - 'Account': guides/cli-guide/platform/account.md 
+  - 'Notes':
+    - 'Encryption Flow': notes/encryption-flow.md
   - 'Resources':
     - 'Glossary': resources/glossary.md
     - 'Pricing': resources/pricing.md
@@ -44,3 +46,6 @@ nav:
   
 theme: 
   name: material
+  logo: img/favicon.ico
+  favicon: img/favicon.ico
+
