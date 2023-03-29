@@ -48,4 +48,8 @@ theme:
   name: material
   logo: img/favicon.ico
   favicon: img/favicon.ico
-
+  palette:
+    primary: white
+  plugins:
+  - search
+    
