@@ -4,15 +4,34 @@ nav:
   - 'Welcome':
     - 'Alpha Release': welcome/alpha-release.md
     - 'How does it work?': welcome/how-it-works.md
-  - 'Getting Started':
-    - 'Features': getting-started/features.md
-    - 'Architecture': getting-started/architecture.md
-    - 'Product Principles': getting-started/product-principles.md
-    - 'Libraries': getting-started/libraries.md
+  - Getting Started: getting-started.md
+    # - 'Features': getting-started/features.md
+    # - 'Architecture': getting-started/architecture.md
+    # - 'Product Principles': getting-started/product-principles.md
+    # - 'Libraries': getting-started/libraries.md
   - 'Guides':
     - 'WebApp vs CLI': guides/web-app-vs-cli.md
-    - 'WebApp Guide': guides/web-app-guide.md
-    - 'CLI Guide': guides/cli-guide.md
+    - 'WebApp Guide': 
+      - 'Overview': guides/web-app-guide/overview.md
+      - 'Authentication': guides/web-app-guide/authentication.md
+      - 'Dashboard': guides/web-app-guide/dashboard.md
+      - 'Administration':
+        - 'API Key': guides/web-app-guide/administration/apikey.md
+        - 'Application': guides/web-app-guide/administration/application.md
+        - 'Cluster': guides/web-app-guide/administration/cluster.md
+      - 'Platform':
+        - 'Access': guides/web-app-guide/platform/access.md
+        - 'Account': guides/web-app-guide/platform/account.md    
+    - 'CLI Guide': 
+      - 'Overview': guides/cli-guide/overview.md
+      - 'Authentication': guides/cli-guide/authentication.md
+      - 'Administration':
+        - 'API Key': guides/cli-guide/administration/apikey.md
+        - 'Application': guides/cli-guide/administration/application.md
+        - 'Cluster': guides/cli-guide/administration/cluster.md
+      - 'Platform':
+        - 'Access': guides/cli-guide/platform/access.md
+        - 'Account': guides/cli-guide/platform/account.md 
   - 'Resources':
     - 'Glossary': resources/glossary.md
     - 'Pricing': resources/pricing.md
