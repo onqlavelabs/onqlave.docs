@@ -1,4 +1,3 @@
-# **Alpha Release**
 Our mission is to make it easy to incorporate data privacy and protection for the management of sensitive data (PII) throughout your organisation.
 
 To preserve the privacy of your data, it first needs to be protected. The Onqlave alpha release enables you to easily create and manage a personal data store within your applications. 
@@ -13,4 +12,4 @@ We have designed Onqlave to be resilient, performant and scalable, whilst minimi
 
 We are excited for you to be part of the Onqlave alpha release. We have been working towards delivering initial features which will form the foundation of an extensive suite of data protection and privacy capabilities in the near future. 
 
-We welcome any and all feedback you have either through WebApp or at feedback@onqlave.com. 
+We welcome any and all feedback you have either through WebApp or at <feedback@onqlave.com>. 
