@@ -2,17 +2,8 @@ site_name: Onqlave Platform
 nav:
   - 'Home': welcome/welcome.md
   - 'Welcome': welcome/welcome.md
-    # - 'Alpha Release': welcome/alpha-release.md
-    # - 'How does it work?': welcome/how-it-works.md
-  # - Getting Started: getting-started.md
-    # - 'Features': getting-started/features.md
-    # - 'Architecture': getting-started/architecture.md
-    # - 'Product Principles': getting-started/product-principles.md
-    # - 'Libraries': getting-started/libraries.md
   - 'Guides':
-    # - 'WebApp vs CLI': guides/web-app-vs-cli.md
     - 'WebApp Guide': 
-      # - 'Overview': guides/web-app-guide/overview.md
       - 'Authentication': guides/web-app-guide/authentication.md
       - 'Dashboard': guides/web-app-guide/dashboard.md
       - 'Administration':
@@ -21,7 +12,6 @@ nav:
         - 'API Key': guides/web-app-guide/administration/apikey.md
       - 'Platform':
         - 'Access': guides/web-app-guide/platform/access.md
-        # - 'Account': guides/web-app-guide/platform/account.md    
     - 'CLI Guide': 
       - 'Overview': guides/cli-guide/overview.md
       - 'Authentication': guides/cli-guide/authentication.md
@@ -31,18 +21,6 @@ nav:
         - 'API Key': guides/cli-guide/administration/apikey.md
       - 'Platform':
         - 'Access': guides/cli-guide/platform/access.md
-        # - 'Account': guides/cli-guide/platform/account.md 
-  # - 'Notes':
-  #   - 'Encryption Flow': notes/encryption-flow.md
-  # - 'Resources':
-  #   - 'Glossary': resources/glossary.md
-  #   - 'Pricing': resources/pricing.md
-  #   - 'Blogs': resources/blogs.md
-  #   - 'OpenAPI Docs': resources/open-api-doc.md
-  #   - 'OpenAPI Specs': resources/open-api-spec.md
-  # - 'Others':
-  #   - 'Change Log': others/change-log.md
-  #   - 'API Status': others/api-status.md
   
 theme: 
   name: material
