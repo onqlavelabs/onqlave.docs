@@ -1,5 +1,9 @@
-![Authentication prompt](https://t36712295.p.clickup-attachments.com/t36712295/1da2b1e3-5204-4aff-92f0-6db494a7109c/image.png)
+To begin the authentication process, entering your email in the prompt:
 
-Follow the prompts to login or create an account using your email address or by using an available identity provider listed at the bottom of the page. 
+![Authentication prompt-1](https://t36712295.p.clickup-attachments.com/t36712295/61f6e320-fe0f-476e-b255-4259917232e2/image.png)
 
-Your domain will be a unique identifier that ties together users across your organisation (you are able to manage permissions in the access page)
+If your email is activated and you have changed your password for the first time, the prompt will look like this
+
+![Authentication prompt-2](https://t36712295.p.clickup-attachments.com/t36712295/e042293d-fdb3-49ac-83fe-b1202d5d975a/image.png)
+
+If you haven't changed your password yet, you should follow the instruction of other prompt to set your password
