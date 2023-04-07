@@ -1,4 +1,4 @@
-![APIKey Preview](https://t36712295.p.clickup-attachments.com/t36712295/ad3c5f67-0f83-436d-912c-ba24248fae9b/image.png)
+![APIKey Preview](https://t36712295.p.clickup-attachments.com/t36712295/6ced8bf4-4123-491f-885d-1ced639cc496/image.png)
 
 
 API Keys manager allow you to bring your clusters and applications together. The API Keys created here will draw on all of the unique inputs you have created for the cluster and application that you choose.

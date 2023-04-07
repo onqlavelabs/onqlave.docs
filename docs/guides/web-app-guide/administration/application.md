@@ -1,4 +1,4 @@
-![Application Preview](https://t36712295.p.clickup-attachments.com/t36712295/0be2254b-c234-4021-9935-9658cd27c2bf/image.png)
+![Application Preview](https://t36712295.p.clickup-attachments.com/t36712295/661db78a-1f82-431a-b134-bd5010466b8d/image.png)
 
 The Applications page will allow you to create and allocate the unique identifiers for your front and backend applications to be used when creating API Keys. This seperate Application workflow ensures you have easy access to enabling, sealing and archiving applications as needed.
 

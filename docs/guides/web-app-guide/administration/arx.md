@@ -1,4 +1,4 @@
-![Arx Preview](https://t36712295.p.clickup-attachments.com/t36712295/fe849854-a232-4f1d-a842-18d5ff70a87f/image.png)
+![Arx Preview](https://t36712295.p.clickup-attachments.com/t36712295/2e9e0e74-1304-4e80-b57d-a3c83fdf8eca/image.png)
 
 If you are familiar with allocating cloud computing resources for your company, you will be familiar with the concept of creating and assigning clusters to support your expected workload. With Onqlave, we follow a similar approach to allow you to optimise for speed and availability. 
 
