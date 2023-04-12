@@ -1,5 +1,5 @@
 
-# Explore availabe commands
+## Explore availabe commands
 ```
 # onqlave keys 
 
@@ -27,7 +27,7 @@ Global Flags:
 Use "onqlave keys [command] --help" for more information about a command.
 ```
 
-# Retrieve necessary information
+## Retrieve necessary information
 Before interacting with API keys, you may need to retrieve all the base information about arxes and aplication. The most frequently used information when interacting with API keys via CLI are IDs of arxes, application and owner
 
 ```
@@ -172,25 +172,25 @@ API Key Base Information =>
 }                    
 ```
 
-# Create an API key
+## Create an API key
 To create your api key, your have to specify your application_id, application_technology and arx_id
 
 ```
 # onqlave keys add -a your_application_id -c your_arx_id -t your_application_technology
 ```
 
-# Desribe an API key
+## Desribe an API key
 ```
 # onqlave keys describe your_app_key_id
 ```
 
 
-# Delete an API key
+## Delete an API key
 ```
 # onqlave keys delete your_app_key_id
 ```
 
-# List all API keys
+## List all API keys
 ```
 # onqlave keys list
 ```
