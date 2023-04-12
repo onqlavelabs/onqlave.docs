@@ -1,6 +1,6 @@
 Current supported interaction with Application via CLI are listed below:
 
-# Explore availabe commands
+## Explore availabe commands
 ```
 # onqlave apps 
 ```
@@ -31,36 +31,36 @@ Global Flags:
 Use "onqlave apps [command] --help" for more information about a command.
 ```
 
-# Create an application
+## Create an application
 ```
 # onqlave apps add your_app_name -d your_preferred_description -t application_technology -o application_owner_id 
 ```
 
-# Archive an application
+## Archive an application
 ```
 # onqlave apps archive your_app_id
 ```
-# Describe an application
+## Describe an application
 ```
 # onqlave apps describe your_app_id
 ```
 
-# Disable an application
+## Disable an application
 ```
 # onqlave apps disable your_app_id
 ```
 
-# Enable an application
+## Enable an application
 ```
 # onqlave apps enable your_app_id
 ```
 
-# List all applications
+## List all applications
 ```
 # onqlave apps list
 ```
 
-# Update an application
+## Update an application
 Currently, Onqlave platform supports update an application via it's ID
 
 ```

@@ -1,6 +1,6 @@
 Before starting the authentication process via CLI, make sure that you have a valid account and valid tenant name.
 
-# Init the configuration
+## Init the configuration
 
 ```
 # onqlave configs init
@@ -8,7 +8,7 @@ If the configurations was inited successfully, there should be a output like fol
 🎉 Done!  You successfully initialize your environment . Next step is to signup/login is you already haven't.                                                                                                             
 For more information, read our documentation at https://www.onqlave.com/docs 
 ```
-# The authentication process
+## The authentication process
 The authentication process will go through 4 steps:
 
 ## 1. Input authentication information via CLI:
