@@ -74,7 +74,9 @@ markdown_extensions:
 
 nav:
   - Welcome: welcome/welcome.md
-  - Getting started: getting-started.md
+  - "Getting started": 
+    - "Graphical Interface": getting-started/getting-started-gui.md
+    - "Command Line Interface": getting-started/getting-started-cli.md
   - "Guides":
       - "WebApp Guide":
           - "Authentication": guides/web-app-guide/authentication.md

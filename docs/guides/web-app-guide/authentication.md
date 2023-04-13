@@ -1,3 +1,14 @@
+
+## **Double check your account**
+
+---
+
+Make sure that you [registered for the alpha release](https://www.onqlave.com/contact), received our email and followed the instruction specified on email.
+
+## **Let's get involve**
+
+---
+
 To begin the authentication process, entering your email in the prompt:
 
 ![Authentication prompt-1](https://t36712295.p.clickup-attachments.com/t36712295/61f6e320-fe0f-476e-b255-4259917232e2/image.png)
