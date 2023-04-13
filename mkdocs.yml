@@ -1,0 +1,72 @@
+site_name: Onqlave Platform
+site_author: Onqlave Pty
+
+copyright: Copyright &copy; 2022 - 2023 Onqlave Pty
+
+theme:
+  name: material
+  logo: img/favicon.ico
+  favicon: img/favicon.ico
+  font:
+    text: Roboto
+    code: Roboto Mono
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  plugins:
+    - search
+    - navigation
+  features:
+    - navigation.indexes
+    - navigation.footer
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.path
+    - navigation.sections
+    - navigation.expand
+    - toc.follow
+    - search.highlight
+    - search.share
+    - search.suggest
+
+markdown_extensions: 
+  - attr_list
+  - def_list
+  - footnotes
+  - toc:
+      permalink: true
+  
+
+nav:
+  - "Home": welcome/welcome.md
+  - "Welcome": welcome/welcome.md
+  - "Guides":
+      - "WebApp Guide":
+          - "Authentication": guides/web-app-guide/authentication.md
+          - "Dashboard": guides/web-app-guide/dashboard.md
+          - "Administration":
+              - "Arx": guides/web-app-guide/administration/arx.md
+              - "Application": guides/web-app-guide/administration/application.md
+              - "API Key": guides/web-app-guide/administration/apikey.md
+          - "Platform":
+              - "Access": guides/web-app-guide/platform/access.md
+      - "CLI Guide":
+          - "Overview": guides/cli-guide/overview.md
+          - "Authentication": guides/cli-guide/authentication.md
+          - "Administration":
+              - "Arx": guides/cli-guide/administration/arx.md
+              - "Application": guides/cli-guide/administration/application.md
+              - "API Key": guides/cli-guide/administration/apikey.md
+          - "Platform":
+              - "Access": guides/cli-guide/platform/access.md

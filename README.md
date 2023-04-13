@@ -11,3 +11,15 @@
 - To get the latest changes from upstream repo <code>git pull</code>
 
 
+# To run the mkdocs engine on your local machine:
+
+**1. Have your python && pip installed and ready**
+
+**2. Instal mkdocs and mkdocs-material theme:**
+```
+pip install mkdocs-material
+```
+**3. Navigate to the root of _onqlave.docs_ and run**
+```
+mkdocs serve
+```
