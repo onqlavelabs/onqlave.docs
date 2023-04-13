@@ -2,6 +2,14 @@ site_name: Onqlave Platform
 site_author: Onqlave Pty
 
 copyright: Copyright &copy; 2022 - 2023 Onqlave Pty
+extra:
+    social:
+      - icon: material/linkedin
+        link: https://www.linkedin.com/company/onqlave/
+    generator: false
+    version:
+      provider: mike
+      default: 0.0.1
 
 theme:
   name: material
@@ -26,7 +34,16 @@ theme:
   plugins:
     - search
     - navigation
+    - mike:
+        alias_type: symlink
+        redirect_template: null
+        deploy_prefix: ''
+        canonical_version: null
+        version_selector: true
+        css_dir: css
+        javascript_dir: js
   features:
+    - annouce.dismiss
     - navigation.indexes
     - navigation.footer
     - navigation.instant
@@ -39,6 +56,7 @@ theme:
     - search.highlight
     - search.share
     - search.suggest
+    - header.autohide
 
 markdown_extensions: 
   - attr_list
