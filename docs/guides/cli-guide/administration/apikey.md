@@ -172,7 +172,7 @@ API Key Base Information =>
 }                    
 ```
 
-## Create an API keyyyyyyyyyyyyy
+## Create an API key
 To create your api key, your have to specify your application_id, application_technology and arx_id
 
 ```
