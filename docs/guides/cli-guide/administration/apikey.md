@@ -172,7 +172,7 @@ API Key Base Information =>
 }                    
 ```
 
-<!-- ## Create an API key
+## Create an API key
 To create your api key, your have to specify your application_id, application_technology and arx_id
 
 ```
@@ -190,7 +190,8 @@ To create your api key, your have to specify your application_id, application_te
 # onqlave keys delete your_app_key_id
 ```
 
+
 ## List all API keys
 ```
 # onqlave keys list
-``` -->
+``` 
