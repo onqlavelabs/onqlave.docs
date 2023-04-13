@@ -1,6 +1,7 @@
 Current supported interaction with Arx via CLI are listed below:
 
 ## Add an Arx
+
 To create an Arx, simply input the following command into the CLI. Please pay attention to the flags and their availabe assigned values.
 ```
 # onqlave arx add my_1st_arx -d "this is my first arx" -e aes-gcm-128 -i true -o your_login_email@domain.com -p gcp -u development -r au -c monthly -t serverless  

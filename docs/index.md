@@ -1,4 +1,9 @@
+## Our mission
+
 Our mission is to make it easy to incorporate data privacy and protection for the management of sensitive data (PII) throughout your organisation.
+
+
+## How do we achieve it?
 
 To preserve the privacy of your data, it first needs to be protected. The Onqlave alpha release enables you to easily create and manage a personal data store within your applications. 
 

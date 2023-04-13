@@ -10,6 +10,8 @@ extra:
     version:
       provider: mike
       default: 0.0.1
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css
 
 theme:
   name: material
@@ -34,6 +36,7 @@ theme:
   plugins:
     - search
     - navigation
+    - typeset
     - mike:
         alias_type: symlink
         redirect_template: null
@@ -64,11 +67,14 @@ markdown_extensions:
   - footnotes
   - toc:
       permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   
 
 nav:
-  - "Home": welcome/welcome.md
-  - "Welcome": welcome/welcome.md
+  - Welcome: welcome/welcome.md
+  - Getting started: getting-started.md
   - "Guides":
       - "WebApp Guide":
           - "Authentication": guides/web-app-guide/authentication.md
