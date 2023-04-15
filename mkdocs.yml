@@ -37,6 +37,20 @@ theme:
     - search
     - navigation
     - typeset
+    - glightbox:
+        touchNavigation: true
+        loop: false
+        effect: zoom
+        slide_effect: slide
+        width: 100%
+        height: auto
+        zoomable: true
+        draggable: true
+        skip_classes:
+          - custom-skip-class-name
+        auto_caption: false
+        caption_position: bottom
+
     - mike:
         alias_type: symlink
         redirect_template: null
@@ -75,10 +89,10 @@ markdown_extensions:
 nav:
   - Welcome: welcome/welcome.md
   - "Getting started": 
-    - "Graphical Interface": getting-started/getting-started-gui.md
-    - "Command Line Interface": getting-started/getting-started-cli.md
+    - "Quick start": getting-started/quick-start.md
   - "Guides":
-      - "WebApp Guide":
+      - "Graphical Web Interface":
+          - "Overview - GUI": guides/web-app-guide/overview-gui.md
           - "Authentication": guides/web-app-guide/authentication.md
           - "Dashboard": guides/web-app-guide/dashboard.md
           - "Administration":
@@ -87,8 +101,8 @@ nav:
               - "API Key": guides/web-app-guide/administration/apikey.md
           - "Platform":
               - "Access": guides/web-app-guide/platform/access.md
-      - "CLI Guide":
-          - "Overview": guides/cli-guide/overview.md
+      - "Command Line Interface Guide":
+          - "Overview - CLI": guides/cli-guide/overview-cli.md
           - "Authentication": guides/cli-guide/authentication.md
           - "Administration":
               - "Arx": guides/cli-guide/administration/arx.md

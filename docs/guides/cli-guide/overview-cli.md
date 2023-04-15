@@ -29,3 +29,7 @@ Execute onqlave-darwin using the following
 ```
 ./onqlave-darwin
 ```
+
+## **Looking for another way of interaction ?**
+
+If this is not your preffered way, considering [the Graphical Web Interface here](../web-app-guide/overview-gui.md)
