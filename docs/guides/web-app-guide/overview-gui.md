@@ -7,7 +7,7 @@ With this graphical interface, you can perform a wide range of interactions with
 - [Applications](../administration/application)
 - [API Keys](../administration/apikey)
 - [Accounts](../platform/account)
-- [Tenants](../platform/access)
+- [Access](../platform/access)
 
 ## **Looking for another way of interaction ?**
 
