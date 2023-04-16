@@ -3,7 +3,7 @@
 
 ---
 
-Make sure that you [registered for the alpha release](https://www.onqlave.com/contact), received our email and followed the instruction specified on email.
+Make sure that you <mark>[registered for the alpha release](https://www.onqlave.com/contact)</mark>, received our email and followed the instruction specified on email.
 
 ## **Let's get involve**
 

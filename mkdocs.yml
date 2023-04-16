@@ -90,7 +90,7 @@ nav:
               - "API Key": guides/web-app-guide/administration/apikey.md
           - "Platform":
               - "Access": guides/web-app-guide/platform/access.md
-      - "Command Line Interface Guide":
+      - "Command Line Interface":
           - "Overview - CLI": guides/cli-guide/overview-cli.md
           - "Authentication": guides/cli-guide/authentication.md
           - "Administration":
