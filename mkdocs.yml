@@ -61,6 +61,7 @@ theme:
     - search.share
     - search.suggest
     - header.autohide
+    - content.code.copy
 
 markdown_extensions: 
   - attr_list
@@ -89,6 +90,7 @@ nav:
               - "Application": guides/web-app-guide/administration/application.md
               - "API Key": guides/web-app-guide/administration/apikey.md
           - "Platform":
+              - "Account": guides/web-app-guide/platform/account.md
               - "Access": guides/web-app-guide/platform/access.md
       - "Command Line Interface":
           - "Overview - CLI": guides/cli-guide/overview-cli.md
@@ -98,4 +100,6 @@ nav:
               - "Application": guides/cli-guide/administration/application.md
               - "API Key": guides/cli-guide/administration/apikey.md
           - "Platform":
+              - "Account": guides/cli-guide/platform/account.md
               - "Access": guides/cli-guide/platform/access.md
+              

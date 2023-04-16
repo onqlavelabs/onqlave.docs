@@ -11,7 +11,7 @@ After having your account ready, you can continue with your preffered way of int
 
 ## **Choose your own flavor**
 
-After having your account, you can easily interact with Onqlave Platform via 2 types of interface:
+After having your account, you can easily interact with Onqlave Platform via 2 types of interface. Please note that the managed components are the same in each interface.
 
 ### **1. [Graphical Interface](../../guides/web-app-guide/overview-gui)**
 

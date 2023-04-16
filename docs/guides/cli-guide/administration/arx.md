@@ -1,6 +1,11 @@
 Current supported interaction with Arx via CLI are listed below:
 
-## Add an Arx
+
+## **Before you start**
+
+If you skipped the section about <mark>**Arx's interesting meaning**</mark>, you can [catch it up here](../../../web-app-guide/administration/arx).
+
+## **Add an Arx**
 
 To create an Arx, simply input the following command into the CLI. Please pay attention to the flags and their availabe assigned values.
 ```
@@ -13,7 +18,8 @@ If the creation is successful, the output will look similar to:
 For more information, read our documentation at https://www.onqlave.com/docs
 ```
 
-## Retry adding an Arx by ID
+## **Retry adding an Arx by ID**
+
 ```
 # onqlave arx retry cluster--xQ9TpIAzI-Mf_IKm9_nAv
 ```
@@ -23,7 +29,8 @@ Arx creation sometime takes up to 10 minutes.
 For more information, read our documentation at https://www.onqlave.com/docs
 ```
 
-## Set a default Arx
+## **Set a default Arx**
+
 Input command:
 ```
 # onqlave arx default cluster--xQ9TpIAzI-Mf_IKm9_nAv
@@ -35,7 +42,8 @@ Setting default arx sometime takes up to 10 minutes.
 For more information, read our documentation at https://www.onqlave.com/docs
 ```
 
-## Describe an Arx by ID
+## **Describe an Arx by ID**
+
 You can retrieve all information of your Arx by this command:
 
 ```
@@ -61,7 +69,8 @@ Arx 'cluster--xQ9TpIAzI-Mf_IKm9_nAv' Infomation =>
 }   
 ```
 
-## List Arxes
+## **List Arxes**
+
 To see a list of your Arxes from CLI, simply use this command:
 
 ```
@@ -104,7 +113,8 @@ List Arx =>
 }
 ```
 
-## Update arx by ID
+## **Update arx by ID**
+
 First, to get a help of which field can be updated in an Arx, use this command:
 
 ```
@@ -158,7 +168,8 @@ maybe there are some error with the update process ?
 ```
 
 
-## Seal an Arx by ID
+## **Seal an Arx by ID**
+
 To seal an Arx, include it's ID in this command:
 
 ```
@@ -171,7 +182,8 @@ For more information, read our documentation at https://www.onqlave.com/docs
 ```
 
 
-## Unseal an Arx by ID
+## **Unseal an Arx by ID**
+
 In contrary to seal, we just need to alter the command:
 
 ```
@@ -182,7 +194,8 @@ Arx unseal sometime takes up to 10 minutes.
 For more information, read our documentation at https://www.onqlave.com/docs
 ```
 
-## Delete an Arx by ID
+## **Delete an Arx by ID**
+
 ```
 # onqlave arx delete your_arx_id
 
@@ -191,14 +204,15 @@ For more information, read our documentation at https://www.onqlave.com/docs
 ```
 
 
-## Get base configuration information for Arxes
+## **Get base configuration information for Arxes**
+
 These information may be useful when you need to input the required flags during the creation of Arx. To get these information, use the following command:
 ```
 # onqlave arx base
 ```
+Result would be a JSON:
 
 ```
-Result would be a JSON:
 Arx Base Information =>
 {
     "encryption_methods": [
@@ -492,7 +506,8 @@ Arx Base Information =>
 }
 ```
 
-### In addition, you can explore the supported interaction commands with Arx:
+## **Explore the supported interaction commands with Arx**
+
 ```
 # onqlave arx
 This command is used to manage arx resources.

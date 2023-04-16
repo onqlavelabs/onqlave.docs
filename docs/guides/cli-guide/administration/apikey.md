@@ -1,33 +1,7 @@
 
-## Explore availabe commands
-```
-# onqlave keys 
 
-This command is used to manage api keys resources.
+## **Retrieve necessary information**
 
-Usage:
-  onqlave keys [command]
-
-Examples:
-onqlave keys
-
-Available Commands:
-  add         add api key by attributes
-  base        get base
-  delete      delete api key by ID
-  describe    describe api key by ID
-  list        list api keys
-
-Flags:
-  -h, --help   help for keys
-
-Global Flags:
-      --json   Output logs as JSON.  Set to true if stdout is not a TTY.
-
-Use "onqlave keys [command] --help" for more information about a command.
-```
-
-## Retrieve necessary information
 Before interacting with API keys, you may need to retrieve all the base information about arxes and aplication. The most frequently used information when interacting with API keys via CLI are IDs of arxes, application and owner
 
 ```
@@ -172,26 +146,59 @@ API Key Base Information =>
 }                    
 ```
 
-## Create an API key
+## **Create an API key**
+
 To create your api key, your have to specify your application_id, application_technology and arx_id
 
 ```
 # onqlave keys add -a your_application_id -c your_arx_id -t your_application_technology
 ```
 
-## Desribe an API key
+## **Desribe an API key**
+
 ```
 # onqlave keys describe your_app_key_id
 ```
 
 
-## Delete an API key
+## **Delete an API key**
+
 ```
 # onqlave keys delete your_app_key_id
 ```
 
 
-## List all API keys
+## **List all API keys**
+
 ```
 # onqlave keys list
 ``` 
+
+## **Explore availabe commands**
+
+```
+# onqlave keys 
+
+This command is used to manage api keys resources.
+
+Usage:
+  onqlave keys [command]
+
+Examples:
+onqlave keys
+
+Available Commands:
+  add         add api key by attributes
+  base        get base
+  delete      delete api key by ID
+  describe    describe api key by ID
+  list        list api keys
+
+Flags:
+  -h, --help   help for keys
+
+Global Flags:
+      --json   Output logs as JSON.  Set to true if stdout is not a TTY.
+
+Use "onqlave keys [command] --help" for more information about a command.
+```
