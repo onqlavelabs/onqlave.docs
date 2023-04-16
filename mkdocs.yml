@@ -34,23 +34,10 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   plugins:
+    - glightbox
     - search
     - navigation
-    - typeset
-    - glightbox:
-        touchNavigation: true
-        loop: false
-        effect: zoom
-        slide_effect: slide
-        width: 100%
-        height: auto
-        zoomable: true
-        draggable: true
-        skip_classes:
-          - custom-skip-class-name
-        auto_caption: false
-        caption_position: bottom
-
+    - typeset 
     - mike:
         alias_type: symlink
         redirect_template: null
@@ -79,6 +66,8 @@ markdown_extensions:
   - attr_list
   - def_list
   - footnotes
+  - attr_list
+  - md_in_html
   - toc:
       permalink: true
   - pymdownx.emoji:
