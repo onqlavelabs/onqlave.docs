@@ -2,13 +2,13 @@
 
 ## **Retrieve necessary information**
 
-Before interacting with API keys, you may need to retrieve all the base information about arxes and aplication. The most frequently used information when interacting with API keys via CLI are IDs of arxes, application and owner
+Before interacting with API keys, you may need to retrieve all the base information about arx and aplication. The most frequently used information when interacting with API keys via CLI are IDs of arx, application and owner
 
 ```
 # onqlave keys base      
 ```
 
-Output should be similar to this, including all your created arxes and applications
+Output should be similar to this, including all your created arx and applications
 
 ```
 API Key Base Information =>

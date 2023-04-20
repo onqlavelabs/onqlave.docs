@@ -8,6 +8,11 @@ When you create your Access key it is critical that you store it as it will only
 
 ## **Create an API Key**
 
+#### Who can perform this operations?
+
+- [Platform Owner](http://localhost:8000/guides/web-app-guide/platform/access/#1-platform-owner)
+- [Developer](http://localhost:8000/guides/web-app-guide/platform/access/#2-developer)
+
 To create an api key, firstly, you need to select the associated application...
 
 ![api-key-create-1](https://t36712295.p.clickup-attachments.com/t36712295/a6e379fe-ad40-4c07-8f3e-8285a834c88a/apikey.png)
@@ -27,6 +32,11 @@ If the creation of API Key is success, you should save the **ACCESS KEY** into a
 
 ## **View the API Key dashboard**
 
+#### Who can perform this operations?
+
+- [Platform Owner](http://localhost:8000/guides/web-app-guide/platform/access/#1-platform-owner)
+- [Developer](http://localhost:8000/guides/web-app-guide/platform/access/#2-developer)
+
 You can browse the API Key dashboard as well as the Arx Dashboard and Application Dashboard.
 
 ![api-key-dashboard-1](https://t36712295.p.clickup-attachments.com/t36712295/5f80b9af-4c62-47b7-a195-555f27ef58a9/apikey%20(4).png)
@@ -34,11 +44,16 @@ You can browse the API Key dashboard as well as the Arx Dashboard and Applicatio
 
 ## **Delete the API Key** 
 
+#### Who can perform this operations?
+
+- [Platform Owner](http://localhost:8000/guides/web-app-guide/platform/access/#1-platform-owner)
+- [Developer](http://localhost:8000/guides/web-app-guide/platform/access/#2-developer)
+
 To delete an API Key, you can simply select the one you desired and delete it.
 
 ![api-key-delete-1](https://t36712295.p.clickup-attachments.com/t36712295/f2dae4ef-c724-481f-9083-311ffd50c77c/apikey%20(5).png)
 
-The process is the same as archiving application and deleting arxes. However, you also have to type exact the same API Key. You can hover above your desired one and copy it in to clipboard before deleting.
+The process is the same as archiving application and deleting arx. However, you also have to type exact the same API Key. You can hover above your desired one and copy it in to clipboard before deleting.
 
 ![api-key-delete-2](https://t36712295.p.clickup-attachments.com/t36712295/268dbbc5-4a39-450a-9141-29c96ce30732/apikey%20(6).png)
 

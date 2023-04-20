@@ -3,7 +3,7 @@
 The GUI of Onqlave Platform is provided via web interface.
 With this graphical interface, you can perform a wide range of interactions with essential components of Onqlave platform:
 
-- [Arxes](../administration/arx)
+- [Arx](../administration/arx)
 - [Applications](../administration/application)
 - [API Keys](../administration/apikey)
 - [Accounts](../platform/account)

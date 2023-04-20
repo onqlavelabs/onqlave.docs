@@ -1,11 +1,15 @@
 
 ## **Description**
 
-The Applications page will allow you to create and allocate the unique identifiers for your front and backend applications to be used when creating API Keys. This seperate Application workflow ensures you have easy access to enabling, sealing and archiving applications as needed.
+The Applications page will allow you to create and allocate the unique identifiers for your front and backend applications to be used when creating API Keys. This seperate Application workflow ensures you have easy access to enabling, disabling and archiving applications as needed.
 
 When the application reference is created, an API token and encryption key is established. Note that Onqlave does not allow you to permanently delete any applications, however they can be archived, which will then disable the respective API token and encryption key.
 
 ## **Create an application**
+
+#### Who can perform this operations?
+
+- [Platform Owner](http://localhost:8000/guides/web-app-guide/platform/access/#1-platform-owner)
 
 The web app interface provides a convenient way to fill up all the required information during the process of creating an application.
 
@@ -18,12 +22,20 @@ The same [summarize screen as included in the creation process of Arx](https://a
 
 ## **View the application dashboard**
 
-In the application dashboard, you can see the total number of actived, sealed and archived applications as well as some basic information of each application. You can also select any existed application to modify, seal or archive it. 
+#### Who can perform this operations?
+
+- [Platform Owner](http://localhost:8000/guides/web-app-guide/platform/access/#1-platform-owner)
+
+In the application dashboard, you can see the total number of actived, disabled and archived applications as well as some basic information of each application. You can also select any existed application to modify, disabled or archive it. 
 
 ![app-dashboard-1](https://t36712295.p.clickup-attachments.com/t36712295/a2391a97-d572-412a-85e8-d0aade854ed5/application%20(2).png)
 
 
 ## **Update/edit an application**
+
+#### Who can perform this operations?
+
+- [Platform Owner](http://localhost:8000/guides/web-app-guide/platform/access/#1-platform-owner)
 
 To edit/update an application, simply navigate to your selected application and alternate your desired information.
 
@@ -32,6 +44,9 @@ To edit/update an application, simply navigate to your selected application and 
 
 ## **Enable/disable an application**
 
+#### Who can perform this operations?
+
+- [Platform Owner](http://localhost:8000/guides/web-app-guide/platform/access/#1-platform-owner)
 You can also enable/disable an application. This is a required step before archiving it.
 
 ![app-enable-disable-1](https://t36712295.p.clickup-attachments.com/t36712295/b3e0031c-8ee7-4145-99ac-1637d820d485/application%20(4).png)
@@ -46,6 +61,10 @@ If the enable/disable process is success. The status of the selected application
 
 
 ## **Archive an application**
+
+#### Who can perform this operations?
+
+- [Platform Owner](http://localhost:8000/guides/web-app-guide/platform/access/#1-platform-owner)
 
 Since we do not support deleting application, you can archive it. Before archiving an application, you have to disable it like the previous step.
 

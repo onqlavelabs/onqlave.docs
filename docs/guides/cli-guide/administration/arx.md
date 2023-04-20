@@ -69,9 +69,9 @@ Arx 'cluster--xQ9TpIAzI-Mf_IKm9_nAv' Infomation =>
 }   
 ```
 
-## **List Arxes**
+## **List Arx**
 
-To see a list of your Arxes from CLI, simply use this command:
+To see a list of your Arx from CLI, simply use this command:
 
 ```
 # onqlave arx list
@@ -204,7 +204,7 @@ For more information, read our documentation at https://www.onqlave.com/docs
 ```
 
 
-## **Get base configuration information for Arxes**
+## **Get base configuration information for Arx**
 
 These information may be useful when you need to input the required flags during the creation of Arx. To get these information, use the following command:
 ```
