@@ -10,24 +10,24 @@ When you create your Access key it is critical that you store it as it will only
 
 #### Who can perform this operations?
 
-- [Platform Owner](http://localhost:8000/guides/web-app-guide/platform/access/#1-platform-owner)
-- [Developer](http://localhost:8000/guides/web-app-guide/platform/access/#2-developer)
+- [Platform Owner](../../platform/access/#1-platform-owner)
+- [Developer](../../platform/access/#2-developer)
 
 To create an api key, firstly, you need to select the associated application...
 
-![api-key-create-1](https://t36712295.p.clickup-attachments.com/t36712295/a6e379fe-ad40-4c07-8f3e-8285a834c88a/apikey.png)
+![api-key-create-1](https://t36712295.p.clickup-attachments.com/t36712295/f3315bfe-73f9-4c28-a43e-80e92fdcb2d2/api-key-2.png)
 
 ... and the associated Arx
 
-![api-key-create-2](https://t36712295.p.clickup-attachments.com/t36712295/ba089b7e-854a-431a-adda-00fce764a3ad/apikey%20(1).png)
+![api-key-create-2](https://t36712295.p.clickup-attachments.com/t36712295/1b3bcf20-fff7-45d2-bf3c-e1f6ccd3864c/api-key-2%20(1).png)
 
 You also have a summarize menu to review all the neccesary information before actually create the API key.
 
-![api-key-create-3](https://t36712295.p.clickup-attachments.com/t36712295/2d92193b-7ae7-49cd-85cf-1eb39d55f474/apikey%20(2).png)
+![api-key-create-3](https://t36712295.p.clickup-attachments.com/t36712295/d329c7c6-86aa-4bba-b8a2-842f428072ec/api-key-2%20(2).png)
 
 If the creation of API Key is success, you should save the **ACCESS KEY** into a safe place.
 
-![api-key-create-4](https://t36712295.p.clickup-attachments.com/t36712295/19772020-efdc-4038-ba33-1162cb0e15a6/apikey%20(3).png)
+![api-key-create-4](https://t36712295.p.clickup-attachments.com/t36712295/f038cec3-270f-4107-969d-a98c7e4dfb82/api-key-2%20(3).png)
 
 
 ## **View the API Key dashboard**
@@ -39,7 +39,7 @@ If the creation of API Key is success, you should save the **ACCESS KEY** into a
 
 You can browse the API Key dashboard as well as the Arx Dashboard and Application Dashboard.
 
-![api-key-dashboard-1](https://t36712295.p.clickup-attachments.com/t36712295/5f80b9af-4c62-47b7-a195-555f27ef58a9/apikey%20(4).png)
+![api-key-dashboard-1](https://t36712295.p.clickup-attachments.com/t36712295/91304976-9bdb-46a6-897a-f782da71fc8a/api-key-2%20(4).png)
 
 
 ## **Delete the API Key** 
@@ -51,12 +51,10 @@ You can browse the API Key dashboard as well as the Arx Dashboard and Applicatio
 
 To delete an API Key, you can simply select the one you desired and delete it.
 
-![api-key-delete-1](https://t36712295.p.clickup-attachments.com/t36712295/f2dae4ef-c724-481f-9083-311ffd50c77c/apikey%20(5).png)
+![api-key-delete-1](https://t36712295.p.clickup-attachments.com/t36712295/edd779f5-81d4-4b1a-845b-75a194cab85a/api-key-2%20(5).png)
 
 The process is the same as archiving application and deleting arx. However, you also have to type exact the same API Key. You can hover above your desired one and copy it in to clipboard before deleting.
 
-![api-key-delete-2](https://t36712295.p.clickup-attachments.com/t36712295/268dbbc5-4a39-450a-9141-29c96ce30732/apikey%20(6).png)
-
 After deletion, the API Key dashboard is updated instantly. 
 
-![api-key-delete-3](https://t36712295.p.clickup-attachments.com/t36712295/8c8591ed-743e-4dc6-ace4-ca915331f49f/apikey%20(7).png)
+![api-key-delete-3](https://t36712295.p.clickup-attachments.com/t36712295/d7dd07ec-a546-48c7-af5d-074223f6f290/api-key-2%20(7).png)
