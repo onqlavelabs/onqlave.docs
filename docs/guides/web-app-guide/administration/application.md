@@ -7,7 +7,7 @@ When the application reference is created, an API token and encryption key is es
 
 ## **Create an application**
 
-#### Who can perform this operations?
+#### Who can perform this operation?
 
 - [Platform Owner](http://localhost:8000/guides/web-app-guide/platform/access/#1-platform-owner)
 
@@ -22,7 +22,7 @@ The same [summarize screen as included in the creation process of Arx](https://a
 
 ## **View the application dashboard**
 
-#### Who can perform this operations?
+#### Who can perform this operation?
 
 - [Platform Owner](http://localhost:8000/guides/web-app-guide/platform/access/#1-platform-owner)
 
@@ -33,7 +33,7 @@ In the application dashboard, you can see the total number of actived, disabled 
 
 ## **Update/edit an application**
 
-#### Who can perform this operations?
+#### Who can perform this operation?
 
 - [Platform Owner](http://localhost:8000/guides/web-app-guide/platform/access/#1-platform-owner)
 
@@ -44,7 +44,7 @@ To edit/update an application, simply navigate to your selected application and 
 
 ## **Enable/disable an application**
 
-#### Who can perform this operations?
+#### Who can perform this operation?
 
 - [Platform Owner](http://localhost:8000/guides/web-app-guide/platform/access/#1-platform-owner)
 You can also enable/disable an application. This is a required step before archiving it.
@@ -62,7 +62,7 @@ If the enable/disable process is success. The status of the selected application
 
 ## **Archive an application**
 
-#### Who can perform this operations?
+#### Who can perform this operation?
 
 - [Platform Owner](http://localhost:8000/guides/web-app-guide/platform/access/#1-platform-owner)
 
