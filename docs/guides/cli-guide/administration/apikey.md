@@ -169,17 +169,16 @@ For more information, read our documentation at https://www.onqlave.com/docs
 Output will be formatted in tabular format
 
 ```
-┌───────────────────────────────────────────────────────────┐
-│ Key            Value                                      │
-│───────────────────────────────────────────────────────────│
-│ ID             apikey--43hUyLzyeVOLQE3YGj7Zw              │
-│ ClusterID      cluster--IRTlZ7UswEEwUwzczWiO0             │
+┌───────────────────────────────────────────────────────┐
+│ Key            Value                                  │
+│───────────────────────────────────────────────────────│
+│ ID             apikey--43hUyLzyeVOLQE3YGj7Zw          │
+│ ClusterID      cluster--IRTlZ7UswEEwUwzczWiO0         │
 │ ApplicationID  app--gp-OxVE4vuxQ8jrPEh8cw        
-│ CreatedAt      2023-05-02 12:27:15.147192 +0000 UTC       │
-│ Status         active                                     │
-│ AccessKey      Rhnlij2fJWFXvTp1DxpVdKcwpy6c2IO1           │
-│ ArxUrl         https://gcp.community.serverless.au.dp0.
-└───────────────────────────────────────────────────────────┘
+│ CreatedAt      2023-05-02 12:27:15.147192 +0000 UTC   │
+│ Status         active                                 │
+│ AccessKey      Rhnlij2fJWFXvTp1DxpVdKcwpy6c2IO1       │
+│ ArxUrl         https://gcp.community.serverless.au.  ────────────────────────────────────────────────────────┘
 ```
 
 ## **Delete an API key**

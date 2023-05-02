@@ -50,20 +50,20 @@ You can retrieve all information of your Arx by this command:
 ```
 
 ```
-┌──────────────────────────────────────────────────┐
-│ Key                 Value                        │
-│──────────────────────────────────────────────────│
-│ Name                arx-1                        │
-│ SpendLimit          0                            │
-│ Description                                      │
-│ Purpose             development                  │
-│ PlanID              serverless                   │
-│ ProviderID          gcp                          │
-│ EncryptionMethodID  aes-gcm-128                  │
-│ RotationCycleID     3-monthly                    │
-│ Owner               owner_id                     │
-│ IsDefault           false                        │
-└──────────────────────────────────────────────────┘
+┌─────────────────────────────────────────┐
+│ Key                 Value               │
+│─────────────────────────────────────────│
+│ Name                arx-1               │
+│ SpendLimit          0                   │
+│ Description                             │
+│ Purpose             development         │
+│ PlanID              serverless          │
+│ ProviderID          gcp                 │
+│ EncryptionMethodID  aes-gcm-128         │
+│ RotationCycleID     3-monthly           │
+│ Owner               owner_id            │
+│ IsDefault           false               │
+└─────────────────────────────────────────┘
 
 ```
 

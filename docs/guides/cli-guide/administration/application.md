@@ -27,17 +27,17 @@ For more information, read our documentation at https://www.onqlave.com/docs
 
 The output is formatted as a table or JSON depends on your choice of appending **--json** flag
 ```
-┌───────────────────────────────────────────┐
-│ Key          Value                        │
-│───────────────────────────────────────────│
-│ ID           your_app_id_here             │
-│ Name         app-2                        │
-│ Description                               │
-│ Technology   server                       │
-│ Owner        owner_id                     │
-│ APIKeys      0                            │
-│ Status       active                       │
-└───────────────────────────────────────────┘
+┌──────────────────────────────────────┐
+│ Key          Value                   │
+│──────────────────────────────────────│
+│ ID           your_app_id_here        │
+│ Name         app-2                   │
+│ Description                          │
+│ Technology   server                  │
+│ Owner        owner_id                │
+│ APIKeys      0                       │
+│ Status       active                  │
+└──────────────────────────────────────┘
 ```
 
 ```
