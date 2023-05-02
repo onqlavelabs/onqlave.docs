@@ -21,7 +21,7 @@ For more information, read our documentation at https://www.onqlave.com/docs
 ## **Retry adding an Arx by ID**
 
 ```
-# onqlave arx retry cluster--xQ9TpIAzI-Mf_IKm9_nAv
+# onqlave arx retry your_arx_id
 ```
 ```
 Arx creation sometime takes up to 10 minutes.
@@ -33,7 +33,7 @@ For more information, read our documentation at https://www.onqlave.com/docs
 
 Input command:
 ```
-# onqlave arx default cluster--xQ9TpIAzI-Mf_IKm9_nAv
+# onqlave arx default your_arx_id
 ```
 Excpected output:
 ```
@@ -45,37 +45,42 @@ For more information, read our documentation at https://www.onqlave.com/docs
 ## **Describe an Arx by ID**
 
 You can retrieve all information of your Arx by this command:
+```
+# onqlave arx describe your_arx_id
+```
 
 ```
-# onqlave arx describe cluster--xQ9TpIAzI-Mf_IKm9_nAv
-The result should look like this:
-Arx 'cluster--xQ9TpIAzI-Mf_IKm9_nAv' Infomation =>
-{
-    "description": "",
-    "encryption_method_id": "aes-gcm-128",
-    "id": "cluster--the_id_goes_here,
-    "is_default": false,
-    "name": "my_1st_arx",
-    "owner": "owner_id_goes_here",
-    "plan_id": "serverless",
-    "provider_id": "gcp",
-    "purpose": "development",
-    "regions": [
-        "au"
-    ],
-    "rotation_cycle_id": "monthly",
-    "spend_limit": 0,
-    "tenant_id": "tenant--tenant_id_goes_here"
-}   
+┌──────────────────────────────────────────────────┐
+│ Key                 Value                        │
+│──────────────────────────────────────────────────│
+│ Name                arx-1                        │
+│ SpendLimit          0                            │
+│ Description                                      │
+│ Purpose             development                  │
+│ PlanID              serverless                   │
+│ ProviderID          gcp                          │
+│ EncryptionMethodID  aes-gcm-128                  │
+│ RotationCycleID     3-monthly                    │
+│ Owner               owner_id                     │
+│ IsDefault           false                        │
+└──────────────────────────────────────────────────┘
+
 ```
 
 ## **List Arx**
 
 To see a list of your Arx from CLI, simply use this command:
 
+
 ```
 # onqlave arx list
-The output will be formatted in JSON by default
+```
+The output will be formatted in tabular format
+![](https://t36712295.p.clickup-attachments.com/t36712295/e886d762-d25f-4ca6-a9a2-599d3a4168bb/image.png)
+
+
+There is another JSON output if you append the flag **--json** to the end of the above comand
+```
 List Arx =>
 {
     "clusters": [
@@ -160,13 +165,14 @@ Flags:
 
 Global Flags:
       --json   Output logs as JSON.  Set to true if stdout is not a TTY.
-
-2023/04/06 14:37:52 ValidateCluster: cli.invalid.cluster_cloud_provider_region, invalid cluster provider - must be in (au)
-bash-5.2# onqlave arx update cluster--xQ9TpIAzI-Mf_IKm9_nAv -i true -r aus-east
-Error: ValidateCluster: cli.invalid.cluster_cloud_provider_region, invalid cluster provider - must be in (au)
-maybe there are some error with the update process ?
 ```
 
+Output should look like this:
+```
+🎉 Done! Arx updated successfully.
+Arx ID: your_arx_id
+For more information, read our documentation at https://www.onqlave.com/docs
+```
 
 ## **Seal an Arx by ID**
 
@@ -174,7 +180,10 @@ To seal an Arx, include it's ID in this command:
 
 ```
 # onqlave arx seal arx_id_here
+```
+
 And see the logged result:                                
+```
 Arx seal sometime takes up to 10 minutes.
 🎉 Done!  Arx sealed successfully.                                    
 For more information, read our documentation at https://www.onqlave.com/docs                                                           
@@ -185,10 +194,12 @@ For more information, read our documentation at https://www.onqlave.com/docs
 ## **Unseal an Arx by ID**
 
 In contrary to seal, we just need to alter the command:
-
 ```
 # onqlave arx unseal cluster--xQ9TpIAzI-Mf_IKm9_nAv
+```
+
 And see the result:
+```
 Arx unseal sometime takes up to 10 minutes.
 🎉 Done!  Arx unsealed successfully.                                      
 For more information, read our documentation at https://www.onqlave.com/docs
@@ -198,7 +209,8 @@ For more information, read our documentation at https://www.onqlave.com/docs
 
 ```
 # onqlave arx delete your_arx_id
-
+```
+```
 🎉 Done!  Arx deleted successfully.                                     
 For more information, read our documentation at https://www.onqlave.com/docs
 ```

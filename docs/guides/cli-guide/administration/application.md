@@ -4,36 +4,84 @@ Current supported interaction with Application via CLI are listed below:
 ## **Create an application**
 
 ```
-# onqlave apps add your_app_name -d your_preferred_description -t application_technology -o application_owner_id 
+# onqlave application add your_app_name -d your_preferred_description -t application_technology -o application_owner_id 
+```
+
+Then the returned output should include your created application ID
+```
+🎉 Done! Application created successfully.
+Application ID: you-app-id-here
+For more information, read our documentation at https://www.onqlave.com/docs
 ```
 
 ## **Archive an application**
 
 ```
-# onqlave apps archive your_app_id
+# onqlave application archive your_app_id
 ```
 ## **Describe an application**
 
 ```
-# onqlave apps describe your_app_id
+# onqlave application describe your_app_id
+```
+
+The output is formatted as a table or JSON depends on your choice of appending **--json** flag
+```
+┌───────────────────────────────────────────┐
+│ Key          Value                        │
+│───────────────────────────────────────────│
+│ ID           your_app_id_here             │
+│ Name         app-2                        │
+│ Description                               │
+│ Technology   server                       │
+│ Owner        owner_id                     │
+│ APIKeys      0                            │
+│ Status       active                       │
+└───────────────────────────────────────────┘
+```
+
+```
+{
+    "Application": {
+        "acl": {
+            "can": {
+                "archive": false,
+                "disabled": true,
+                "edit": true
+            },
+            "can_not": {
+                "archive_reason": "Application is not disabled yet!"
+            }
+        },
+        "api_keys": 0,
+        "application_id": "your_app_id_here",
+        "cors": [],
+        "description": "",
+        "name": "app-2",
+        "owner": "owner_id",
+        "status": "active",
+        "technology": "server"
+    }
+}
+
 ```
 
 ## **Disable an application**
 
 ```
-# onqlave apps disable your_app_id
+# onqlave application disable your_app_id
 ```
 
 ## **Enable an application**
 
 ```
-# onqlave apps enable your_app_id
+# onqlave application enable your_app_id
 ```
 
 ## **List all applications**
 
 ```
-# onqlave apps list
+# onqlave application list
 ```
 
 ## **Update an application**
@@ -41,22 +89,22 @@ Current supported interaction with Application via CLI are listed below:
 Currently, Onqlave platform supports update an application via it's ID
 
 ```
-# onqlave apps update your_application_id your_list_of_flags_and_values
+# onqlave application update your_application_id your_list_of_flags_and_values
 ```
 
 To see the available flags, you can try this command:
 ```
-# onqlave apps update
+# onqlave application update
 ```
 
 And explore all the flags:
 
 ```
 Usage:
-  onqlave apps update [flags]
+  onqlave application update [flags]
 
 Examples:
-onqlave apps update
+onqlave application update
 
 Flags:
   -c, --application_cors string          Enter Application Cors
@@ -73,16 +121,16 @@ Global Flags:
 ## **Explore availabe commands**
 
 ```
-# onqlave apps 
+# onqlave application 
 ```
 ```
 This command is used to manage applications resources.
 
 Usage:
-  onqlave apps [command]
+  onqlave application [command]
 
 Examples:
-onqlave apps
+onqlave application
 
 Available Commands:
   add         add application by name and attributes
@@ -94,10 +142,10 @@ Available Commands:
   update      update application by ID and attributes
 
 Flags:
-  -h, --help   help for apps
+  -h, --help   help for application
 
 Global Flags:
       --json   Output logs as JSON.  Set to true if stdout is not a TTY.
 
-Use "onqlave apps [command] --help" for more information about a command.
+Use "onqlave application [command] --help" for more information about a command.
 ```

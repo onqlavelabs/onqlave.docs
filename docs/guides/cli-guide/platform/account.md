@@ -57,28 +57,12 @@ The successful output is simply like this:
 You can double check the updated result by using the **describe** command above:
 
 ```
-Tenant 'tenant--cr7ZHAfiY1h6jdWycfsPF' Information =>
-{
-    "data": {
-        "acl": {
-            "can": {
-                "edit": true
-            },
-            "can_not": null
-        },
-        "created_on": "2023-04-06T07:16:44.169507Z",
-        "owner_email": "dc@onqlave.com",
-        "tenant_id": "tenant--cr7ZHAfiY1h6jdWycfsPF",
-        "tenant_label": "dcm",
-        "tenant_name": "dc-tenant-1-updated"
-    },
-    "error": {
-        "code": 0,
-        "correlation_id": "",
-        "details": null,
-        "message": "",
-        "status": ""
-    }
-}                    
-====================
+┌────────────────────────────────────────────┐
+│ Key          Value                         │
+│────────────────────────────────────────────│
+│ Id           tenant--B8dxGtiyx2CWG8mYtvpfr │
+│ Name         dev-tenant-1-updated          │
+│ Label        your_label                    │
+│ OwnerEmail   po.onclave@gmail.com          │
+└────────────────────────────────────────────┘
 ```

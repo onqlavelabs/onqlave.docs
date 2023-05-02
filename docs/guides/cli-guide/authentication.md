@@ -33,8 +33,29 @@ For more information, read our documentation at https://www.onqlave.com/docs
 ```
 
 From here you can explore the interaction options provided by onqlave-cli
-```
+Using this command
+
+```plain
 # onqlave
+```
+
+or this command
+
+```plain
+# onqlave help
+```
+
+  
+
+or this command
+
+```plain
+# onqlave --help
+```
+
+will produce an instruction of supported commands of onqlave-cli:
+
+```plain
 Usage:
   onqlave [command]
 
@@ -42,20 +63,22 @@ Examples:
 onqlave
 
 Available Commands:
-  apps        applications management
+  application application management
   arx         arx management
   auth        authentication
   completion  Generate the autocompletion script for the specified shell
-  configs     configs environment variables
+  config      config environment variables
   help        Help about any command
-  keys        api keys management
-  tenants     tenants management
-  users       users management
+  key         api key management
+  tenant      tenant management
+  user        user management
 
 Flags:
   -h, --help      help for onqlave
-      --json      Output logs as JSON.  Set to true if stdout is not a TTY.
+      --json      JSON Output. Set to true if stdout is not a TTY.
   -v, --version   version for onqlave
 
-Use "onqlave [command] --help" for more information about a command.
+Use "onqlave [command] --help" for more information about a command
+
+
 ```
