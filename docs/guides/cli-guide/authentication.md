@@ -32,8 +32,7 @@ For more information, read our documentation at https://www.onqlave.com/docs
 
 ```
 
-From here you can explore the interaction options provided by onqlave-cli
-Using this command
+From here you can explore the interaction options provided by onqlave-cli using this command
 
 ```plain
 # onqlave
