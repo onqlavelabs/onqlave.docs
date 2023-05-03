@@ -1,7 +1,17 @@
-Current supported interaction with Application via CLI are listed below:
 
+## **Before you start**
+
+The related CLI commands of Application will allow you to create and allocate the unique identifiers for your front and backend applications to be used when creating API Keys. This seperate Application workflow ensures you have easy access to enabling, disabling and archiving applications as needed.
+
+When the application reference is created, an API token and encryption key is established. Note that Onqlave does not allow you to permanently delete any applications, however they can be archived, which will then disable the respective API token and encryption key.
+
+You may need to look at the supported [available commands for application](#explore-availabe-commands)
 
 ## **Create an application**
+
+**Who can perform this operation?**
+
+- [Platform Owner](http://localhost:8000/guides/web-app-guide/platform/access/#1-platform-owner)
 
 ```
 # onqlave application add your_app_name -d your_preferred_description -t application_technology -o application_owner_id 
@@ -14,12 +24,11 @@ Application ID: you-app-id-here
 For more information, read our documentation at https://www.onqlave.com/docs
 ```
 
-## **Archive an application**
-
-```
-# onqlave application archive your_app_id
-```
 ## **Describe an application**
+
+**Who can perform this operation?**
+
+- [Platform Owner](http://localhost:8000/guides/web-app-guide/platform/access/#1-platform-owner)
 
 ```
 # onqlave application describe your_app_id
@@ -66,23 +75,21 @@ The output is formatted as a table or JSON depends on your choice of appending *
 
 ```
 
-## **Disable an application**
-
-```
-# onqlave application disable your_app_id
-```
-
-## **Enable an application**
-
-```
-# onqlave application enable your_app_id
-```
-
 ## **List all applications**
 
 ```
 # onqlave application list
 ```
+The output will be displayed as a table by default. And you can show the JSON output by appending the **--json** to the end of the above command.
+
+```
+┌──────────────────────────────────────────────────────────┐
+│ ID  Name  Description  Technology  Owner  APIKeys  Status│
+│──────────────────────────────────────────────────────────│
+│                                                          │
+└──────────────────────────────────────────────────────────┘
+```
+
 
 ## **Update an application**
 
@@ -117,6 +124,29 @@ Flags:
 Global Flags:
       --json   Output logs as JSON.  Set to true if stdout is not a TTY.
 ```
+
+## **Disable an application**
+
+```
+# onqlave application disable your_app_id
+```
+
+## **Enable an application**
+
+```
+# onqlave application enable your_app_id
+```
+
+## **Archive an application**
+
+Since we do not support deleting application, you can archive it. Before archiving an application, you have to disable it like the previous step.
+
+```
+# onqlave application archive your_app_id
+```
+#
+
+
 
 ## **Explore availabe commands**
 
