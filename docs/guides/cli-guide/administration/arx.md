@@ -11,7 +11,7 @@ Inside Onqlave Platform, we consider cluster as Arx.
 
 
 
-#   ## **Review the provided permission/role**
+### **Review the provided permission/role**
 
 At our current release, there are <mark>[3 defined roles](../../../web-app-guide/platform/access)</mark> including Platform Owner, Platform Admin, Developer, each role has its own set of permission and <mark>[supported operations define here](../../../web-app-guide/platform/access)</mark>. You may need to skim through it first.
 
