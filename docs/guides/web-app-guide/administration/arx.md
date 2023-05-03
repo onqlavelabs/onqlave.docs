@@ -16,7 +16,7 @@ At our current release, there are <mark>[3 defined roles](../../platform/access.
 
 ## **Create an Arx**
 
-#### Who can perform this operation?
+**Who can perform this operation?**
 
 - [Platform Owner](../../platform/access/#1-platform-owner)
 
@@ -66,7 +66,7 @@ Once you have finished your selection, you can review all of them before actuall
 
 ## **View a list of Arx**
 
-#### Who can perform this operation?
+**Who can perform this operation?**
 
 - [Platform Owner](../../platform/access/#1-platform-owner)
 
@@ -76,7 +76,7 @@ The overview of Arx will provide basic information about the total number of arx
 
 ## **Update an Arx**
 
-#### Who can perform this operation?
+**Who can perform this operation?**
 
 - [Platform Owner](../../platform/access/#1-platform-owner)
 
@@ -88,7 +88,7 @@ There are two sections that you can make changes to your arx:
 ![arx-update](https://t36712295.p.clickup-attachments.com/t36712295/6ae882ab-752d-4f54-84cf-c0b51e770de8/arx-2%20(5).png) {loading=lazy}
 
 ## **Disable an Arx**
-#### Who can perform this operation?
+**Who can perform this operation?**
 
 - [Platform Owner](../../platform/access/#1-platform-owner)
 
@@ -104,7 +104,7 @@ If the disabling process is success, you can see the status of the selected arx 
 
 ## **Delete an Arx**
 
-#### Who can perform this operation?
+**Who can perform this operation?**
 
 - [Platform Owner](../../platform/access/#1-platform-owner)
 

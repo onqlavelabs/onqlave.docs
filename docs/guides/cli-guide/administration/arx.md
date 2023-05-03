@@ -21,7 +21,7 @@ When you are ready to interact, you can go through the below list of commands to
 
 ## **Create an Arx**
 
-#### Who can perform this operation?
+**Who can perform this operation?**
 
 - [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
 
@@ -83,7 +83,7 @@ For more information, read our documentation at https://docs.onqlave.com/
 
 ## **Set a default Arx**
 
-#### Who can perform this operation?
+**Who can perform this operation?**
 
 - [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
 
@@ -100,7 +100,7 @@ For more information, read our documentation at https://docs.onqlave.com/
 
 ## **Describe an Arx**
 
-#### Who can perform this operation?
+**Who can perform this operation?**
 
 - [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
 
@@ -129,7 +129,7 @@ You can retrieve all information of your Arx by this command:
 
 ## **View a list of Arx**
 
-#### Who can perform this operation?
+**Who can perform this operation?**
 
 - [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
 
@@ -184,7 +184,7 @@ List Arx =>
 
 ## **Update an arx**
 
-#### Who can perform this operation?
+**Who can perform this operation?**
 
 - [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
 
@@ -244,7 +244,7 @@ For more information, read our documentation at https://www.onqlave.com/docs
 
 ## **Seal an Arx**
 
-#### Who can perform this operation?
+**Who can perform this operation?**
 
 - [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
 
@@ -265,7 +265,7 @@ For more information, read our documentation at https://docs.onqlave.com/
 
 ## **Unseal an Arx**
 
-#### Who can perform this operation?
+**Who can perform this operation?**
 
 - [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
 
@@ -283,7 +283,7 @@ For more information, read our documentation at https://docs.onqlave.com/
 
 ## **Delete an Arx**
 
-#### Who can perform this operation?
+**Who can perform this operation?**
 
 - [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
 
