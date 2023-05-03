@@ -117,7 +117,3 @@ To completely delete an arx, you have to go through the same process as disablin
 ![arx-delete-2](https://t36712295.p.clickup-attachments.com/t36712295/8185d2c1-a422-4a2a-b00a-ec4b5c96c8a1/arx-2%20(10).png){loading=lazy}
 
 Then the number of remaining arx will be updated instantly in the 
-
-## **Not satisfied yet?**
-
-If you have specific requirements, or would like to discuss our development plans in more details, please feel free to reach out to <product@onqlave.com>
