@@ -28,11 +28,14 @@ When you are ready to interact, you can go through the below list of commands to
 To create an Arx, simply input the following command into the CLI. Please pay attention to the flags and their availabe assigned values.
 There are several configurable attributes of an Arx that are grouped into 4 sections: 
 - **Planning**: We support you in segregating the development, testing, staging and production by providing single purposed cluster for each of your desired environment including: development, testing, staging, production.
+
 - **Cloud Provider**: The choice of cloud provider determines which service is used to store your information. This allows for you to choose a cloud provider that your organisation already uses. At present we only support Google, but more providers are coming soon.
+
 - **Region**: The choice of region allows you to determine which geography you would like the data to reside. This may an important factor for data localisation / data residency requirements for sensitive data, whilst there can also be additional [speed and efficiency] benefits from having the data reside in the same geography as the rest of your information.
+
 - **Encryption mechanism**: We only offer encryption services based on the highest performance encryption algorithms. You have the choice of AES-128, AES-256 or [CHACHA20-POLY1305](https://www.rfc-editor.org/rfc/rfc7539), with the latter offering stronger encryption but at a lower processing speed. The key rotation frequency determines how regularly the encryption keys are changed, to ensure that your information remains safe.
 
-You can append the *-h* or *--help** flag to the end of the add command to see the available flags:
+You can append the *-h* or *--help* flag to the end of the add command to see the available flags:
 
 ```
 # onqlave arx add -h
