@@ -247,7 +247,7 @@ For more information, read our documentation at https://www.onqlave.com/docs
 
 - [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
 
-To seal an Arx, include it's ID in this command:
+This is a feature supporting you to temporary disable an Arx and enable it in the future without having to reconfiguring everything from scratch. To seal an Arx, include it's ID in this command:
 
 ```
 # onqlave arx seal arx_id_here
