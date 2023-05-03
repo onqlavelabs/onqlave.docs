@@ -1,4 +1,3 @@
-
 ## **Before you start**
 
 The CLI commands to manage API Keys allow you to bring your clusters and applications together. The API Keys created here will draw on all of the unique inputs you have created for the cluster and application that you choose.

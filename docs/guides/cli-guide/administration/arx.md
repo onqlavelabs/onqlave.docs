@@ -1,5 +1,3 @@
-Current supported interaction with Arx via CLI are listed below:
-
 ## **Inspiration**
 
 If you skipped the section about <mark>**Arx's interesting meaning**</mark>, you can [catch it up here](../../../web-app-guide/administration/arx).
