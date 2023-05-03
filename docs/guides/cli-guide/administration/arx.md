@@ -1,16 +1,17 @@
 Current supported interaction with Arx via CLI are listed below:
 
+## **Inspiration**
+
+If you skipped the section about <mark>**Arx's interesting meaning**</mark>, you can [catch it up here](../../../web-app-guide/administration/arx).
 
 ## **Before you start**
 
 If you are familiar with allocating cloud computing resources for your company, you will be familiar with the concept of creating and assigning clusters to support your expected workload. With Onqlave, we follow a similar approach to allow you to optimise for speed and availability.
 Inside Onqlave Platform, we consider cluster as Arx.
 
-### **Inspiration**
 
-If you skipped the section about <mark>**Arx's interesting meaning**</mark>, you can [catch it up here](../../../web-app-guide/administration/arx).
 
-### **Review the provided permission/role**
+#   ## **Review the provided permission/role**
 
 At our current release, there are <mark>[3 defined roles](../../../web-app-guide/platform/access)</mark> including Platform Owner, Platform Admin, Developer, each role has its own set of permission and <mark>[supported operations define here](../../../web-app-guide/platform/access)</mark>. You may need to skim through it first.
 
