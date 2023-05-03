@@ -1,5 +1,5 @@
 
-## **Description**
+## **Before you start**
 
 API Keys manager allow you to bring your clusters and applications together. The API Keys created here will draw on all of the unique inputs you have created for the cluster and application that you choose.
 
@@ -8,7 +8,7 @@ When you create your Access key it is critical that you store it as it will only
 
 ## **Create an API Key**
 
-#### Who can perform this operation?
+**Who can perform this operation?**
 
 - [Platform Owner](../../platform/access/#1-platform-owner)
 - [Developer](../../platform/access/#2-developer)
@@ -32,7 +32,7 @@ If the creation of API Key is success, you should save the **ACCESS KEY** into a
 
 ## **View the API Key dashboard**
 
-#### Who can perform this operation?
+**Who can perform this operation?**
 
 - [Platform Owner](http://localhost:8000/guides/web-app-guide/platform/access/#1-platform-owner)
 - [Developer](http://localhost:8000/guides/web-app-guide/platform/access/#2-developer)
@@ -44,7 +44,7 @@ You can browse the API Key dashboard as well as the Arx Dashboard and Applicatio
 
 ## **Delete the API Key** 
 
-#### Who can perform this operation?
+**Who can perform this operation?**
 
 - [Platform Owner](http://localhost:8000/guides/web-app-guide/platform/access/#1-platform-owner)
 - [Developer](http://localhost:8000/guides/web-app-guide/platform/access/#2-developer)
