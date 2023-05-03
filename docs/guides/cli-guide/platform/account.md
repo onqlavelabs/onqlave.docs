@@ -5,12 +5,12 @@ You can refer to [this section on the GUI](../../../web-app-guide/platform/accou
 
 Or you can refer to [this section for getting help about available commands](../../overview-cli/#looking-for-another-way-of-interaction).
 
-Retrieving tenant information
+## **Retrieving tenant information**
 
 You can use this command to retrieve the organization/tenant information:
 
 ```
-# onqlave tenants describe
+# onqlave tenant describe
 ```
 
 The result should look like this:
@@ -65,4 +65,32 @@ You can double check the updated result by using the **describe** command above:
 │ Label        your_label                    │
 │ OwnerEmail   po.onclave@gmail.com          │
 └────────────────────────────────────────────┘
+```
+
+## **Explore availabe commands**
+
+```
+# onqlave tenant 
+```
+
+```
+This command is used to manage tenants resource.
+
+Usage:
+  onqlave tenant [command]
+
+Examples:
+onqlave tenant
+
+Available Commands:
+  describe    describe tenant
+  update      update tenant by name and label
+
+Flags:
+  -h, --help   help for tenant
+
+Global Flags:
+      --json   JSON Output. Set to true if stdout is not a TTY.
+
+Use "onqlave tenant [command] --help" for more information about a command.
 ```

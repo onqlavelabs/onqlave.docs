@@ -4,7 +4,7 @@
 At the moment, from the CLI, we only support retrieving information about participating users. To get all the information of your participating users, you can use this command:
 
 ```
-# onqlave users list
+# onqlave user list
 ```
 
 The output should look like this:
