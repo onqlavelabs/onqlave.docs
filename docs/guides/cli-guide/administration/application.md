@@ -10,7 +10,7 @@ You may need to look at the supported [available commands for application](#expl
 
 **Who can perform this operation?**
 
-- [Platform Owner](http://localhost:8000/guides/web-app-guide/platform/access/#1-platform-owner)
+- [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
 
 ```
 # onqlave application add your_app_name -d your_preferred_description -t application_technology -o application_owner_id 
@@ -27,7 +27,7 @@ For more information, read our documentation at https://www.onqlave.com/docs
 
 **Who can perform this operation?**
 
-- [Platform Owner](http://localhost:8000/guides/web-app-guide/platform/access/#1-platform-owner)
+- [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
 
 ```
 # onqlave application describe your_app_id
@@ -76,6 +76,10 @@ The output is formatted as a table or JSON depends on your choice of appending *
 
 ## **List all applications**
 
+**Who can perform this operation?**
+
+- [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
+
 ```
 # onqlave application list
 ```
@@ -91,6 +95,10 @@ The output will be displayed as a table by default. And you can show the JSON ou
 
 
 ## **Update an application**
+
+**Who can perform this operation?**
+
+- [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
 
 Currently, Onqlave platform supports update an application via it's ID
 
@@ -126,17 +134,29 @@ Global Flags:
 
 ## **Disable an application**
 
+**Who can perform this operation?**
+
+- [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
+
 ```
 # onqlave application disable your_app_id
 ```
 
 ## **Enable an application**
 
+**Who can perform this operation?**
+
+- [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
+
 ```
 # onqlave application enable your_app_id
 ```
 
 ## **Archive an application**
+
+**Who can perform this operation?**
+
+- [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
 
 Since we do not support deleting application, you can archive it. Before archiving an application, you have to disable it like the previous step.
 

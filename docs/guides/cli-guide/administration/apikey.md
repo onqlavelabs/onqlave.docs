@@ -79,8 +79,8 @@ By default, the result will be formatted in a table. If you want JSON format, si
 
 **Who can perform this operation?**
 
-- [Platform Owner](../../platform/access/#1-platform-owner)
-- [Developer](../../platform/access/#2-developer)
+- [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
+- [Developer](../../../web-app-guide/platform/access/#2-developer)
 
 ```
 # onqlave key delete your_app_key_id
