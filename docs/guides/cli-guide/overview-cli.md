@@ -40,29 +40,30 @@ Examples:
 onqlave
 
 Available Commands:
-  apps        applications management
+  application application management
   arx         arx management
   auth        authentication
   completion  Generate the autocompletion script for the specified shell
-  configs     configs environment variables
+  config      config environment variables
   help        Help about any command
-  keys        api keys management
-  tenants     tenants management
-  users       users management
+  key         api key management
+  tenant      tenant management
+  user        user management
 
 Flags:
   -h, --help      help for onqlave
-      --json      Output logs as JSON.  Set to true if stdout is not a TTY.
+      --json      JSON Output. Set to true if stdout is not a TTY.
   -v, --version   version for onqlave
 
 Use "onqlave [command] --help" for more information about a command.
+
 
 ```
 
 ## **Init the configuration**
 
 ```
-# onqlave configs init
+# onqlave config init
 ```
 
 If the initialization is success, the terminal will look like this
@@ -81,20 +82,26 @@ In the CLI, you can try this formula to get help about all provided commands:
 # onqlave help {your_want_to_know_command}
 ```
 
-You may select **{your_want_to_know_command}** from this list
+You may select **{your_preffered_command}** from this list
 
 ```
 Available Commands:
-  apps        applications management
+  application application management
   arx         arx management
   auth        authentication
   completion  Generate the autocompletion script for the specified shell
-  configs     configs environment variables
+  config      config environment variables
   help        Help about any command
-  keys        api keys management
-  tenants     tenants management
-  users       users management
+  key         api key management
+  tenant      tenant management
+  user        user management
 
+Flags:
+  -h, --help      help for onqlave
+      --json      JSON Output. Set to true if stdout is not a TTY.
+  -v, --version   version for onqlave
+
+Use "onqlave [command] --help" for more information about a command.
 ```
 
 ## **Looking for another way of interaction ?**
