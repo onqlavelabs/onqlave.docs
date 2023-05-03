@@ -9,6 +9,11 @@ You may need to look at the supported [available commands for api keys](#explore
 
 ## **Create an API key**
 
+**Who can perform this operation?**
+
+- [Platform Owner](../../platform/access/#1-platform-owner)
+- [Developer](../../platform/access/#2-developer)
+
 To create your api key, your have to specify your application_id, application_technology and arx_id
 
 ```
@@ -23,6 +28,11 @@ For more information, read our documentation at https://www.onqlave.com/docs
 ```
 
 ## **Desribe an API key**
+
+**Who can perform this operation?**
+
+- [Platform Owner](../../platform/access/#1-platform-owner)
+- [Developer](../../platform/access/#2-developer)
 
 ```
 # onqlave key describe your_app_key_id
