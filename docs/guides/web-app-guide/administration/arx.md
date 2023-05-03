@@ -18,7 +18,7 @@ At our current release, there are <mark>[3 defined roles](../../platform/access.
 
 #### Who can perform this operation?
 
-- [Platform Owner](http://localhost:8000/guides/web-app-guide/platform/access/#1-platform-owner)
+- [Platform Owner](../../platform/access/#1-platform-owner)
 
 There are several configurable attributes of an Arx that are grouped into 4 sections:
 
@@ -68,7 +68,7 @@ Once you have finished your selection, you can review all of them before actuall
 
 #### Who can perform this operation?
 
-- [Platform Owner](http://localhost:8000/guides/web-app-guide/platform/access/#1-platform-owner)
+- [Platform Owner](../../platform/access/#1-platform-owner)
 
 The overview of Arx will provide basic information about the total number of arx as well as their status.
 
@@ -78,19 +78,19 @@ The overview of Arx will provide basic information about the total number of arx
 
 #### Who can perform this operation?
 
-- [Platform Owner](http://localhost:8000/guides/web-app-guide/platform/access/#1-platform-owner)
+- [Platform Owner](../../platform/access/#1-platform-owner)
 
 There are two sections that you can make changes to your arx:
 
 - Arx's name (in the planning section)
 - The key rotation period (in the encryption section)
 
-![arx-update](https://t36712295.p.clickup-attachments.com/t36712295/6ae882ab-752d-4f54-84cf-c0b51e770de8/arx-2%20(5).png){loading=lazy}
+![arx-update](https://t36712295.p.clickup-attachments.com/t36712295/6ae882ab-752d-4f54-84cf-c0b51e770de8/arx-2%20(5).png) {loading=lazy}
 
 ## **Disable an Arx**
 #### Who can perform this operation?
 
-- [Platform Owner](http://localhost:8000/guides/web-app-guide/platform/access/#1-platform-owner)
+- [Platform Owner](../../platform/access/#1-platform-owner)
 
 This is a feature supporting you to temporary disable an Arx and enable it in the future without having to reconfiguring everything from scratch.
 
@@ -106,7 +106,7 @@ If the disabling process is success, you can see the status of the selected arx 
 
 #### Who can perform this operation?
 
-- [Platform Owner](http://localhost:8000/guides/web-app-guide/platform/access/#1-platform-owner)
+- [Platform Owner](../../platform/access/#1-platform-owner)
 
 To completely delete an arx, you have to go through the same process as disabling...
 
