@@ -13,10 +13,10 @@ After having your account ready, you can continue with your preffered way of int
 
 After having your account, you can easily interact with Onqlave Platform via 2 types of interface. Please note that the managed components are the same in each interface.
 
-### **1. [Graphical Interface](../../guides/web-app-guide/overview-gui)**
+### **1. [Graphical Interface ](../../guides/web-app-guide/overview-gui)**
 
 This graphical interface is accessible via a web browser. You can process to <mark>[this guide](../../guides/web-app-guide/overview-gui)</mark> and get everything ready in 5 minutes.
 
-### **2. [Command Line Interface](../../guides/cli-guide/overview-cli)**
+### **2. [Command Line Interface ](../../guides/cli-guide/overview-cli)**
 
 The CLI is a widely preffered options for developers and technology enthusiasts. Although we have already included a descriptive manual help command in the CLI itself, we also provide <mark>[a comprehensive document for CLI at this section](../../guides/cli-guide/overview-cli)</mark>.
