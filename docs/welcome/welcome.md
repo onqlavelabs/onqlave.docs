@@ -14,4 +14,12 @@ We have designed Onqlave to be resilient, performant and scalable, whilst minimi
 ## **We value your feed back**
 We are excited for you to be part of the Onqlave alpha release. We have been working towards delivering initial features which will form the foundation of an extensive suite of data protection and privacy capabilities in the near future. 
 
-We welcome any and all feedback you have either through WebApp or at <product@onqlave.com>.
+On the bottom right corner of any menu, you can see the **Provide Feedback** button.
+
+![feed-back-button](https://t36712295.p.clickup-attachments.com/t36712295/4b980f10-3dd7-44b7-b459-0deab3b0b67c/arx-2.png)
+
+By clicking on it, a dialog will appear and let you enter your own comments and thoughts on which part of our product that needs to be improved.
+
+![feed-back](https://t36712295.p.clickup-attachments.com/t36712295/ed68b79f-6140-4023-bc25-dcb3914791ed/image.png)
+
+In addition, we welcome any and all feedback you have either through WebApp or at <product@onqlave.com>.
