@@ -163,8 +163,48 @@ Since we do not support deleting application, you can archive it. Before archivi
 ```
 # onqlave application archive your_app_id
 ```
-#
 
+
+## **Get base configuration information for Application**
+
+These information may be useful when you need to input the required flags during the creation of an application. To get these information, use the following command:
+
+```
+# onqlave application base
+```
+
+Result will be organized either in tabular format by default or can be converted to JSON by appending **--json** flag at the end of the command
+
+![application-base](https://t36712295.p.clickup-attachments.com/t36712295/6fb8663c-bccb-4362-a6a5-043668b2233b/image.png)
+
+JSON output:
+```
+Application Base Information =>
+{
+    "technologies": [
+        {
+            "cors": false,
+            "description": "Application which contains backend",
+            "enable": false,
+            "icon": "ServerIcon",
+            "id": "server",
+            "is_default": false,
+            "name": "Server",
+            "order": 0
+        },
+        {
+            "cors": true,
+            "description": "Application which contains frontend",
+            "enable": false,
+            "icon": "ChromeIcon",
+            "id": "client",
+            "is_default": false,
+            "name": "Client",
+            "order": 1
+        }
+    ]
+}
+```
 
 
 ## **Explore availabe commands**

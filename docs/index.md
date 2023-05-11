@@ -15,7 +15,7 @@ Our tools are designed to help you achieve protection with minimal effort. We ha
 
 We have designed Onqlave to be resilient, performant and scalable, whilst minimising the complexities of key management and cryptography. 
 
-## **We value your feed back**
+## **We value your feedback**
 We are excited for you to be part of the Onqlave alpha release. We have been working towards delivering initial features which will form the foundation of an extensive suite of data protection and privacy capabilities in the near future. 
 
 On the bottom right corner of any menu, you can see the **Provide Feedback** button.

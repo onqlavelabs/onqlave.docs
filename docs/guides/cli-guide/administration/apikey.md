@@ -126,7 +126,9 @@ Before interacting with API key, you may need to retrieve all the base informati
 # onqlave key base      
 ```
 
-Output should be similar to this, including all your created arx and applications
+Output should be similar to this, you can alternate the format into JSON by appending **--json** into the end of the command:
+
+![api-key-base](https://t36712295.p.clickup-attachments.com/t36712295/ce103cc9-2d3a-4bce-9d30-2d6bc0795fdf/image.png)
 
 ```
 API Key Base Information =>
@@ -143,27 +145,27 @@ API Key Base Information =>
                 "name": "Server",
                 "order": 0
             },
-            "id": "app--ID",
+            "id": "app--zovKQ3NESVrtHMoPJgr5m",
             "label": "",
-            "name": "my_1st_app"
+            "name": "Thelma Schmidt"
         }
     ],
     "clusters": [
         {
             "created_by": {
                 "avatar": "",
-                "email_address": "your_email@sth.com",
-                "id": "owner_id",
-                "name": "John Doe"
+                "email_address": "your_email@gmail.com",
+                "id": "Qtc2e7LVjSO7Q1tJm0PwaoeVFUS2",
+                "name": "Platform"
             },
             "encryption": {
                 "icon": "LockIcon",
                 "id": "aes-gcm-256",
                 "name": "AES-GCM-256"
             },
-            "id": "cluster--ID",
+            "id": "cluster---CSjvl4DuOygw8sYXJntm",
             "label": "",
-            "name": "my_2nd_arx",
+            "name": "Marquise Douglas",
             "plan": {
                 "icon": "ServerIcon",
                 "name": "Serverless"
@@ -189,18 +191,18 @@ API Key Base Information =>
         {
             "created_by": {
                 "avatar": "",
-                "email_address": "your_email@sth.com",
-                "id": "owner_id",
-                "name": "John Doe"
+                "email_address": "your_email@gmail.com",
+                "id": "Qtc2e7LVjSO7Q1tJm0PwaoeVFUS2",
+                "name": "Platform"
             },
             "encryption": {
                 "icon": "LockIcon",
-                "id": "cha-cha-20-poly-1305",
-                "name": "CHACHA20-POLY1305"
+                "id": "aes-gcm-256",
+                "name": "AES-GCM-256"
             },
-            "id": "cluster--ID",
+            "id": "cluster--YcvryC1LtCGmTLXQUJJyP",
             "label": "",
-            "name": "my_3rd_arx",
+            "name": "Horace Gibson",
             "plan": {
                 "icon": "ServerIcon",
                 "name": "Serverless"
@@ -226,18 +228,18 @@ API Key Base Information =>
         {
             "created_by": {
                 "avatar": "",
-                "email_address": "your_email@sth.com",
-                "id": "owner_id",
-                "name": "John Doe"
+                "email_address": "your_email@gmail.com",
+                "id": "Qtc2e7LVjSO7Q1tJm0PwaoeVFUS2",
+                "name": "Platform"
             },
             "encryption": {
                 "icon": "LockIcon",
-                "id": "aes-gcm-128",
-                "name": "AES-GCM-128"
+                "id": "aes-gcm-256",
+                "name": "AES-GCM-256"
             },
-            "id": "cluster--ID",
+            "id": "cluster--v8eE3s1EnT8bYpjU2C6Wj",
             "label": "",
-            "name": "my_1st_arx",
+            "name": "Sister Jerde",
             "plan": {
                 "icon": "ServerIcon",
                 "name": "Serverless"
@@ -256,10 +258,10 @@ API Key Base Information =>
                 }
             ],
             "rotation_cycle": {
-                "id": "3-monthly",
-                "name": "3 Monthly"
+                "id": "monthly",
+                "name": "Monthly"
             }
         }
     ]
-}                    
+}   
 ```
