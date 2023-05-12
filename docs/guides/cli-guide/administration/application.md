@@ -164,7 +164,6 @@ Since we do not support deleting application, you can archive it. Before archivi
 # onqlave application archive your_app_id
 ```
 
-
 ## **Get base configuration information for Application**
 
 These information may be useful when you need to input the required flags during the creation of an application. To get these information, use the following command:
