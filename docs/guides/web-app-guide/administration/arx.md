@@ -3,7 +3,7 @@
 
 The term <mark>**Arx**</mark> is actually a Latin word means [**Citadel**](https://en.wikipedia.org/wiki/Arx_(Roman)#:~:text=Arx%20is%20a%20Latin%20word%20meaning%20%22citadel%22.) that relates to a fort or a castle for the defence of a place. In the digital world, arx is associated as the castle for the defence of privacy.
 
-![citadel-1](https://www.macmillandictionaryblog.com/wp-content/uploads/2018/11/14695-810x534.jpg)
+![arx-1](https://t36712295.p.clickup-attachments.com/t36712295/ef42ce22-8a63-4aa9-87c2-f15f1e0fa858/arx-draw-onqlave.jpeg)
 
 ## **Before you start**
 

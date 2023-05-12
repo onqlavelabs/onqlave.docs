@@ -141,7 +141,7 @@ To see a list of your Arx from CLI, simply use this command:
 # onqlave arx list
 ```
 The output will be formatted in tabular format
-![](https://t36712295.p.clickup-attachments.com/t36712295/e886d762-d25f-4ca6-a9a2-599d3a4168bb/image.png)
+![](https://t36712295.p.clickup-attachments.com/t36712295/ec74044b-58e8-43f4-830c-b767c6b4fa7b/image.png)
 
 
 There is another JSON output if you append the flag **--json** to the end of the above comand
@@ -303,8 +303,11 @@ These information may be useful when you need to input the required flags during
 ```
 # onqlave arx base
 ```
-Result would be a JSON:
+Result would be organized in a tabular format. If you want plain JSON, just append **--json** to the end of the command.
 
+![arx-base-command](https://t36712295.p.clickup-attachments.com/t36712295/70e44a5e-ae74-4820-9bf9-0ae125697a82/image.png)
+
+JSON Output:
 ```
 Arx Base Information =>
 {
