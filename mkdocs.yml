@@ -102,4 +102,6 @@ nav:
           - "Platform":
               - "Account": guides/cli-guide/platform/account.md
               - "Access": guides/cli-guide/platform/access.md
+  - "SDKs": 
+    - "Overview": guides/sdks/sdk-overview.md
               
