@@ -74,6 +74,8 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - markdown_include.include:
+      base_path: docs
   
 
 nav:
@@ -104,4 +106,6 @@ nav:
               - "Access": guides/cli-guide/platform/access.md
   - "SDKs": 
     - "Overview": guides/sdks/sdk-overview.md
+    - "Go": guides/sdks/sdk-go.md
+    - "Node": guides/sdks/sdk-node.md
               
