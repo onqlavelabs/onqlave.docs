@@ -11,10 +11,10 @@ In addition, you can try to <mark>[get comfortable with docker](https://docs.doc
 Use this command to get our docker image:
 
 ```
-docker pull australia-southeast1-docker.pkg.dev/temp-control-plane/onqlave/onqlavelabs/onqlave.all:{$cli-version}
+docker pull ghcr.io/onqlavelabs/onqlavelabs/onqlave.all:{cli_version_number}
 ```
 
-Replace **{$cli-version}** with your preferred version. We always recommend the latest version. You can check out <mark>[the list of our releases here](https://github.com/onqlavelabs/onqlave.all/releases)</mark> for an exact version number.
+Replace **{$cli-version}** with your preferred version. We always recommend the latest version. You can check out <mark>[the list of our releases here](https://github.com/onqlavelabs/onqlave.all/pkgs/container/onqlavelabs%2Fonqlave.all)</mark> for an exact version number.
 
 ## **Launch the container**
 
