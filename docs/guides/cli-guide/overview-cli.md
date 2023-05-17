@@ -67,11 +67,11 @@ Use "onqlave [command] --help" for more information about a command.
 ```
 
 If the initialization is success, the terminal will look like this
+If the configurations was inited successfully, there should be a output like following
 
 ```
-If the configurations was inited successfully, there should be a output like following
 🎉 Done!  You successfully initialize your environment . Next step is to signup/login if you already haven't.                                                                                                            
-For more information, read our documentation at https://www.onqlave.com/docs
+For more information, read our documentation at https://docs.onqlave.com
 ```
 
 ## **Explore the help for each command**
@@ -106,4 +106,4 @@ Use "onqlave [command] --help" for more information about a command.
 
 ## **Looking for another way of interaction ?**
 
-If this is not your preferred way, considering [the Graphical Web Interface here](../web-app-guide/overview-gui.md)
+If this is not your preferred way, considering <mark>[the Graphical Web Interface here](../web-app-guide/overview-gui.md)</mark>

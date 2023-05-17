@@ -13,7 +13,19 @@ You can use this command to retrieve the organization/tenant information:
 # onqlave tenant describe
 ```
 
-The result should look like this:
+The result should be displayed in tabular format by default and look like this:
+
+```
+┌────────────────────────────────────────────┐
+│ Key          Value                         │
+│────────────────────────────────────────────│
+│ Id           tenant--cr7ZHkeyjdWycfsPF     │
+│ Name         dc-tenant-1                   │
+│ Label        theirs                        │
+│ OwnerEmail   your_email@host.com           │
+└────────────────────────────────────────────┘
+```
+You can also append **--json** to the end of the command to get a JSON output like this
 
 ```
 Tenant 'tenant--cr7ZHkeyjdWycfsPF' Information =>

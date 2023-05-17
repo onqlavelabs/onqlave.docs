@@ -28,7 +28,7 @@ After confirming your email, the CLI output should look like this:
 ```
 🎉 Done!  You successfully login to Onqlave platform. 
                                                       
-For more information, read our documentation at https://www.onqlave.com/docs
+For more information, read our documentation at https://docs.onqlave.com
 
 ```
 

@@ -21,7 +21,7 @@ Then the returned output should include your created application ID
 ```
 🎉 Done! Application created successfully.
 Application ID: you-app-id-here
-For more information, read our documentation at https://www.onqlave.com/docs
+For more information, read our documentation at https://docs.onqlave.com
 ```
 
 ## **Describe an application**

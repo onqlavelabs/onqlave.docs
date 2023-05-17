@@ -50,16 +50,16 @@ Examples:
 onqlave arx add
 
 Flags:
-  -d, --arx_description string         Enter Arx Description
-  -e, --arx_encryption_method string   Enter Arx Encryption Method
-  -i, --arx_is_default                 Enter Arx Is Default
-  -o, --arx_owner string               Enter Arx Owner
-  -p, --arx_provider string            Enter Arx Cloud Provider
-  -u, --arx_purpose string             Enter Arx Purpose
-  -r, --arx_region string              Enter Arx Region
-  -c, --arx_rotation_cycle string      Enter Arx Rotation Cycle
-  -l, --arx_spend_limit uint           Enter Arx Spend Limit
-  -t, --arx_type string                Enter Arx Type
+  -d, --arx_description string         enter arx description
+  -e, --arx_encryption_method string   enter arx encryption method
+  -i, --arx_is_default                 enter arx is default
+  -o, --arx_owner string               enter arx owner
+  -p, --arx_provider string            enter arx cloud provider
+  -u, --arx_purpose string             enter arx purpose
+  -r, --arx_region string              enter arx region
+  -c, --arx_rotation_cycle string      enter arx rotation cycle
+  -l, --arx_spend_limit uint           enter arx spend limit
+  -t, --arx_type string                enter arx type
   -h, --help                           help for add
 
 Global Flags:
@@ -240,7 +240,7 @@ Output should look like this:
 ```
 🎉 Done! Arx updated successfully.
 Arx ID: your_arx_id
-For more information, read our documentation at https://www.onqlave.com/docs
+For more information, read our documentation at https://docs.onqlave.com
 ```
 
 ## **Seal an Arx**

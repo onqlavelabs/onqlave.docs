@@ -23,7 +23,7 @@ The output log will include the ID of the newly created APIKey
 ```
 🎉 Done! API Key created successfully.
 API Key ID: apikey--your_api_key
-For more information, read our documentation at https://www.onqlave.com/docs
+For more information, read our documentation at https://docs.onqlave.com
 ```
 
 ## **Describe an API key**
@@ -70,7 +70,8 @@ By default, the result will be formatted in a table. If you want JSON format, si
 │───────────────────────────────────────────────────────│
 │                                                       │
 │                                                       |                │                                                       |
-│                                                       |────────────────────────────────────────────────────────┘               
+│                                                       |
+────────────────────────────────────────────────────────┘               
 
 
 ```
