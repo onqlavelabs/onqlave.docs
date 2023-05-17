@@ -19,14 +19,14 @@ To create your api key, your have to specify your application_id, application_te
 # onqlave key add -a your_application_id -c your_arx_id -t your_application_technology
 ```
 
-The output log will include the ID of the newly created apikey
+The output log will include the ID of the newly created APIKey
 ```
 🎉 Done! API Key created successfully.
 API Key ID: apikey--your_api_key
 For more information, read our documentation at https://www.onqlave.com/docs
 ```
 
-## **Desribe an API key**
+## **Describe an API key**
 
 **Who can perform this operation?**
 
@@ -43,8 +43,8 @@ Output will be formatted in tabular format
 │ Key            Value                                  │
 │───────────────────────────────────────────────────────│
 │ ID             apikey--43hUyLzyeVOLQE3YGj7Zw          │
-│ ClusterID      arx--IRTlZ7UswEEwUwzczWiO0         │
-│ ApplicationID  app--gp-OxVE4vuxQ8jrPEh8cw        
+│ ClusterID      arx--IRTlZ7UswEEwUwzczWiO0             │
+│ ApplicationID  app--gp-OxVE4vuxQ8jrPEh8cw       
 │ CreatedAt      2023-05-02 12:27:15.147192 +0000 UTC   │
 │ Status         active                                 │
 │ AccessKey      Rhnlij2fJWFXvTp1DxpVdKcwpy6c2IO1       │
@@ -60,7 +60,7 @@ Output will be formatted in tabular format
 
 ```
 # onqlave key list
-``` 
+```
 
 By default, the result will be formatted in a table. If you want JSON format, simply appending the **--json** at the end of the above command
 
@@ -70,7 +70,7 @@ By default, the result will be formatted in a table. If you want JSON format, si
 │───────────────────────────────────────────────────────│
 │                                                       │
 │                                                       |                │                                                       |
-│                                                       |────────────────────────────────────────────────────────┘                
+│                                                       |────────────────────────────────────────────────────────┘               
 
 
 ```
@@ -86,33 +86,33 @@ By default, the result will be formatted in a table. If you want JSON format, si
 # onqlave key delete your_app_key_id
 ```
 
-## **Explore availabe commands**
+## **Explore available commands**
 
 ```
-# onqlave key 
+# onqlave key
 ```
 
 ```
 This command is used to manage api key resources.
 
 Usage:
-  onqlave key [command]
+ onqlave key [command]
 
 Examples:
 onqlave key
 
 Available Commands:
-  add         add api key by attributes
-  base        get base
-  delete      delete api key by ID
-  describe    describe api key by ID
-  list        list api key
+ add         add api key by attributes
+ base        get base
+ delete      delete api key by ID
+ describe    describe api key by ID
+ list        list api key
 
 Flags:
-  -h, --help   help for key
+ -h, --help   help for key
 
 Global Flags:
-      --json   Output logs as JSON.  Set to true if stdout is not a TTY.
+     --json   Output logs as JSON.  Set to true if stdout is not a TTY.
 
 Use "onqlave key [command] --help" for more information about a command.
 ```
@@ -120,10 +120,11 @@ Use "onqlave key [command] --help" for more information about a command.
 
 ## **Get base configuration information for API Keys**
 
-Before interacting with API key, you may need to retrieve all the base information about arx and aplication. The most frequently used information when interacting with API key via CLI are IDs of arx, application and owner
+Before interacting with the API key, you may need to retrieve all the base information about arx and application. The most frequently used information when interacting with API key via CLI are IDs of arx, application and owner
+
 
 ```
-# onqlave key base      
+# onqlave key base     
 ```
 
 Output should be similar to this, you can alternate the format into JSON by appending **--json** into the end of the command:
@@ -133,135 +134,135 @@ Output should be similar to this, you can alternate the format into JSON by appe
 ```
 API Key Base Information =>
 {
-    "applications": [
-        {
-            "application_technology": {
-                "cors": false,
-                "description": "",
-                "enable": false,
-                "icon": "ServerIcon",
-                "id": "server",
-                "is_default": false,
-                "name": "Server",
-                "order": 0
-            },
-            "id": "app--zovKQ3NESVrtHMoPJgr5m",
-            "label": "",
-            "name": "Thelma Schmidt"
-        }
-    ],
-    "arx": [
-        {
-            "created_by": {
-                "avatar": "",
-                "email_address": "your_email@gmail.com",
-                "id": "Qtc2e7LVjSO7Q1tJm0PwaoeVFUS2",
-                "name": "Platform"
-            },
-            "encryption": {
-                "icon": "LockIcon",
-                "id": "aes-gcm-256",
-                "name": "AES-GCM-256"
-            },
-            "id": "arx---CSjvl4DuOygw8sYXJntm",
-            "label": "",
-            "name": "Marquise Douglas",
-            "plan": {
-                "icon": "ServerIcon",
-                "name": "Serverless"
-            },
-            "provider": {
-                "image": "image-gcp.svg",
-                "name": "Google Cloud"
-            },
-            "purpose": {
-                "name": "Development"
-            },
-            "regions": [
-                {
-                    "icon": "icon-australia.svg",
-                    "name": "Australia"
-                }
-            ],
-            "rotation_cycle": {
-                "id": "3-monthly",
-                "name": "3 Monthly"
-            }
-        },
-        {
-            "created_by": {
-                "avatar": "",
-                "email_address": "your_email@gmail.com",
-                "id": "Qtc2e7LVjSO7Q1tJm0PwaoeVFUS2",
-                "name": "Platform"
-            },
-            "encryption": {
-                "icon": "LockIcon",
-                "id": "aes-gcm-256",
-                "name": "AES-GCM-256"
-            },
-            "id": "arx--YcvryC1LtCGmTLXQUJJyP",
-            "label": "",
-            "name": "Horace Gibson",
-            "plan": {
-                "icon": "ServerIcon",
-                "name": "Serverless"
-            },
-            "provider": {
-                "image": "image-gcp.svg",
-                "name": "Google Cloud"
-            },
-            "purpose": {
-                "name": "Development"
-            },
-            "regions": [
-                {
-                    "icon": "icon-australia.svg",
-                    "name": "Australia"
-                }
-            ],
-            "rotation_cycle": {
-                "id": "monthly",
-                "name": "Monthly"
-            }
-        },
-        {
-            "created_by": {
-                "avatar": "",
-                "email_address": "your_email@gmail.com",
-                "id": "Qtc2e7LVjSO7Q1tJm0PwaoeVFUS2",
-                "name": "Platform"
-            },
-            "encryption": {
-                "icon": "LockIcon",
-                "id": "aes-gcm-256",
-                "name": "AES-GCM-256"
-            },
-            "id": "arx--v8eE3s1EnT8bYpjU2C6Wj",
-            "label": "",
-            "name": "Sister Jerde",
-            "plan": {
-                "icon": "ServerIcon",
-                "name": "Serverless"
-            },
-            "provider": {
-                "image": "image-gcp.svg",
-                "name": "Google Cloud"
-            },
-            "purpose": {
-                "name": "Development"
-            },
-            "regions": [
-                {
-                    "icon": "icon-australia.svg",
-                    "name": "Australia"
-                }
-            ],
-            "rotation_cycle": {
-                "id": "monthly",
-                "name": "Monthly"
-            }
-        }
-    ]
-}   
+   "applications": [
+       {
+           "application_technology": {
+               "cors": false,
+               "description": "",
+               "enable": false,
+               "icon": "ServerIcon",
+               "id": "server",
+               "is_default": false,
+               "name": "Server",
+               "order": 0
+           },
+           "id": "app--zovKQ3NESVrtHMoPJgr5m",
+           "label": "",
+           "name": "Thelma Schmidt"
+       }
+   ],
+   "arx": [
+       {
+           "created_by": {
+               "avatar": "",
+               "email_address": "your_email@gmail.com",
+               "id": "Qtc2e7LVjSO7Q1tJm0PwaoeVFUS2",
+               "name": "Platform"
+           },
+           "encryption": {
+               "icon": "LockIcon",
+               "id": "aes-gcm-256",
+               "name": "AES-GCM-256"
+           },
+           "id": "arx---CSjvl4DuOygw8sYXJntm",
+           "label": "",
+           "name": "Marquise Douglas",
+           "plan": {
+               "icon": "ServerIcon",
+               "name": "Serverless"
+           },
+           "provider": {
+               "image": "image-gcp.svg",
+               "name": "Google Cloud"
+           },
+           "purpose": {
+               "name": "Development"
+           },
+           "regions": [
+               {
+                   "icon": "icon-australia.svg",
+                   "name": "Australia"
+               }
+           ],
+           "rotation_cycle": {
+               "id": "3-monthly",
+               "name": "3 Monthly"
+           }
+       },
+       {
+           "created_by": {
+               "avatar": "",
+               "email_address": "your_email@gmail.com",
+               "id": "Qtc2e7LVjSO7Q1tJm0PwaoeVFUS2",
+               "name": "Platform"
+           },
+           "encryption": {
+               "icon": "LockIcon",
+               "id": "aes-gcm-256",
+               "name": "AES-GCM-256"
+           },
+           "id": "arx--YcvryC1LtCGmTLXQUJJyP",
+           "label": "",
+           "name": "Horace Gibson",
+           "plan": {
+               "icon": "ServerIcon",
+               "name": "Serverless"
+           },
+           "provider": {
+               "image": "image-gcp.svg",
+               "name": "Google Cloud"
+           },
+           "purpose": {
+               "name": "Development"
+           },
+           "regions": [
+               {
+                   "icon": "icon-australia.svg",
+                   "name": "Australia"
+               }
+           ],
+           "rotation_cycle": {
+               "id": "monthly",
+               "name": "Monthly"
+           }
+       },
+       {
+           "created_by": {
+               "avatar": "",
+               "email_address": "your_email@gmail.com",
+               "id": "Qtc2e7LVjSO7Q1tJm0PwaoeVFUS2",
+               "name": "Platform"
+           },
+           "encryption": {
+               "icon": "LockIcon",
+               "id": "aes-gcm-256",
+               "name": "AES-GCM-256"
+           },
+           "id": "arx--v8eE3s1EnT8bYpjU2C6Wj",
+           "label": "",
+           "name": "Sister Jerde",
+           "plan": {
+               "icon": "ServerIcon",
+               "name": "Serverless"
+           },
+           "provider": {
+               "image": "image-gcp.svg",
+               "name": "Google Cloud"
+           },
+           "purpose": {
+               "name": "Development"
+           },
+           "regions": [
+               {
+                   "icon": "icon-australia.svg",
+                   "name": "Australia"
+               }
+           ],
+           "rotation_cycle": {
+               "id": "monthly",
+               "name": "Monthly"
+           }
+       }
+   ]
+}  
 ```

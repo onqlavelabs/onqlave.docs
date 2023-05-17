@@ -1,6 +1,7 @@
 # **Before you start**
 
-The related CLI commands of Application will allow you to create and allocate the unique identifiers for your front and backend applications to be used when creating API Keys. This seperate Application workflow ensures you have easy access to enabling, disabling and archiving applications as needed.
+The related CLI commands of Application will allow you to create and allocate the unique identifiers for your front and backend applications to be used when creating API Keys. This separated Application workflow ensures you have easy access to enabling, disabling and archiving applications as needed.
+
 
 When the application reference is created, an API token and encryption key is established. Note that Onqlave does not allow you to permanently delete any applications, however they can be archived, which will then disable the respective API token and encryption key.
 
@@ -13,7 +14,7 @@ You may need to look at the supported [available commands for application](#expl
 - [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
 
 ```
-# onqlave application add your_app_name -d your_preferred_description -t application_technology -o application_owner_id 
+# onqlave application add your_app_name -d your_preferred_description -t application_technology -o application_owner_id
 ```
 
 Then the returned output should include your created application ID
@@ -50,26 +51,26 @@ The output is formatted as a table or JSON depends on your choice of appending *
 
 ```
 {
-    "Application": {
-        "acl": {
-            "can": {
-                "archive": false,
-                "disabled": true,
-                "edit": true
-            },
-            "can_not": {
-                "archive_reason": "Application is not disabled yet!"
-            }
-        },
-        "api_keys": 0,
-        "application_id": "your_app_id_here",
-        "cors": [],
-        "description": "",
-        "name": "app-2",
-        "owner": "owner_id",
-        "status": "active",
-        "technology": "server"
-    }
+   "Application": {
+       "acl": {
+           "can": {
+               "archive": false,
+               "disabled": true,
+               "edit": true
+           },
+           "can_not": {
+               "archive_reason": "Application is not disabled yet!"
+           }
+       },
+       "api_keys": 0,
+       "application_id": "your_app_id_here",
+       "cors": [],
+       "description": "",
+       "name": "app-2",
+       "owner": "owner_id",
+       "status": "active",
+       "technology": "server"
+   }
 }
 
 ```
@@ -100,7 +101,7 @@ The output will be displayed as a table by default. And you can show the JSON ou
 
 - [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
 
-Currently, Onqlave platform supports update an application via it's ID
+Currently, Onqlave platform supports update an application via its ID
 
 ```
 # onqlave application update your_application_id your_list_of_flags_and_values
@@ -115,21 +116,21 @@ And explore all the flags:
 
 ```
 Usage:
-  onqlave application update [flags]
+ onqlave application update [flags]
 
 Examples:
 onqlave application update
 
 Flags:
-  -c, --application_cors string          Enter Application Cors
-  -d, --application_description string   Enter Application Description
-  -n, --application_name string          Enter Application Name
-  -o, --application_owner string         Enter Application Owner
-  -t, --application_technology string    Enter Application Technology
-  -h, --help                             help for update
+ -c, --application_cors string          Enter Application Cors
+ -d, --application_description string   Enter Application Description
+ -n, --application_name string          Enter Application Name
+ -o, --application_owner string         Enter Application Owner
+ -t, --application_technology string    Enter Application Technology
+ -h, --help                             help for update
 
 Global Flags:
-      --json   Output logs as JSON.  Set to true if stdout is not a TTY.
+     --json   Output logs as JSON.  Set to true if stdout is not a TTY.
 ```
 
 ## **Disable an application**
@@ -158,7 +159,8 @@ Global Flags:
 
 - [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
 
-Since we do not support deleting application, you can archive it. Before archiving an application, you have to disable it like the previous step.
+Since we do not support deleting applications, you can archive it. Before archiving an application, you have to disable it like the previous step.
+
 
 ```
 # onqlave application archive your_app_id
@@ -166,7 +168,8 @@ Since we do not support deleting application, you can archive it. Before archivi
 
 ## **Get base configuration information for Application**
 
-These information may be useful when you need to input the required flags during the creation of an application. To get these information, use the following command:
+This information may be useful when you need to input the required flags during the creation of an application. To get these information, use the following command:
+
 
 ```
 # onqlave application base
@@ -180,28 +183,28 @@ JSON output:
 ```
 Application Base Information =>
 {
-    "technologies": [
-        {
-            "cors": false,
-            "description": "Application which contains backend",
-            "enable": false,
-            "icon": "ServerIcon",
-            "id": "server",
-            "is_default": false,
-            "name": "Server",
-            "order": 0
-        },
-        {
-            "cors": true,
-            "description": "Application which contains frontend",
-            "enable": false,
-            "icon": "ChromeIcon",
-            "id": "client",
-            "is_default": false,
-            "name": "Client",
-            "order": 1
-        }
-    ]
+   "technologies": [
+       {
+           "cors": false,
+           "description": "Application which contains backend",
+           "enable": false,
+           "icon": "ServerIcon",
+           "id": "server",
+           "is_default": false,
+           "name": "Server",
+           "order": 0
+       },
+       {
+           "cors": true,
+           "description": "Application which contains frontend",
+           "enable": false,
+           "icon": "ChromeIcon",
+           "id": "client",
+           "is_default": false,
+           "name": "Client",
+           "order": 1
+       }
+   ]
 }
 ```
 
@@ -221,34 +224,36 @@ JSON output:
 ```
 Application Base Information =>
 {
-    "technologies": [
-        {
-            "cors": false,
-            "description": "Application which contains backend",
-            "enable": false,
-            "icon": "ServerIcon",
-            "id": "server",
-            "is_default": false,
-            "name": "Server",
-            "order": 0
-        },
-        {
-            "cors": true,
-            "description": "Application which contains frontend",
-            "enable": false,
-            "icon": "ChromeIcon",
-            "id": "client",
-            "is_default": false,
-            "name": "Client",
-            "order": 1
-        }
-    ]
+   "technologies": [
+       {
+           "cors": false,
+           "description": "Application which contains backend",
+           "enable": false,
+           "icon": "ServerIcon",
+           "id": "server",
+           "is_default": false,
+           "name": "Server",
+           "order": 0
+       },
+       {
+           "cors": true,
+           "description": "Application which contains frontend",
+           "enable": false,
+           "icon": "ChromeIcon",
+           "id": "client",
+           "is_default": false,
+           "name": "Client",
+           "order": 1
+       }
+   ]
 }
 ```
 
 ## **Get base configuration information for Application**
 
-These information may be useful when you need to input the required flags during the creation of an application. To get these information, use the following command:
+
+This information may be useful when you need to input the required flags during the creation of an application. To get these information, use the following command:
+
 
 ```
 # onqlave application base
@@ -262,60 +267,60 @@ JSON output:
 ```
 Application Base Information =>
 {
-    "technologies": [
-        {
-            "cors": false,
-            "description": "Application which contains backend",
-            "enable": false,
-            "icon": "ServerIcon",
-            "id": "server",
-            "is_default": false,
-            "name": "Server",
-            "order": 0
-        },
-        {
-            "cors": true,
-            "description": "Application which contains frontend",
-            "enable": false,
-            "icon": "ChromeIcon",
-            "id": "client",
-            "is_default": false,
-            "name": "Client",
-            "order": 1
-        }
-    ]
+   "technologies": [
+       {
+           "cors": false,
+           "description": "Application which contains backend",
+           "enable": false,
+           "icon": "ServerIcon",
+           "id": "server",
+           "is_default": false,
+           "name": "Server",
+           "order": 0
+       },
+       {
+           "cors": true,
+           "description": "Application which contains frontend",
+           "enable": false,
+           "icon": "ChromeIcon",
+           "id": "client",
+           "is_default": false,
+           "name": "Client",
+           "order": 1
+       }
+   ]
 }
 ```
 
 
-## **Explore availabe commands**
+## **Explore available commands**
 
 ```
-# onqlave application 
+# onqlave application
 ```
 ```
 This command is used to manage applications resources.
 
 Usage:
-  onqlave application [command]
+ onqlave application [command]
 
 Examples:
 onqlave application
 
 Available Commands:
-  add         add application by name and attributes
-  archive     archive application by ID
-  describe    describe application by ID
-  disable     disable application by ID
-  enable      enable application by ID
-  list        list applications
-  update      update application by ID and attributes
+ add         add application by name and attributes
+ archive     archive application by ID
+ describe    describe application by ID
+ disable     disable application by ID
+ enable      enable application by ID
+ list        list applications
+ update      update application by ID and attributes
 
 Flags:
-  -h, --help   help for application
+ -h, --help   help for application
 
 Global Flags:
-      --json   Output logs as JSON.  Set to true if stdout is not a TTY.
+     --json   Output logs as JSON.  Set to true if stdout is not a TTY.
 
 Use "onqlave application [command] --help" for more information about a command.
 ```

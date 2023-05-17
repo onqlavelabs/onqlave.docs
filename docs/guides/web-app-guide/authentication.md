@@ -1,9 +1,9 @@
 
-## **Double check your account**
+## **Double check on your account**
 
 ---
 
-Make sure that you <mark>[registered for the alpha release](https://www.onqlave.com/contact)</mark>, received our email and followed the instruction specified on email.
+Make sure that you <mark>[registered for the alpha release](https://www.onqlave.com/contact)</mark>, received our email and followed the instruction specified on our email.
 
 ## **Let's get involve**
 
@@ -17,4 +17,4 @@ If your email is activated and you have changed your password for the first time
 
 ![Authentication prompt-2](https://t36712295.p.clickup-attachments.com/t36712295/e042293d-fdb3-49ac-83fe-b1202d5d975a/image.png)
 
-If you haven't changed your password yet, you should follow the instruction of other prompt to set your password
+If you haven't changed your password yet, you should follow the instruction of other prompt to set your password.

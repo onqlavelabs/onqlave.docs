@@ -18,26 +18,26 @@ The result should look like this:
 ```
 Tenant 'tenant--cr7ZHkeyjdWycfsPF' Information =>
 {
-    "data": {
-        "acl": {
-            "can": {
-                "edit": true
-            },
-            "can_not": null
-        },
-        "created_on": "2023-04-06T07:16:44.169507Z",
-        "owner_email": "your_email@host.com",
-        "tenant_id": "tenant--cr7ZHkeyjdWycfsPF",
-        "tenant_label": "dc",
-        "tenant_name": "dc-tenant-1"
-    },
-    "error": {
-        "code": 0,
-        "correlation_id": "",
-        "details": null,
-        "message": "",
-        "status": ""
-    }
+   "data": {
+       "acl": {
+           "can": {
+               "edit": true
+           },
+           "can_not": null
+       },
+       "created_on": "2023-04-06T07:16:44.169507Z",
+       "owner_email": "your_email@host.com",
+       "tenant_id": "tenant--cr7ZHkeyjdWycfsPF",
+       "tenant_label": "dc",
+       "tenant_name": "dc-tenant-1"
+   },
+   "error": {
+       "code": 0,
+       "correlation_id": "",
+       "details": null,
+       "message": "",
+       "status": ""
+   }
 }
 ```
 
@@ -67,30 +67,30 @@ You can double check the updated result by using the **describe** command above:
 └────────────────────────────────────────────┘
 ```
 
-## **Explore availabe commands**
+## **Explore available commands**
 
 ```
-# onqlave tenant 
+# onqlave tenant
 ```
 
 ```
-This command is used to manage tenants resource.
+This command is used to manage tenants' resources.
 
 Usage:
-  onqlave tenant [command]
+ onqlave tenant [command]
 
 Examples:
 onqlave tenant
 
 Available Commands:
-  describe    describe tenant
-  update      update tenant by name and label
+ describe    describe tenant
+ update      update tenant by name and label
 
 Flags:
-  -h, --help   help for tenant
+ -h, --help   help for tenant
 
 Global Flags:
-      --json   JSON Output. Set to true if stdout is not a TTY.
+     --json   JSON Output. Set to true if stdout is not a TTY.
 
 Use "onqlave tenant [command] --help" for more information about a command.
 ```

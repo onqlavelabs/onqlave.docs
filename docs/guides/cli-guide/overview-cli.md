@@ -34,26 +34,26 @@ The output should look like this:
 
 ```
 Usage:
-  onqlave [command]
+ onqlave [command]
 
 Examples:
 onqlave
 
 Available Commands:
-  application application management
-  arx         arx management
-  auth        authentication
-  completion  Generate the autocompletion script for the specified shell
-  config      config environment variables
-  help        Help about any command
-  key         api key management
-  tenant      tenant management
-  user        user management
+ application application management
+ arx         arx management
+ auth        authentication
+ completion  Generate the auto completion script for the specified shell
+ config      config environment variables
+ help        Help about any command
+ key         api key management
+ tenant      tenant management
+ user        user management
 
 Flags:
-  -h, --help      help for onqlave
-      --json      JSON Output. Set to true if stdout is not a TTY.
-  -v, --version   version for onqlave
+ -h, --help      help for onqlave
+     --json      JSON Output. Set to true if stdout is not a TTY.
+ -v, --version   version for onqlave
 
 Use "onqlave [command] --help" for more information about a command.
 
@@ -70,8 +70,8 @@ If the initialization is success, the terminal will look like this
 
 ```
 If the configurations was inited successfully, there should be a output like following
-🎉 Done!  You successfully initialize your environment . Next step is to signup/login is you already haven't.                                                                                                             
-For more information, read our documentation at https://www.onqlave.com/docs 
+🎉 Done!  You successfully initialize your environment . Next step is to signup/login if you already haven't.                                                                                                            
+For more information, read our documentation at https://www.onqlave.com/docs
 ```
 
 ## **Explore the help for each command**
@@ -86,20 +86,20 @@ You may select **{your_preferred_command}** from this list
 
 ```
 Available Commands:
-  application application management
-  arx         arx management
-  auth        authentication
-  completion  Generate the autocompletion script for the specified shell
-  config      config environment variables
-  help        Help about any command
-  key         api key management
-  tenant      tenant management
-  user        user management
+ application application management
+ arx         arx management
+ auth        authentication
+ completion  Generate the auto completion script for the specified shell
+ config      config environment variables
+ help        Help about any command
+ key         api key management
+ tenant      tenant management
+ user        user management
 
 Flags:
-  -h, --help      help for onqlave
-      --json      JSON Output. Set to true if stdout is not a TTY.
-  -v, --version   version for onqlave
+ -h, --help      help for onqlave
+     --json      JSON Output. Set to true if stdout is not a TTY.
+ -v, --version   version for onqlave
 
 Use "onqlave [command] --help" for more information about a command.
 ```

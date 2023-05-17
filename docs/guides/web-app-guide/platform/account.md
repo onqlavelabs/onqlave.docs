@@ -1,13 +1,11 @@
 
 ## **Description**
 
-This section will help you manage your account information divided into three sub-sections:
+This section will help you manage your account information divided into three subsections:
 
 - Profile
 - Security
 - Organization
-
-
 
 ## **Account Profile**
 
@@ -18,7 +16,7 @@ Except the registered email address, every information in this section is updata
 
 ## **Account Security**
 
-At the current release, we provide basic security features for your account including password changing 
+At the current release, we provide basic security features for your account including password changing
 
 ![account-2](https://t36712295.p.clickup-attachments.com/t36712295/c038a80b-6ce5-41f3-b29d-9870b3d5a767/access%2Baccount-2.png)
 

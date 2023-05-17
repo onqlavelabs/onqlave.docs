@@ -1,7 +1,7 @@
 
 ## **Description**
 
-This section is dedicated to manage the participating users in your organization.
+This section is dedicated to managing the participating users in your organization.
 
 
 ## **Access Dashboard**
@@ -12,9 +12,11 @@ Another dashboard is provided for your convenience in exploring the basic inform
 
 ## **Add & invite a new user**
 
-You can add your preferred user into your managed tenant by interacting with the web applicaiton. When successfully adding users to your system, our system will automatically send invitation email with activation link to users. 
+You can add your preferred user into your managed tenant by interacting with the web application. When successfully adding users to your system, our system will automatically send an invitation email with an activation link to users.
 
-The most important part when you adding a new user to your managed platfor is assinging roles. Currently we support three roles:
+
+The most important part when you add a new user to your managed platform is assigning roles. Currently we support three roles:
+
 
 - Platform Owner
 - Platform Admin
