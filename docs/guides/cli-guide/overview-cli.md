@@ -82,7 +82,7 @@ In the CLI, you can try this formula to get help about all provided commands:
 # onqlave help {your_want_to_know_command}
 ```
 
-You may select **{your_preffered_command}** from this list
+You may select **{your_preferred_command}** from this list
 
 ```
 Available Commands:
@@ -106,4 +106,4 @@ Use "onqlave [command] --help" for more information about a command.
 
 ## **Looking for another way of interaction ?**
 
-If this is not your preffered way, considering [the Graphical Web Interface here](../web-app-guide/overview-gui.md)
+If this is not your preferred way, considering [the Graphical Web Interface here](../web-app-guide/overview-gui.md)
