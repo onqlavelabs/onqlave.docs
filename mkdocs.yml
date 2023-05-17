@@ -106,6 +106,9 @@ nav:
               - "Access": guides/cli-guide/platform/access.md
   - "SDKs": 
     - "Overview": guides/sdks/sdk-overview.md
-    - "Go": guides/sdks/sdk-go.md
-    - "Node": guides/sdks/sdk-node.md
-              
+    - "SDK-Go": guides/sdks/sdk-go.md
+    - "SDK-Node": guides/sdks/sdk-node.md
+    - "SDK-Python": guides/sdks/sdk-py.md 
+    - "SDK-Java": guides/sdks/sdk-java.md
+    - "SDK-php": guides/sdks/sdk-php.md   
+    - "SDK-C#": guides/sdks/sdk-c-sharp.md

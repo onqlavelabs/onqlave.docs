@@ -1,2 +1,2 @@
-{!external-sources/sdk-go.md!lines=1-6 24-136}
+{!external-sources/sdk-node.md!lines=1-6 24-136}
 

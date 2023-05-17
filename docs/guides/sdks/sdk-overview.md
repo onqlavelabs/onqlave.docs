@@ -1,15 +1,15 @@
 
 ## Currently supported languages
 
-At the moment, we have enabled SDKs for Go and NodeJS, please kindly check them out below.
+At the moment, we have enabled <mark>SDKs for Go and NodeJS</mark>, please kindly check them out below.
 
 ### Go 
-The SDK for Go is published in [this repository](https://github.com/onqlavelabs/onqlave-go)
+The <mark>[documentation for Go's SDK can be found here](../sdk-go)</mark> and the corresponding <mark>[source code repository is published here](https://github.com/onqlavelabs/onqlave-go)</mark>
 
 
 ### NodeJS 
-The SDK for NodeJS is published in [this repository](https://github.com/onqlavelabs/onqlave-node)
+The <mark>[documentation for NodeJS's SDK can be found here](../sdk-node)</mark> and the corresponding <mark>[source code repository is published here](https://github.com/onqlavelabs/onqlave-node)</mark>
 
 
 ### Incoming SDKs
-We are working for the upcoming SDKs for commonly used languages such as Python, C#, etc.. Stay up-to-date with us.
+We are working for the upcoming SDKs for commonly used languages such as Python, C#, etc.. They will be available soon!

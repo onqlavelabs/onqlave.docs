@@ -1,0 +1,1 @@
+The SDK for PHP will be available soon!
