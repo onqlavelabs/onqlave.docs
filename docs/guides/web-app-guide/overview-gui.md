@@ -11,4 +11,4 @@ With this graphical interface, you can perform a wide range of interactions with
 
 ## **Looking for another way of interaction ?**
 
-If this is not your preferred way, consider using [**the Command Line Interface** here](../cli-guide/overview-cli.md)
+If this is not your preferred way, considering [**the Command Line Interface** here](../cli-guide/overview-cli.md)
