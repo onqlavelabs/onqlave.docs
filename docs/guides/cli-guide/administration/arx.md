@@ -4,8 +4,8 @@ If you skipped the section about <mark>**Arx's interesting meaning**</mark>, you
 
 ## **Before you start**
 
-If you are familiar with allocating cloud computing resources for your company, you will be familiar with the concept of creating and assigning clusters to support your expected workload. With Onqlave, we follow a similar approach to allow you to optimise for speed and availability.
-Inside Onqlave Platform, we consider cluster as Arx.
+If you are familiar with allocating cloud computing resources for your company, you will be familiar with the concept of creating and assigning arx to support your expected workload. With Onqlave, we follow a similar approach to allow you to optimise for speed and availability.
+Inside Onqlave Platform, we consider arx as Arx.
 
 
 
@@ -25,7 +25,7 @@ When you are ready to interact, you can go through the below list of commands to
 
 To create an Arx, simply input the following command into the CLI. Please pay attention to the flags and their availabe assigned values.
 There are several configurable attributes of an Arx that are grouped into 4 sections: 
-- **Planning**: We support you in segregating the development, testing, staging and production by providing single purposed cluster for each of your desired environment including: development, testing, staging, production.
+- **Planning**: We support you in segregating the development, testing, staging and production by providing single purposed arx for each of your desired environment including: development, testing, staging, production.
 
 - **Cloud Provider**: The choice of cloud provider determines which service is used to store your information. This allows for you to choose a cloud provider that your organisation already uses. At present we only support Google, but more providers are coming soon.
 
@@ -148,7 +148,7 @@ There is another JSON output if you append the flag **--json** to the end of the
 ```
 List Arx =>
 {
-    "clusters": [
+    "arx": [
         {
             "acl": {
                 "can": {
@@ -159,13 +159,13 @@ List Arx =>
                     "unseal": false
                 },
                 "can_not": {
-                    "unseal_reason": "You don't have access to unseal the cluster as you are not the owner | only sealed clusters can be unsealed!"
+                    "unseal_reason": "You don't have access to unseal the arx as you are not the owner | only sealed arx can be unsealed!"
                 }
             },
             "availability_message": "",
             "description": "",
             "encryption_method": "aes-gcm-128",
-            "id": "cluster--id_string_here",
+            "id": "arx--id_string_here",
             "is_default": false,
             "name": "my_1st_arx",
             "owner": "your_email@here.com",
@@ -272,7 +272,7 @@ For more information, read our documentation at https://docs.onqlave.com/
 
 In contrary to seal, we just need to alter the command:
 ```
-# onqlave arx unseal cluster--xQ9TpIAzI-Mf_IKm9_nAv
+# onqlave arx unseal arx--xQ9TpIAzI-Mf_IKm9_nAv
 ```
 
 And see the result:
@@ -342,7 +342,7 @@ Arx Base Information =>
     ],
     "plans": [
         {
-            "description": "Highly available clusters that scale instantly",
+            "description": "Highly available arx that scale instantly",
             "enable": true,
             "icon": "ServerIcon",
             "id": "serverless",
@@ -351,7 +351,7 @@ Arx Base Information =>
             "order": 0
         },
         {
-            "description": "Didicated single tenant clusters. For more information, contact sales@onqlave.com",
+            "description": "Didicated single tenant arx. For more information, contact sales@onqlave.com",
             "enable": false,
             "icon": "BoxIcon",
             "id": "dedicated",

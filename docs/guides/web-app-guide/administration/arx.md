@@ -7,8 +7,7 @@ The term <mark>**Arx**</mark> is actually a Latin word means [**Citadel**](https
 
 ## **Before you start**
 
-If you are familiar with allocating cloud computing resources for your company, you will be familiar with the concept of creating and assigning clusters to support your expected workload. With Onqlave, we follow a similar approach to allow you to optimise for speed and availability.
-Inside Onqlave Platform, we consider cluster as Arx.
+If you are familiar with allocating cloud computing resources for your company, you will be familiar with the concept of creating and assigning arx to support your expected workload. With Onqlave, we follow a similar approach to allow you to optimise for speed and availability.
 
 ### **Review the provided permission/role**
 
@@ -31,7 +30,7 @@ We will go through all of these 4 configurable section during the creation proce
 
 ### **1. Choose your plan**
 
-We support you in [segregating the development, testing, staging and production](https://www.isms.online/iso-27002/control-8-31-separation-of-development-test-and-production-environments/#purpose) by providing single purposed cluster for each of your desired environment including: development, testing, staging, production.
+We support you in [segregating the development, testing, staging and production](https://www.isms.online/iso-27002/control-8-31-separation-of-development-test-and-production-environments/#purpose) by providing single purposed arx for each of your desired environment including: development, testing, staging, production.
 
 ![arx-plan](https://t36712295.p.clickup-attachments.com/t36712295/90cb27dd-6df2-427c-b33f-f5c9ca1c943a/arx-2.png){loading=lazy}
 

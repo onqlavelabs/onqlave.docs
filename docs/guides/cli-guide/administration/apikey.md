@@ -1,6 +1,6 @@
 ## **Before you start**
 
-The CLI commands to manage API Keys allow you to bring your clusters and applications together. The API Keys created here will draw on all of the unique inputs you have created for the cluster and application that you choose.
+The CLI commands to manage API Keys allow you to bring your arx and applications together. The API Keys created here will draw on all of the unique inputs you have created for the arx and application that you choose.
 
 When you create your key it is critical that you store it as it will only be displayed once. To preserve the integrity of the key, Onqlave does not keep a record of this. Do not close the final window  until you have made this record!
 
@@ -43,7 +43,7 @@ Output will be formatted in tabular format
 │ Key            Value                                  │
 │───────────────────────────────────────────────────────│
 │ ID             apikey--43hUyLzyeVOLQE3YGj7Zw          │
-│ ClusterID      cluster--IRTlZ7UswEEwUwzczWiO0         │
+│ ClusterID      arx--IRTlZ7UswEEwUwzczWiO0         │
 │ ApplicationID  app--gp-OxVE4vuxQ8jrPEh8cw        
 │ CreatedAt      2023-05-02 12:27:15.147192 +0000 UTC   │
 │ Status         active                                 │
@@ -150,7 +150,7 @@ API Key Base Information =>
             "name": "Thelma Schmidt"
         }
     ],
-    "clusters": [
+    "arx": [
         {
             "created_by": {
                 "avatar": "",
@@ -163,7 +163,7 @@ API Key Base Information =>
                 "id": "aes-gcm-256",
                 "name": "AES-GCM-256"
             },
-            "id": "cluster---CSjvl4DuOygw8sYXJntm",
+            "id": "arx---CSjvl4DuOygw8sYXJntm",
             "label": "",
             "name": "Marquise Douglas",
             "plan": {
@@ -200,7 +200,7 @@ API Key Base Information =>
                 "id": "aes-gcm-256",
                 "name": "AES-GCM-256"
             },
-            "id": "cluster--YcvryC1LtCGmTLXQUJJyP",
+            "id": "arx--YcvryC1LtCGmTLXQUJJyP",
             "label": "",
             "name": "Horace Gibson",
             "plan": {
@@ -237,7 +237,7 @@ API Key Base Information =>
                 "id": "aes-gcm-256",
                 "name": "AES-GCM-256"
             },
-            "id": "cluster--v8eE3s1EnT8bYpjU2C6Wj",
+            "id": "arx--v8eE3s1EnT8bYpjU2C6Wj",
             "label": "",
             "name": "Sister Jerde",
             "plan": {
