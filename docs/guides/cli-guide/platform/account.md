@@ -25,7 +25,7 @@ The result should be displayed in tabular format by default and look like this:
 │ OwnerEmail   your_email@host.com           │
 └────────────────────────────────────────────┘
 ```
-You can also append **--json** to the end of the command to get a JSON output like this
+<!-- You can also append **--json** to the end of the command to get a JSON output like this
 
 ```
 Tenant 'tenant--cr7ZHkeyjdWycfsPF' Information =>
@@ -50,8 +50,8 @@ Tenant 'tenant--cr7ZHkeyjdWycfsPF' Information =>
        "message": "",
        "status": ""
    }
-}
-```
+} 
+```-->
 
 ## **Updating tenant information**
 There are two fields that you can update: **label** and **name**

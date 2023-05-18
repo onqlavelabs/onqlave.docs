@@ -9,9 +9,9 @@ At the moment, from the CLI, we only support retrieving information about partic
 
 The output should look like this:
 
-![](https://t36712295.p.clickup-attachments.com/t36712295/ed4e0cf8-b8fb-439b-b3f7-00341846f56a/image.png)
+![user-list](https://t36712295.p.clickup-attachments.com/t36712295/685e6c2b-83e6-4c35-8df9-ecc97b7f5417/access%2Baccount-2.png)
 
-If you want JSON output, simply append **--json** flag to the end of the above command
+<!-- If you want JSON output, simply append **--json** flag to the end of the above command
 ```
 List Users =>
 {
@@ -34,6 +34,6 @@ List Users =>
     ]
 }                    
 =====
-```
+``` -->
 
 To add or invite new users, you need to do it [in the GUI as explained here](../../../web-app-guide/platform/access). 
