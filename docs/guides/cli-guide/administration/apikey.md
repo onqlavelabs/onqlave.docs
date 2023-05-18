@@ -38,20 +38,9 @@ For more information, read our documentation at https://docs.onqlave.com
 ```
 Output will be formatted in tabular format
 
-```
-┌───────────────────────────────────────────────────────┐
-│ Key            Value                                  │
-│───────────────────────────────────────────────────────│
-│ ID             apikey--43hUyLzyeVOLQE3YGj7Zw          │
-│ ClusterID      arx--IRTlZ7UswEEwUwzczWiO0             │
-│ ApplicationID  app--gp-OxVE4vuxQ8jrPEh8cw       
-│ CreatedAt      2023-05-02 12:27:15.147192 +0000 UTC   │
-│ Status         active                                 │
-│ AccessKey      Rhnlij2fJWFXvTp1DxpVdKcwpy6c2IO1       │
-│ ArxUrl         https://gcp.community.serverless.au.  ────────────────────────────────────────────────────────┘
-```
+![apikey-describe](https://t36712295.p.clickup-attachments.com/t36712295/a30ee2ac-3d8f-4077-be7d-13fc95e8d209/image.png)
 
-## **List all API key**
+## **List all API keys**
 
 **Who can perform this operation?**
 
@@ -62,19 +51,10 @@ Output will be formatted in tabular format
 # onqlave key list
 ```
 
-By default, the result will be formatted in a table. If you want JSON format, simply appending the **--json** at the end of the above command
+By default, the result will be formatted in a table.
+ <!-- If you want JSON format, simply appending the **--json** at the end of the above command -->
 
-```
-┌───────────────────────────────────────────────────────┐
-│ ID  AccessKey  CreatedAt   Status  ArxUrl             │
-│───────────────────────────────────────────────────────│
-│                                                       │
-│                                                       |                │                                                       |
-│                                                       |
-────────────────────────────────────────────────────────┘               
-
-
-```
+![apikey-list](https://t36712295.p.clickup-attachments.com/t36712295/7c28851f-1fa3-4f26-a8bd-910ba668916d/image.png)
 
 ## **Delete an API key**
 
@@ -128,11 +108,12 @@ Before interacting with the API key, you may need to retrieve all the base infor
 # onqlave key base     
 ```
 
-Output should be similar to this, you can alternate the format into JSON by appending **--json** into the end of the command:
+Output should be similar to this:
+ <!-- you can alternate the format into JSON by appending **--json** into the end of the command: -->
 
 ![api-key-base](https://t36712295.p.clickup-attachments.com/t36712295/ce103cc9-2d3a-4bce-9d30-2d6bc0795fdf/image.png)
 
-```
+<!-- ```
 API Key Base Information =>
 {
    "applications": [
@@ -266,4 +247,4 @@ API Key Base Information =>
        }
    ]
 }  
-```
+``` -->
