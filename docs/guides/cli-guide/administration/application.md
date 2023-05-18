@@ -34,7 +34,8 @@ For more information, read our documentation at https://docs.onqlave.com
 # onqlave application describe your_app_id
 ```
 
-The output is formatted as a table or JSON depends on your choice of appending **--json** flag
+The output is formatted as a table:
+ <!-- or JSON depends on your choice of appending **--json** flag -->
 ```
 ┌──────────────────────────────────────┐
 │ Key          Value                   │
@@ -48,7 +49,7 @@ The output is formatted as a table or JSON depends on your choice of appending *
 │ Status       active                  │
 └──────────────────────────────────────┘
 ```
-
+<!-- 
 ```
 {
    "Application": {
@@ -73,7 +74,7 @@ The output is formatted as a table or JSON depends on your choice of appending *
    }
 }
 
-```
+``` -->
 
 ## **List all applications**
 
@@ -84,15 +85,10 @@ The output is formatted as a table or JSON depends on your choice of appending *
 ```
 # onqlave application list
 ```
-The output will be displayed as a table by default. And you can show the JSON output by appending the **--json** to the end of the above command.
+The output will be displayed as a table by default. 
+<!-- And you can show the JSON output by appending the **--json** to the end of the above command. -->
 
-```
-┌──────────────────────────────────────────────────────────┐
-│ ID  Name  Description  Technology  Owner  APIKeys  Status│
-│──────────────────────────────────────────────────────────│
-│                                                          │
-└──────────────────────────────────────────────────────────┘
-```
+![application-list](https://t36712295.p.clickup-attachments.com/t36712295/32dbd08e-a5ec-4758-8770-2a40c1359ab6/image.png)
 
 
 ## **Update an application**
@@ -179,7 +175,7 @@ Result will be organized either in tabular format by default or can be converted
 
 ![application-base](https://t36712295.p.clickup-attachments.com/t36712295/6fb8663c-bccb-4362-a6a5-043668b2233b/image.png)
 
-JSON output:
+<!-- JSON output:
 ```
 Application Base Information =>
 {
@@ -206,92 +202,7 @@ Application Base Information =>
        }
    ]
 }
-```
-
-## **Get base configuration information for Application**
-
-These information may be useful when you need to input the required flags during the creation of an application. To get these information, use the following command:
-
-```
-# onqlave application base
-```
-
-Result will be organized either in tabular format by default or can be converted to JSON by appending **--json** flag at the end of the command
-
-![application-base](https://t36712295.p.clickup-attachments.com/t36712295/6fb8663c-bccb-4362-a6a5-043668b2233b/image.png)
-
-JSON output:
-```
-Application Base Information =>
-{
-   "technologies": [
-       {
-           "cors": false,
-           "description": "Application which contains backend",
-           "enable": false,
-           "icon": "ServerIcon",
-           "id": "server",
-           "is_default": false,
-           "name": "Server",
-           "order": 0
-       },
-       {
-           "cors": true,
-           "description": "Application which contains frontend",
-           "enable": false,
-           "icon": "ChromeIcon",
-           "id": "client",
-           "is_default": false,
-           "name": "Client",
-           "order": 1
-       }
-   ]
-}
-```
-
-## **Get base configuration information for Application**
-
-
-This information may be useful when you need to input the required flags during the creation of an application. To get these information, use the following command:
-
-
-```
-# onqlave application base
-```
-
-Result will be organized either in tabular format by default or can be converted to JSON by appending **--json** flag at the end of the command
-
-![application-base](https://t36712295.p.clickup-attachments.com/t36712295/6fb8663c-bccb-4362-a6a5-043668b2233b/image.png)
-
-JSON output:
-```
-Application Base Information =>
-{
-   "technologies": [
-       {
-           "cors": false,
-           "description": "Application which contains backend",
-           "enable": false,
-           "icon": "ServerIcon",
-           "id": "server",
-           "is_default": false,
-           "name": "Server",
-           "order": 0
-       },
-       {
-           "cors": true,
-           "description": "Application which contains frontend",
-           "enable": false,
-           "icon": "ChromeIcon",
-           "id": "client",
-           "is_default": false,
-           "name": "Client",
-           "order": 1
-       }
-   ]
-}
-```
-
+``` -->
 
 ## **Explore available commands**
 
