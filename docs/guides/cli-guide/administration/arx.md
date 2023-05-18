@@ -5,7 +5,6 @@ If you skipped the section about <mark>**Arx's interesting meaning**</mark>, you
 ## **Before you start**
 
 If you are familiar with allocating cloud computing resources for your company, you will be familiar with the concept of creating and assigning arx to support your expected workload. With Onqlave, we follow a similar approach to allow you to optimise for speed and availability.
-Inside Onqlave Platform, we consider arx as Arx.
 
 
 
@@ -141,10 +140,10 @@ To see a list of your Arx from CLI, simply use this command:
 # onqlave arx list
 ```
 The output will be formatted in tabular format
-![](https://t36712295.p.clickup-attachments.com/t36712295/ec74044b-58e8-43f4-830c-b767c6b4fa7b/image.png)
+![](https://t36712295.p.clickup-attachments.com/t36712295/909f1eed-e921-4371-860b-a85e0d1293b1/image.png)
 
 
-There is another JSON output if you append the flag **--json** to the end of the above comand
+<!-- There is another JSON output if you append the flag **--json** to the end of the above comand
 ```
 List Arx =>
 {
@@ -181,7 +180,7 @@ List Arx =>
         }
     ]
 }
-```
+``` -->
 
 ## **Update an arx**
 
@@ -219,22 +218,12 @@ Global Flags:
       --json   Output logs as JSON.  Set to true if stdout is not a TTY
 ```
 
-Second, when you finish choosing the field to be updated, use this command:
+Second, when you finish choosing the field to be updated, use this command and append your list of flags and values:
 
 ```
-# onqlave arx update arx_id
-Flags:
-  -i, --arx_is_default              Enter Arx Is Default
-  -n, --arx_name string             Enter Arx Name (default "test")
-  -o, --arx_owner string            Enter Arx Owner (default "Default")
-  -r, --arx_region string           Enter Arx Region - (AUS-EAST, AUS-WEST)
-  -c, --arx_rotation_cycle string   Enter Arx Rotation Cycle (default "Default")
-  -l, --arx_spend_limit uint        Enter Arx Spend Limit
-  -h, --help                        help for update
-
-Global Flags:
-      --json   Output logs as JSON.  Set to true if stdout is not a TTY.
+# onqlave arx update arx_id <your_list_of_flags_and_values>
 ```
+
 
 Output should look like this:
 ```
@@ -303,11 +292,13 @@ These information may be useful when you need to input the required flags during
 ```
 # onqlave arx base
 ```
-Result would be organized in a tabular format. If you want plain JSON, just append **--json** to the end of the command.
+Result would be organized in a tabular format. 
+
+<!-- If you want plain JSON, just append **--json** to the end of the command. -->
 
 ![arx-base-command](https://t36712295.p.clickup-attachments.com/t36712295/70e44a5e-ae74-4820-9bf9-0ae125697a82/image.png)
 
-JSON Output:
+<!-- JSON Output:
 ```
 Arx Base Information =>
 {
@@ -600,7 +591,7 @@ Arx Base Information =>
         }
     ]
 }
-```
+``` -->
 
 ## **Explore the supported interaction commands with Arx**
 
