@@ -51,7 +51,8 @@ Tenant 'tenant--cr7ZHkeyjdWycfsPF' Information =>
        "status": ""
    }
 } 
-```-->
+```
+-->
 
 ## **Updating tenant information**
 There are two fields that you can update: **label** and **name**
