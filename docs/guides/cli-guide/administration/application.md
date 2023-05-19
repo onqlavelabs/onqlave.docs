@@ -202,7 +202,8 @@ Application Base Information =>
        }
    ]
 }
-``` -->
+``` 
+-->
 
 ## **Explore available commands**
 

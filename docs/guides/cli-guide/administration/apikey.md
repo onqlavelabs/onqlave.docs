@@ -67,6 +67,21 @@ By default, the result will be formatted in a table.
 # onqlave key delete your_app_key_id
 ```
 
+## **Get base configuration information for API Keys**
+
+Before interacting with the API key, you may need to retrieve all the base information about arx and application. The most frequently used information when interacting with API key via CLI are IDs of arx, application and owner
+
+
+```
+# onqlave key base     
+```
+
+Output should be similar to this:
+ <!-- you can alternate the format into JSON by appending **--json** into the end of the command: -->
+
+![api-key-base](https://t36712295.p.clickup-attachments.com/t36712295/ce103cc9-2d3a-4bce-9d30-2d6bc0795fdf/image.png)
+
+
 ## **Explore available commands**
 
 ```
@@ -99,19 +114,6 @@ Use "onqlave key [command] --help" for more information about a command.
 ```
 
 
-## **Get base configuration information for API Keys**
-
-Before interacting with the API key, you may need to retrieve all the base information about arx and application. The most frequently used information when interacting with API key via CLI are IDs of arx, application and owner
-
-
-```
-# onqlave key base     
-```
-
-Output should be similar to this:
- <!-- you can alternate the format into JSON by appending **--json** into the end of the command: -->
-
-![api-key-base](https://t36712295.p.clickup-attachments.com/t36712295/ce103cc9-2d3a-4bce-9d30-2d6bc0795fdf/image.png)
 
 <!-- ```
 API Key Base Information =>
@@ -247,4 +249,5 @@ API Key Base Information =>
        }
    ]
 }  
-``` -->
+``` 
+-->
