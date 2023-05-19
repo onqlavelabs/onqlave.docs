@@ -180,7 +180,8 @@ List Arx =>
         }
     ]
 }
-``` -->
+``` 
+-->
 
 ## **Update an arx**
 
@@ -591,7 +592,8 @@ Arx Base Information =>
         }
     ]
 }
-``` -->
+```
+-->
 
 ## **Explore the supported interaction commands with Arx**
 
