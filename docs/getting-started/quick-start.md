@@ -19,4 +19,4 @@ This graphical interface is accessible via a web browser. You can proceed to <ma
 
 ### **2. [Command Line Interface ](../../guides/cli-guide/overview-cli)**
 
-The CLI is a widely preferred option for developers and technology enthusiasts. Although we have already included a descriptive manual help command in the CLI itself, we also provide <mark>[comprehensive documentation for the CLI here.](guides/cli-guide/overview-cli)</mark>
+The CLI is a widely preferred option for developers and technology enthusiasts. Although we have already included a descriptive manual help command in the CLI itself, we also provide <mark>[comprehensive documentation for the CLI here.](../../guides/cli-guide/overview-cli)</mark>
