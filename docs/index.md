@@ -6,7 +6,7 @@ To preserve the privacy of your data, it first needs to be protected. The Onqlav
 
 ## **What will you get?**
 
-Users of the platform can achieve a distributed trust architecture. Your data is encrypted before it leaves your platform, and Onqlave only holds the encryption keys, therefore neither your cloud provider nor Onqlave see any sensitive data you choose to encrypt, only ciphertext. 
+Users of the platform will be able to achieve a distributed trust architecture for the protection of your customer data. By implementing the steps outlined in this documentation, you will be able protect your data before it leaves your application, meaning neither your cloud users (or Onqlave!) will be able to see it in plain text.  
 
 ## **How can we achieve it?**
 The design ensures **data is never exposed to those without access**, while reducing the reliance on your cloud provider, as this alone is not enough to prevent attackers and inside threats.

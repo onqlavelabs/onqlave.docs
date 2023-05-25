@@ -8,13 +8,13 @@ In addition, you can try to <mark>[get comfortable with docker](https://docs.doc
 
 ## **Get the container**
 
-Use this command to get our docker image:
+Use this command to get our latest docker image:
 
 ```
-docker pull ghcr.io/onqlavelabs/onqlavelabs/onqlave.all:{cli_version_number}
+docker pull ghcr.io/onqlavelabs/onqlavelabs/onqlave.all:latest
 ```
-
-Replace **{$cli-version}** with your preferred version. We always recommend the latest version. You can check out <mark>[the list of our releases here](https://github.com/onqlavelabs/onqlave.all/pkgs/container/onqlavelabs%2Fonqlave.all)</mark> for an exact version number.
+<!-- 
+Replace **{$cli-version}** with your preferred version. We always recommend the latest version. You can check out <mark>[the list of our releases here](https://github.com/onqlavelabs/onqlave.all/pkgs/container/onqlavelabs%2Fonqlave.all)</mark> for an exact version number. -->
 
 ## **Launch the container**
 
