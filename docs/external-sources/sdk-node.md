@@ -40,7 +40,7 @@ npm install onqlave-node
 ```
 ### Usage
 
-To use this SDK, you firstly need to obtain credential to access an Onqlave Arx by signing up to [Onqlave](https://onqlave.com) and following instruction to create your 1st Onqlave Arx.
+To use this SDK, you firstly need to obtain credentials to access an Onqlave Arx by signing up to [Onqlave](https://onqlave.com) and then follow the instructions to create your first Onqlave Arx.
 
 The [Onqlave Node](https://github.com/onqlavelabs/onqlave-node) module is used to perform operations on the configured ARX such as encrypting, and decrypting for an Onqlave_ARX. [example](https://github.com/onqlavelabs/onqlave-node/blob/main/examples/index.js):
 
@@ -66,7 +66,7 @@ const retryOption = withRetry(new RetrySettings(2, 400, 2000));
 const service = new Encryption(arxOption, credentialOption, retryOption);
 ```
 
-All Onqlave APIs must be invoked using a `Encryption` instance.
+All Onqlave APIs must be invoked using an `Encryption` instance.
 
 ### Encrypt
 

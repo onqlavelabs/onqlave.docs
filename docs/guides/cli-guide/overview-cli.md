@@ -1,10 +1,10 @@
-At the moment there is only one way to use the CLI via the provided docker container.
+Currently, there is only one way to use the CLI. This is via the provided docker container.
 
 ## **Before you start**
 
-Make sure that you have <mark>[an executable docker](https://www.docker.com/)</mark> on your machine.
+Make sure that you have an <mark>[executable docker](https://www.docker.com/)</mark> on your machine.
 
-In addition, you can try to <mark>[get comfortable with docker](https://docs.docker.com/)</mark> before starting.
+In addition, you can try to get comfortable with docker before proceeding by reviewing <mark>[the docker documentation](https://docs.docker.com/)</mark>.
 
 ## **Get the container**
 
@@ -13,7 +13,7 @@ Use this command to get our latest docker image:
 ```
 docker pull ghcr.io/onqlavelabs/onqlavelabs/onqlave.all:latest
 ```
-<!-- 
+<!--
 Replace **{$cli-version}** with your preferred version. We always recommend the latest version. You can check out <mark>[the list of our releases here](https://github.com/onqlavelabs/onqlave.all/pkgs/container/onqlavelabs%2Fonqlave.all)</mark> for an exact version number. -->
 
 ## **Launch the container**
@@ -66,17 +66,16 @@ Use "onqlave [command] --help" for more information about a command.
 # onqlave config init
 ```
 
-If the initialization is success, the terminal will look like this
-If the configurations was inited successfully, there should be a output like following
+If the configuration initialization is a success, you will see the following in the terminal
 
 ```
-🎉 Done!  You successfully initialize your environment . Next step is to signup/login if you already haven't.                                                                                                            
+🎉 Done!  You successfully initialize your environment . Next step is to signup/login if you already haven't.
 For more information, read our documentation at https://docs.onqlave.com
 ```
 
 ## **Explore the help for each command**
 
-In the CLI, you can try this formula to get help about all provided commands:
+In the CLI, you can try this formula to get specific help about each of the available commands:
 
 ```
 # onqlave help {your_want_to_know_command}
@@ -104,6 +103,6 @@ Flags:
 Use "onqlave [command] --help" for more information about a command.
 ```
 
-## **Looking for another way of interaction ?**
+## **Looking for another form of interaction?**
 
-If this is not your preferred way, considering <mark>[the Graphical Web Interface here](../web-app-guide/overview-gui.md)</mark>
+If this is not your preferred way to interact with Onqlave, consider using the <mark>[the Graphical Web Interface](../web-app-guide/overview-gui.md)</mark>

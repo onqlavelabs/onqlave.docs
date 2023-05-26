@@ -1,8 +1,8 @@
 ## **Before you start**
 
-The CLI commands to manage API Keys allow you to bring your arx and applications together. The API Keys created here will draw on all of the unique inputs you have created for the arx and application that you choose.
+The CLI commands to manage API Keys allow you to bring your Arx and applications together. The API Keys created here will draw on all of the unique inputs you have created for the Arx and application that you chose.
 
-When you create your key it is critical that you store it as it will only be displayed once. To preserve the integrity of the key, Onqlave does not keep a record of this. Do not close the final window  until you have made this record!
+When you create your key it is critical that you store it as **it will only be displayed once**. To preserve the integrity of the key, Onqlave does not keep a record of this. Do not close the final window  until you have made this record!
 
 You may need to look at the supported [available commands for api keys](#explore-availabe-commands) and [base configuration information for API Keys](#get-base-configuration-information-for-api-keys) before working with API Keys via CLI.
 
@@ -69,14 +69,14 @@ By default, the result will be formatted in a table.
 
 ## **Get base configuration information for API Keys**
 
-Before interacting with the API key, you may need to retrieve all the base information about arx and application. The most frequently used information when interacting with API key via CLI are IDs of arx, application and owner
+Before interacting with the API key, you may need to retrieve all the base information about your Arx and application. The most frequently used information when interacting with API key via CLI are IDs of Arx, application and owner
 
 
 ```
-# onqlave key base     
+# onqlave key base
 ```
 
-Output should be similar to this:
+The output should be similar to to the following:
  <!-- you can alternate the format into JSON by appending **--json** into the end of the command: -->
 
 ![api-key-base](https://t36712295.p.clickup-attachments.com/t36712295/ce103cc9-2d3a-4bce-9d30-2d6bc0795fdf/image.png)
@@ -248,6 +248,6 @@ API Key Base Information =>
            }
        }
    ]
-}  
-``` 
+}
+```
 -->
