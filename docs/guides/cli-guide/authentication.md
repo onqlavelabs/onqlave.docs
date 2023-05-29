@@ -16,7 +16,8 @@ After entering the above command, the output should appear as follows:
 Login instruction is sent to email address 'your_email_count@domain.com'.
 Please be mindful that the link provided in email is only valid for 30 minutes.
 ```
-### **2. Wait for an email from Onqlave **
+
+### **2. Wait for an email from Onqlave**
 
 You should shortly receive an email at the address you provided (in the previous step).
 
