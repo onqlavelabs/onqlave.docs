@@ -1,13 +1,13 @@
 
 ## **Before you start**
 
-You can refer to [this section on the GUI](../../../web-app-guide/platform/account) for better understanding.
+You can refer to [this section on the GUI](../../../web-app-guide/platform/account) for more details.
 
 Or you can refer to [this section for getting help about available commands](../../overview-cli/#looking-for-another-way-of-interaction).
 
 ## **Retrieving tenant information**
 
-You can use this command to retrieve the organization/tenant information:
+You can use this command to retrieve the organisation/tenant information:
 
 ```
 # onqlave tenant describe
@@ -50,7 +50,7 @@ Tenant 'tenant--cr7ZHkeyjdWycfsPF' Information =>
        "message": "",
        "status": ""
    }
-} 
+}
 ```
 -->
 
@@ -61,7 +61,7 @@ There are two fields that you can update: **label** and **name**
 # onqlave tenants update -l dcm -n dc-tenant-1-updated
 ```
 
-The successful output is simply like this:
+The successful output appears as follows:
 
 ```
 🎉 Done!  Tenant updated successfully

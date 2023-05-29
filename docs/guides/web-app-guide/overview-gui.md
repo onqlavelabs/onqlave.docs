@@ -1,7 +1,7 @@
-## **What does the GUI of Onqlave Platform do?**
+## **What does the GUI of the Onqlave platform do?**
 
-The GUI of Onqlave Platform is provided via web interface.
-With this graphical interface, you can perform a wide range of interactions with the essential components of Onqlave platform:
+The GUI of the Onqlave platform is provided via a web interface through your browser.
+With this graphical interface, you can perform a wide range of interactions covering all the essential components of the Onqlave platform:
 
 - [Arx](../administration/arx)
 - [Applications](../administration/application)
@@ -9,6 +9,6 @@ With this graphical interface, you can perform a wide range of interactions with
 - [Accounts](../platform/account)
 - [Access](../platform/access)
 
-## **Looking for another way of interaction ?**
+## **Looking for another way of interaction?**
 
-If this is not your preferred way, considering [**the Command Line Interface** here](../cli-guide/overview-cli.md)
+If this is not your preferred way, consider using the [**Command Line Interface**](../cli-guide/overview-cli.md)

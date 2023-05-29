@@ -1,11 +1,11 @@
 # **Before you start**
 
-The related CLI commands of Application will allow you to create and allocate the unique identifiers for your front and backend applications to be used when creating API Keys. This separated Application workflow ensures you have easy access to enabling, disabling and archiving applications as needed.
+The CLI commands for your Application will allow you to create and allocate the unique identifiers for your front and backend applications to be used when creating API Keys. This separated Application workflow ensures you have easy access to enabling, disabling and archiving applications as needed.
 
 
 When the application reference is created, an API token and encryption key is established. Note that Onqlave does not allow you to permanently delete any applications, however they can be archived, which will then disable the respective API token and encryption key.
 
-You may need to look at the supported [available commands for application](#explore-availabe-commands)
+You may need to look at the supported [available commands for an application](#explore-availabe-commands).
 
 ## **Create an application**
 
@@ -20,7 +20,7 @@ You may need to look at the supported [available commands for application](#expl
 Then the returned output should include your created application ID
 ```
 🎉 Done! Application created successfully.
-Application ID: you-app-id-here
+Application ID: your-app-id-here
 For more information, read our documentation at https://docs.onqlave.com
 ```
 
@@ -49,7 +49,7 @@ The output is formatted as a table:
 │ Status       active                  │
 └──────────────────────────────────────┘
 ```
-<!-- 
+<!--
 ```
 {
    "Application": {
@@ -85,7 +85,7 @@ The output is formatted as a table:
 ```
 # onqlave application list
 ```
-The output will be displayed as a table by default. 
+The output will be displayed as a table by default.
 <!-- And you can show the JSON output by appending the **--json** to the end of the above command. -->
 
 ![application-list](https://t36712295.p.clickup-attachments.com/t36712295/32dbd08e-a5ec-4758-8770-2a40c1359ab6/image.png)
@@ -97,13 +97,13 @@ The output will be displayed as a table by default.
 
 - [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
 
-Currently, Onqlave platform supports update an application via its ID
+Currently, the Onqlave platform supports updating an application via its ID
 
 ```
 # onqlave application update your_application_id your_list_of_flags_and_values
 ```
 
-To see the available flags, you can try this command:
+To see the available flags, you can use this command:
 ```
 # onqlave application update
 ```
@@ -202,7 +202,7 @@ Application Base Information =>
        }
    ]
 }
-``` 
+```
 -->
 
 ## **Explore available commands**

@@ -50,11 +50,11 @@ Alternatively, `go get github.com/onqlavelabs/onqlave-go` can also be used to do
 
 ### Usage
 
-To use this SDK, you firstly need to obtain credential to access an Onqlave Arx by signing up to [Onqlave](https://onqlave.com) and following instruction to create your 1st Onqlave Arx. Documentation can be found at [Onqlave Technical Documentation](https://docs.onqlave.com).
+To use this SDK, you firstly need to obtain credentials to access an Onqlave Arx by signing up to [Onqlave](https://onqlave.com) and then follow the instructions to create your first Onqlave Arx. Documentation can be found at [Onqlave Technical Documentation](https://docs.onqlave.com).
 
-The [Onqlave Go](https://github.com/onqlavelabs/onqlave-go) module is used to perform operations on the configured ARX such as encrypting, and decrypting for an Onqlave_ARX. [example](https://github.com/onqlavelabs/onqlave-go/blob/main/examples/main.go):
+The [Onqlave Go](https://github.com/onqlavelabs/onqlave-go) module is used to perform operations on the configured Arx such as encrypting, and decrypting for an Onqlave_ARX. [Example](https://github.com/onqlavelabs/onqlave-go/blob/main/examples/main.go):
 
-To use this module, the Onqlave client must first be initialized as follows.
+To use this module, the Onqlave client must first be initialized as follows:
 
 ```go
 import (
@@ -80,7 +80,7 @@ service := encryption.NewEncryption(debugOption, arxOption, credentialOption, re
 defer service.Close()
 ```
 
-All Onqlave APIs must be invoked using a `Encryption` instance.
+All Onqlave APIs must be invoked using an `Encryption` instance.
 
 ### Encrypt
 
@@ -105,7 +105,7 @@ To encrypt data, use the **Decrypt(cipherData, associatedData []byte)** method o
 
 ```go
 
-//Initilise the new encryption service using configurations as per [Usage]
+//Initialise the new encryption service using configurations as per [Usage]
 service := encryption.NewEncryption(debugOption, arxOption, credentialOption, retryOption)
 defer service.Close()
 

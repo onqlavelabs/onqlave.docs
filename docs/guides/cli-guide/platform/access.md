@@ -1,7 +1,7 @@
 
 ## **Retrieving information**
 
-At the moment, from the CLI, we only support retrieving information about participating users. To get all the information of your participating users, you can use this command:
+Currently, from the CLI, we only support retrieving information about participating users. To get all the information of your participating users, you can use this command:
 
 ```
 # onqlave user list
@@ -32,8 +32,8 @@ List Users =>
             "updatedAt": "2023-04-06T07:17:55.579855Z"
         }
     ]
-}                    
+}
 =====
 ``` -->
 
-To add or invite new users, you need to do it [in the GUI as explained here](../../../web-app-guide/platform/access). 
+To add or invite new users, you need to do so [in the GUI, as explained here](../../../web-app-guide/platform/access).

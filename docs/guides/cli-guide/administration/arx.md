@@ -1,18 +1,18 @@
 ## **Inspiration**
 
-If you skipped the section about <mark>**Arx's interesting meaning**</mark>, you can [catch it up here](../../../web-app-guide/administration/arx).
+If you skipped the section about the <mark>**interesting meaning of Arx**</mark>, you can [catch up here](../../../web-app-guide/administration/arx).
 
 ## **Before you start**
 
-If you are familiar with allocating cloud computing resources for your company, you will be familiar with the concept of creating and assigning arx to support your expected workload. With Onqlave, we follow a similar approach to allow you to optimise for speed and availability.
+If you are familiar with allocating cloud computing resources for your company, you will be familiar with the concept of creating and assigning Arx to support your expected workload. With Onqlave, we follow a similar approach to allow you to optimise for speed and availability.
 
 
 
 ### **Review the provided permission/role**
 
-At our current release, there are <mark>[3 defined roles](../../../web-app-guide/platform/access)</mark> including Platform Owner, Platform Admin, Developer, each role has its own set of permission and <mark>[supported operations define here](../../../web-app-guide/platform/access)</mark>. You may need to skim through it first.
+Our current release includes 3 defined roles: Platform Owner, Platform Admin and Developer. Each role has its own set of permissions and supported operations. You may need to first skim through the <mark>[documentation on roles and supported operations](../../platform/access)</mark> before proceeding.
 
-Next, you can explore a [list of available commands](#explore-the-supported-interaction-commands-with-arx) or explore the [base value of supported configuration of Arx](#get-base-configuration-information-for-arx).
+Next, you can explore a list of [available commands](#explore-the-supported-interaction-commands-with-arx) or explore the [base value of supported configuration of Arx](#get-base-configuration-information-for-arx).
 
 When you are ready to interact, you can go through the below list of commands to perform various operations.
 
@@ -22,15 +22,15 @@ When you are ready to interact, you can go through the below list of commands to
 
 - [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
 
-To create an Arx, simply input the following command into the CLI. Please pay attention to the flags and their availabe assigned values.
-There are several configurable attributes of an Arx that are grouped into 4 sections: 
-- **Planning**: We support you in segregating the development, testing, staging and production by providing single purposed arx for each of your desired environment including: development, testing, staging, production.
+To create an Arx, simply input the following command into the CLI. Please pay attention to the flags and their available assigned values.
+There are several configurable attributes of an Arx that are grouped into 4 sections:
+- **Planning**: We support you in segregating the development, testing, staging and production by providing single purposed Arx for each of your desired environments, including: development, testing, staging, and production.
 
-- **Cloud Provider**: The choice of cloud provider determines which service is used to store your information. This allows for you to choose a cloud provider that your organisation already uses. At present we only support Google, but more providers are coming soon.
+- **Cloud Provider**: The choice of cloud provider determines which service is used to store your information. This allows for you to choose a cloud provider that your organisation already uses. Currently, we only support Google, but more providers are coming soon.
 
-- **Region**: The choice of region allows you to determine which geography you would like the data to reside. This may an important factor for data localisation / data residency requirements for sensitive data, whilst there can also be additional [speed and efficiency] benefits from having the data reside in the same geography as the rest of your information.
+- **Region**: The choice of region allows you to determine within which geography you would like the data to reside. This may an important factor for data localisation / data residency requirements for sensitive data, whilst there can also be additional [speed and efficiency] benefits from having the data reside in the same geography as the rest of your information.
 
-- **Encryption mechanism**: We only offer encryption services based on the highest performance encryption algorithms. You have the choice of AES-128, AES-256 or [CHACHA20-POLY1305](https://www.rfc-editor.org/rfc/rfc7539), with the latter offering stronger encryption but at a lower processing speed. The key rotation frequency determines how regularly the encryption keys are changed, to ensure that your information remains safe.
+- **Encryption mechanism**: We only offer encryption services based on the highest performance encryption algorithms. You have the choice of AES-128, AES-256 or [CHACHA20-POLY1305](https://www.rfc-editor.org/rfc/rfc7539), with the latter offering stronger encryption but at a lower processing speed. The key rotation frequency determines how regularly the encryption keys are changed. More regular rotations increase the level of security to ensure that your information remains safe.
 
 You can append the *-h* or *--help* flag to the end of the add command to see the available flags:
 
@@ -69,15 +69,17 @@ Next, you can explore the [base value of supported configuration of Arx](#get-ba
 After that, when you are ready, just enter the **add** command:
 
 ```
-# onqlave arx add my_1st_arx -d "this is my first arx" -e aes-gcm-128 -i true -o your_login_email@domain.com -p gcp -u development -r au -c monthly -t serverless  
+# onqlave arx add my_1st_arx -d "this is my first arx" -e aes-gcm-128 -i true -o your_login_email@domain.com -p gcp -u development -r au -c monthly -t serverless
 ```
 
 ... and wait for the output logs.
 
-```                                             
+```
 Arx creation sometime takes up to 10 minutes.
+```
 If the creation is successful, the output will look similar to:
-🎉 Done!  Arx created successfully.                                     
+```
+🎉 Done!  Arx created successfully.
 For more information, read our documentation at https://docs.onqlave.com/
 ```
 
@@ -91,10 +93,10 @@ Input command:
 ```
 # onqlave arx default your_arx_id
 ```
-Excpected output:
+Expected output:
 ```
 Setting default arx sometime takes up to 10 minutes.
-🎉 Done!  Arx set default successfully.                                         
+🎉 Done!  Arx set default successfully.
 For more information, read our documentation at https://docs.onqlave.com/
 ```
 
@@ -104,7 +106,7 @@ For more information, read our documentation at https://docs.onqlave.com/
 
 - [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
 
-You can retrieve all information of your Arx by this command:
+You can retrieve all information of your Arx by using this command:
 ```
 # onqlave arx describe your_arx_id
 ```
@@ -180,7 +182,7 @@ List Arx =>
         }
     ]
 }
-``` 
+```
 -->
 
 ## **Update an arx**
@@ -189,7 +191,7 @@ List Arx =>
 
 - [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
 
-First, to get a help of which field can be updated in an Arx, use this command:
+Firstly, to get help on which fields can be updated in an Arx, use this command:
 
 ```
 # onqlave arx update -h
@@ -219,7 +221,7 @@ Global Flags:
       --json   Output logs as JSON.  Set to true if stdout is not a TTY
 ```
 
-Second, when you finish choosing the field to be updated, use this command and append your list of flags and values:
+Once you decide which field to update, use this command and append your list of flags and values:
 
 ```
 # onqlave arx update arx_id <your_list_of_flags_and_values>
@@ -239,17 +241,17 @@ For more information, read our documentation at https://docs.onqlave.com
 
 - [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
 
-This is a feature supporting you to temporary disable an Arx and enable it in the future without having to reconfiguring everything from scratch. To seal an Arx, include it's ID in this command:
+This is a feature supporting you to temporarily disable an Arx and enable it in the future without having to reconfigure everything from scratch. To seal an Arx, include its ID in this command:
 
 ```
 # onqlave arx seal arx_id_here
 ```
 
-And see the logged result:                                
+And see the logged result:
 ```
 Arx seal sometime takes up to 10 minutes.
-🎉 Done!  Arx sealed successfully.                                    
-For more information, read our documentation at https://docs.onqlave.com/                                                           
+🎉 Done!  Arx sealed successfully.
+For more information, read our documentation at https://docs.onqlave.com/
 
 ```
 
@@ -268,7 +270,7 @@ In contrary to seal, we just need to alter the command:
 And see the result:
 ```
 Arx unseal sometime takes up to 10 minutes.
-🎉 Done!  Arx unsealed successfully.                                      
+🎉 Done!  Arx unsealed successfully.
 For more information, read our documentation at https://docs.onqlave.com/
 ```
 
@@ -282,18 +284,18 @@ For more information, read our documentation at https://docs.onqlave.com/
 # onqlave arx delete your_arx_id
 ```
 ```
-🎉 Done!  Arx deleted successfully.                                     
+🎉 Done!  Arx deleted successfully.
 For more information, read our documentation at https://docs.onqlave.com/
 ```
 
 
 ## **Get base configuration information for Arx**
 
-These information may be useful when you need to input the required flags during the creation of Arx. To get these information, use the following command:
+This information may be useful when you need to input the required flags during the creation of an Arx. To get this information, use the following command:
 ```
 # onqlave arx base
 ```
-Result would be organized in a tabular format. 
+The result will be organized in a tabular format.
 
 <!-- If you want plain JSON, just append **--json** to the end of the command. -->
 
