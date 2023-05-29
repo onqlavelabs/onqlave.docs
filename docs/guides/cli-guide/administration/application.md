@@ -1,4 +1,4 @@
-# **Before you start**
+## **Before you start**
 
 The CLI commands for your Application will allow you to create and allocate the unique identifiers for your front and backend applications to be used when creating API Keys. This separated Application workflow ensures you have easy access to enabling, disabling and archiving applications as needed.
 
@@ -74,7 +74,8 @@ The output is formatted as a table:
    }
 }
 
-``` -->
+``` 
+-->
 
 ## **List all applications**
 
