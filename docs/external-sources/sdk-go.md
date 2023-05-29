@@ -4,7 +4,7 @@ This go SDK is designed to help developers easily integrate Onqlave `Encryption 
 [![CI](https://img.shields.io/static/v1?label=CI&message=passing&color=green?style=plastic&logo=github)](https://github.com/onqlavelabs/onqlave-go/actions)
 [![GitHub release](https://img.shields.io/github/v/release/onqlavelabs/onqlave-go.svg)](https://github.com/onqlavelabs/onqlave-go/releases)
 [![License](https://img.shields.io/github/license/onqlavelabs/onqlave-go)](https://github.com/onqlavelabs/onqlave-go/blob/main/LICENSE)
-
+[![Go Reference](https://pkg.go.dev/badge/github.com/onqlavelabs/onqlave-go.svg)](https://pkg.go.dev/github.com/onqlavelabs/onqlave-go)
 
 # Table of Contents
 
@@ -50,11 +50,11 @@ Alternatively, `go get github.com/onqlavelabs/onqlave-go` can also be used to do
 
 ### Usage
 
-To use this SDK, you firstly need to obtain credentials to access an Onqlave Arx by signing up to [Onqlave](https://onqlave.com) and then follow the instructions to create your first Onqlave Arx. Documentation can be found at [Onqlave Technical Documentation](https://docs.onqlave.com).
+To use this SDK, you firstly need to obtain credential to access an Onqlave Arx by signing up to [Onqlave](https://onqlave.com) and following instruction to create your 1st Onqlave Arx. Documentation can be found at [Onqlave Technical Documentation](https://docs.onqlave.com).
 
-The [Onqlave Go](https://github.com/onqlavelabs/onqlave-go) module is used to perform operations on the configured Arx such as encrypting, and decrypting for an Onqlave_ARX. [Example](https://github.com/onqlavelabs/onqlave-go/blob/main/examples/main.go):
+The [Onqlave Go](https://github.com/onqlavelabs/onqlave-go) module is used to perform operations on the configured ARX such as encrypting, and decrypting for an Onqlave_ARX. [example](https://github.com/onqlavelabs/onqlave-go/blob/main/examples/main.go):
 
-To use this module, the Onqlave client must first be initialized as follows:
+To use this module, the Onqlave client must first be initialized as follows.
 
 ```go
 import (
@@ -80,7 +80,7 @@ service := encryption.NewEncryption(debugOption, arxOption, credentialOption, re
 defer service.Close()
 ```
 
-All Onqlave APIs must be invoked using an `Encryption` instance.
+All Onqlave APIs must be invoked using a `Encryption` instance.
 
 ### Encrypt
 
@@ -101,11 +101,11 @@ cipherData, err := service.Encrypt(plainData, associatedData)
 
 
 ### Decrypt
-To encrypt data, use the **Decrypt(cipherData, associatedData []byte)** method of the `Encryption` service. The **cipherData** parameter is the `[]byte` representation of data you are wishing to decrypt (previousely encrypted). The **associatedData** parameter the `[]byte` representation of associated data which can be used to improve the authenticity of the data (it is not mandatory), as shown below.
+To decrypt data, use the **Decrypt(cipherData, associatedData []byte)** method of the `Encryption` service. The **cipherData** parameter is the `[]byte` representation of data you are wishing to decrypt (previousely encrypted). The **associatedData** parameter the `[]byte` representation of associated data which can be used to improve the authenticity of the data (it is not mandatory), as shown below.
 
 ```go
 
-//Initialise the new encryption service using configurations as per [Usage]
+//Initilise the new encryption service using configurations as per [Usage]
 service := encryption.NewEncryption(debugOption, arxOption, credentialOption, retryOption)
 defer service.Close()
 
@@ -132,7 +132,7 @@ err := service.EncryptStream(plainStream, cipherStream, associatedData)
 
 
 ### Decrypt Stream
-To encrypt data, use the **DecryptStream(cipherStream io.Reader, plainStream io.Writer, associatedData []byte)** method of the `Encryption` service. The **cipherStream** parameter is the `io.Reader` stream of data you are wishing to decrypt and it was originally encrypted using [EncryptStream](#encrypt-stream). The **plainStream** parameter is the `io.Write` stream you are wishing to write the plain data back to. The **associatedData** parameter the `[]byte` representation of associated data which can be used to improve the authenticity of the data (it is not mandatory), as shown below.
+To decrypt data, use the **DecryptStream(cipherStream io.Reader, plainStream io.Writer, associatedData []byte)** method of the `Encryption` service. The **cipherStream** parameter is the `io.Reader` stream of data you are wishing to decrypt and it was originally encrypted using [EncryptStream](#encrypt-stream). The **plainStream** parameter is the `io.Write` stream you are wishing to write the plain data back to. The **associatedData** parameter the `[]byte` representation of associated data which can be used to improve the authenticity of the data (it is not mandatory), as shown below.
 
 ```go
 
@@ -148,4 +148,4 @@ err := service.DecryptStreamcipherStream, plainStream, associatedData)
 
 ## Reporting a Vulnerability
 
-If you discover a potential security issue in this project, please reach out to us at <security@onqlave.com>. Please do not create public GitHub issues or Pull Requests, as malicious actors could potentially view them.
+If you discover a potential security issue in this project, please reach out to us at security@onqlave.com. Please do not create public GitHub issues or Pull Requests, as malicious actors could potentially view them.
