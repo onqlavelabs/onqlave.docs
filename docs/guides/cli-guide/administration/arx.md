@@ -1,6 +1,6 @@
 ## **Inspiration**
 
-If you skipped the section about the <mark>**interesting meaning of Arx**</mark>, you can [catch up here](../../../web-app-guide/administration/arx).
+If you skipped the section about the meaning of Arx, you can **[have a look at the previous page](../../../web-app-guide/administration/arx).**
 
 ## **Before you start**
 
@@ -10,9 +10,9 @@ If you are familiar with allocating cloud computing resources for your company, 
 
 ### **Review the provided permission/role**
 
-Our current release includes 3 defined roles: Platform Owner, Platform Admin and Developer. Each role has its own set of permissions and supported operations. You may need to first skim through the <mark>[documentation on roles and supported operations](../../platform/access)</mark> before proceeding.
+Our current release includes 3 defined roles: Platform Owner, Platform Admin and Developer. Each role has its own set of permissions and supported operations. You may need to first skim through the **[documentation on roles and supported operations](../../platform/access)** before proceeding.
 
-Next, you can explore a list of [available commands](#explore-the-supported-interaction-commands-with-arx) or explore the [base value of supported configuration of Arx](#get-base-configuration-information-for-arx).
+Next, you can explore a list of **[available commands](#explore-the-supported-interaction-commands-with-arx)** or explore the **[base value of supported configuration of Arx](#get-base-configuration-information-for-arx).**
 
 When you are ready to interact, you can go through the below list of commands to perform various operations.
 
@@ -20,7 +20,7 @@ When you are ready to interact, you can go through the below list of commands to
 
 **Who can perform this operation?**
 
-- [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
+- **[Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)**
 
 To create an Arx, simply input the following command into the CLI. Please pay attention to the flags and their available assigned values.
 There are several configurable attributes of an Arx that are grouped into 4 sections:
@@ -30,7 +30,7 @@ There are several configurable attributes of an Arx that are grouped into 4 sect
 
 - **Region**: The choice of region allows you to determine within which geography you would like the data to reside. This may an important factor for data localisation / data residency requirements for sensitive data, whilst there can also be additional [speed and efficiency] benefits from having the data reside in the same geography as the rest of your information.
 
-- **Encryption mechanism**: We only offer encryption services based on the highest performance encryption algorithms. You have the choice of AES-128, AES-256 or [CHACHA20-POLY1305](https://www.rfc-editor.org/rfc/rfc7539), with the latter offering stronger encryption but at a lower processing speed. The key rotation frequency determines how regularly the encryption keys are changed. More regular rotations increase the level of security to ensure that your information remains safe.
+- **Encryption mechanism**: We only offer encryption services based on the highest performance encryption algorithms. You have the choice of AES-128, AES-256 or <u>**[CHACHA20-POLY1305](https://www.rfc-editor.org/rfc/rfc7539)**</u>, with the latter offering stronger encryption but at a lower processing speed. The key rotation frequency determines how regularly the encryption keys are changed. More regular rotations increase the level of security to ensure that your information remains safe.
 
 You can append the *-h* or *--help* flag to the end of the add command to see the available flags:
 
@@ -64,7 +64,7 @@ Flags:
 Global Flags:
       --json   JSON Output. Set to true if stdout is not a TTY.
 ```
-Next, you can explore the [base value of supported configuration of Arx](#get-base-configuration-information-for-arx).
+Next, you can explore the **[base value of supported configuration of Arx](#get-base-configuration-information-for-arx).**
 
 After that, when you are ready, just enter the **add** command:
 
@@ -87,7 +87,7 @@ For more information, read our documentation at https://docs.onqlave.com/
 
 **Who can perform this operation?**
 
-- [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
+- **[Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)**
 
 Input command:
 ```
@@ -104,7 +104,7 @@ For more information, read our documentation at https://docs.onqlave.com/
 
 **Who can perform this operation?**
 
-- [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
+- **[Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)**
 
 You can retrieve all information of your Arx by using this command:
 ```
@@ -133,7 +133,7 @@ You can retrieve all information of your Arx by using this command:
 
 **Who can perform this operation?**
 
-- [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
+- **[Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)**
 
 To see a list of your Arx from CLI, simply use this command:
 
@@ -189,7 +189,7 @@ List Arx =>
 
 **Who can perform this operation?**
 
-- [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
+- **[Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)**
 
 Firstly, to get help on which fields can be updated in an Arx, use this command:
 
@@ -239,7 +239,7 @@ For more information, read our documentation at https://docs.onqlave.com
 
 **Who can perform this operation?**
 
-- [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
+- **[Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)**
 
 This is a feature supporting you to temporarily disable an Arx and enable it in the future without having to reconfigure everything from scratch. To seal an Arx, include its ID in this command:
 
@@ -260,11 +260,11 @@ For more information, read our documentation at https://docs.onqlave.com/
 
 **Who can perform this operation?**
 
-- [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
+- **[Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)**
 
 In contrary to seal, we just need to alter the command:
 ```
-# onqlave arx unseal arx--xQ9TpIAzI-Mf_IKm9_nAv
+# onqlave arx unseal arx_id_here
 ```
 
 And see the result:
@@ -278,7 +278,7 @@ For more information, read our documentation at https://docs.onqlave.com/
 
 **Who can perform this operation?**
 
-- [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
+- **[Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)**
 
 ```
 # onqlave arx delete your_arx_id

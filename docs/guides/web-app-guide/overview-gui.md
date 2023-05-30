@@ -3,11 +3,11 @@
 The GUI of the Onqlave platform is provided via a web interface through your browser.
 With this graphical interface, you can perform a wide range of interactions covering all the essential components of the Onqlave platform:
 
-- [Arx](../administration/arx)
-- [Applications](../administration/application)
-- [API Keys](../administration/apikey)
-- [Accounts](../platform/account)
-- [Access](../platform/access)
+- **[Arx](../administration/arx)**
+- **[Applications](../administration/application)**
+- **[API Keys](../administration/apikey)**
+- **[Accounts](../platform/account)**
+- **[Access](../platform/access)**
 
 ## **Looking for another way of interaction?**
 

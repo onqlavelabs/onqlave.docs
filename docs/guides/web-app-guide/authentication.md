@@ -4,7 +4,7 @@
 ---
 
 <!-- Change the link below to open in new tab with target_blank -->
-Make sure that you <mark>[registered for the alpha release](https://www.onqlave.com/contact)</mark>, received our email and followed the instructions specified within the email.
+Make sure that you **[registered for the alpha release](https://www.onqlave.com/contact)**, received our email and followed the instructions specified within the email.
 
 ## **Let's get going**
 
