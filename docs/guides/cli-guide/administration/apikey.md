@@ -4,14 +4,14 @@ The CLI commands to manage API Keys allow you to bring your Arx and applications
 
 When you create your key it is critical that you store it as **it will only be displayed once**. To preserve the integrity of the key, Onqlave does not keep a record of this. Do not close the final window  until you have made this record!
 
-You may need to look at the supported [available commands for api keys](#explore-availabe-commands) and [base configuration information for API Keys](#get-base-configuration-information-for-api-keys) before working with API Keys via CLI.
+You may need to look at the supported **[available commands for api keys](#explore-availabe-commands)** and **[base configuration information for API Keys](#get-base-configuration-information-for-api-keys)** before working with API Keys via CLI.
 
 ## **Create an API key**
 
 **Who can perform this operation?**
 
-- [Platform Owner](../../platform/access/#1-platform-owner)
-- [Developer](../../platform/access/#2-developer)
+- **[Platform Owner](../../platform/access/#1-platform-owner)**
+- **[Developer](../../platform/access/#2-developer)**
 
 To create your api key, your have to specify your application_id, application_technology and arx_id
 
@@ -30,8 +30,8 @@ For more information, read our documentation at https://docs.onqlave.com
 
 **Who can perform this operation?**
 
-- [Platform Owner](../../platform/access/#1-platform-owner)
-- [Developer](../../platform/access/#2-developer)
+- **[Platform Owner](../../platform/access/#1-platform-owner)**
+- **[Developer](../../platform/access/#2-developer)**
 
 ```
 # onqlave key describe your_app_key_id
@@ -44,8 +44,8 @@ Output will be formatted in tabular format
 
 **Who can perform this operation?**
 
-- [Platform Owner](../../platform/access/#1-platform-owner)
-- [Developer](../../platform/access/#2-developer)
+- **[Platform Owner](../../platform/access/#1-platform-owner)**
+- **[Developer](../../platform/access/#2-developer)**
 
 ```
 # onqlave key list
@@ -60,8 +60,8 @@ By default, the result will be formatted in a table.
 
 **Who can perform this operation?**
 
-- [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
-- [Developer](../../../web-app-guide/platform/access/#2-developer)
+- **[Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)**
+- **[Developer](../../../web-app-guide/platform/access/#2-developer)**
 
 ```
 # onqlave key delete your_app_key_id

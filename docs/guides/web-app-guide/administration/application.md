@@ -10,7 +10,7 @@ When the application reference is created, an API token and encryption key is es
 
 **Who can perform this operation?**
 
-- [Platform Owner](http://localhost:8000/guides/web-app-guide/platform/access/#1-platform-owner)
+- **[Platform Owner](../../platform/access/#1-platform-owner)**
 
 The web app interface provides a convenient way to complete all of the required information during the process of creating an application.
 
@@ -30,7 +30,7 @@ You will again be provided with a summary screen to help you review all of the n
 
 **Who can perform this operation?**
 
-- [Platform Owner](http://localhost:8000/guides/web-app-guide/platform/access/#1-platform-owner)
+- **[Platform Owner](../../platform/access/#1-platform-owner)**
 
 In the application dashboard, you can see the total number of activated, disabled and archived applications as well as some basic information for each application. You can also select any existing application to modify, disable or archive it.
 
@@ -40,7 +40,7 @@ In the application dashboard, you can see the total number of activated, disable
 
 **Who can perform this operation?**
 
-- [Platform Owner](http://localhost:8000/guides/web-app-guide/platform/access/#1-platform-owner)
+- **[Platform Owner](../../platform/access/#1-platform-owner)**
 
 You can also enable/disable an application. This is a required step before archiving it. Disabling an application requires you to type in the exact name of that application correctly.
 
@@ -55,7 +55,7 @@ If the enable/disable process is successful, the status of the selected applicat
 
 **Who can perform this operation?**
 
-- [Platform Owner](http://localhost:8000/guides/web-app-guide/platform/access/#1-platform-owner)
+- **[Platform Owner](../../platform/access/#1-platform-owner)**
 
 Since we do not support deleting applications, you can archive it. Before archiving an application, you have to disable it (see the step above: 'Enable/disable an application').
 

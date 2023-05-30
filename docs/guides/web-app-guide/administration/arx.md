@@ -68,7 +68,7 @@ Once you have completed all of your selections, you can review a summary of the 
 
 **Who can perform this operation?**
 
-- [Platform Owner](../../platform/access/#1-platform-owner)
+- **[Platform Owner](../../platform/access/#1-platform-owner)**
 
 The overview of Arx will provide basic information about the total number of Arx as well as their status.
 
@@ -78,7 +78,7 @@ The overview of Arx will provide basic information about the total number of Arx
 
 **Who can perform this operation?**
 
-- [Platform Owner](../../platform/access/#1-platform-owner)
+- **[Platform Owner](../../platform/access/#1-platform-owner)**
 
 There are two elements that you can change for any of your Arx:
 
@@ -90,7 +90,7 @@ There are two elements that you can change for any of your Arx:
 ## **Disable an Arx**
 **Who can perform this operation?**
 
-- [Platform Owner](../../platform/access/#1-platform-owner)
+- **[Platform Owner](../../platform/access/#1-platform-owner)**
 
 This feature allows you to temporarily disable an Arx while maintaining the ability to enable it in the future without having to reconfigure everything from scratch.
 
@@ -106,7 +106,7 @@ If the disabling process is successful, you can see the status of the selected A
 
 **Who can perform this operation?**
 
-- [Platform Owner](../../platform/access/#1-platform-owner)
+- **[Platform Owner](../../platform/access/#1-platform-owner)**
 
 To completely delete an Arx, you have to go through the same process as disabling...
 

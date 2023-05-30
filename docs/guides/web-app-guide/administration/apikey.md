@@ -12,8 +12,8 @@ When you create your Access key it is critical that you store it safely and secu
 
 **Who can perform this operation?**
 
-- [Platform Owner](../../platform/access/#1-platform-owner)
-- [Developer](../../platform/access/#2-developer)
+- **[Platform Owner](../../platform/access/#1-platform-owner)**
+- **[Developer](../../platform/access/#2-developer)**
 
 To create an api key, firstly, you need to select the associated application...
 
@@ -36,8 +36,8 @@ If the creation of the API Key is successful, you should then **save the ACCESS 
 
 **Who can perform this operation?**
 
-- [Platform Owner](http://localhost:8000/guides/web-app-guide/platform/access/#1-platform-owner)
-- [Developer](http://localhost:8000/guides/web-app-guide/platform/access/#2-developer)
+- **[Platform Owner](../../platform/access/#1-platform-owner)**
+- **[Developer](../../platform/access/#2-developer)**
 
 You can browse the API Key dashboard as well as the Arx Dashboard and Application Dashboard.
 
@@ -48,8 +48,8 @@ You can browse the API Key dashboard as well as the Arx Dashboard and Applicatio
 
 **Who can perform this operation?**
 
-- [Platform Owner](http://localhost:8000/guides/web-app-guide/platform/access/#1-platform-owner)
-- [Developer](http://localhost:8000/guides/web-app-guide/platform/access/#2-developer)
+- **[Platform Owner](../../platform/access/#1-platform-owner)**
+- **[Developer](../../platform/access/#2-developer)**
 
 To delete an API Key, you can simply select the one you wish to remove and and delete it.
 

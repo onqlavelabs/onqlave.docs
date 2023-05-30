@@ -9,6 +9,6 @@ The key purpose of the dashboard is to provide a quick snapshot of your current 
 
 From here, you can begin to create your own assets:
 
-- [Arx](../administration/arx)
-- [Application](../administration/application)
-- [API Key](../administration/apikey)
+- **[Arx](../administration/arx)**
+- **[Application](../administration/application)**
+- **[API Key](../administration/apikey)**

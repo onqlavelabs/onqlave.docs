@@ -5,13 +5,13 @@ The CLI commands for your Application will allow you to create and allocate the 
 
 When the application reference is created, an API token and encryption key is established. Note that Onqlave does not allow you to permanently delete any applications, however they can be archived, which will then disable the respective API token and encryption key.
 
-You may need to look at the supported [available commands for an application](#explore-availabe-commands).
+You may need to look at the supported **[available commands for an application](#explore-availabe-commands).**
 
 ## **Create an application**
 
 **Who can perform this operation?**
 
-- [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
+- **[Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)**
 
 ```
 # onqlave application add your_app_name -d your_preferred_description -t application_technology -o application_owner_id
@@ -28,7 +28,7 @@ For more information, read our documentation at https://docs.onqlave.com
 
 **Who can perform this operation?**
 
-- [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
+- **[Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)**
 
 ```
 # onqlave application describe your_app_id
@@ -81,7 +81,7 @@ The output is formatted as a table:
 
 **Who can perform this operation?**
 
-- [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
+- **[Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)**
 
 ```
 # onqlave application list
@@ -96,7 +96,7 @@ The output will be displayed as a table by default.
 
 **Who can perform this operation?**
 
-- [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
+- **[Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)**
 
 Currently, the Onqlave platform supports updating an application via its ID
 
@@ -134,7 +134,7 @@ Global Flags:
 
 **Who can perform this operation?**
 
-- [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
+- **[Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)**
 
 ```
 # onqlave application disable your_app_id
@@ -144,7 +144,7 @@ Global Flags:
 
 **Who can perform this operation?**
 
-- [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
+- **[Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)**
 
 ```
 # onqlave application enable your_app_id
@@ -154,7 +154,7 @@ Global Flags:
 
 **Who can perform this operation?**
 
-- [Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)
+- **[Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)**
 
 Since we do not support deleting applications, you can archive it. Before archiving an application, you have to disable it like the previous step.
 
