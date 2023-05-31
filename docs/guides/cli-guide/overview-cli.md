@@ -78,10 +78,10 @@ For more information, read our documentation at https://docs.onqlave.com
 In the CLI, you can try this formula to get specific help about each of the available commands:
 
 ```
-# onqlave help {your_want_to_know_command}
+# onqlave help {arx}
 ```
 
-You may select **{your_want_to_know_command}** from this list
+You may replace {arx} with other commands listed below to get the help.
 
 ```
 Available Commands:
