@@ -30,7 +30,7 @@ There are several configurable attributes of an Arx that are grouped into 4 sect
 
 - **Region**: The choice of region allows you to determine within which geography you would like the data to reside. This may an important factor for data localisation / data residency requirements for sensitive data, whilst there can also be additional [speed and efficiency] benefits from having the data reside in the same geography as the rest of your information.
 
-- **Encryption mechanism**: We only offer encryption services based on the highest performance encryption algorithms. You have the choice of AES-128, AES-256 or <u>**[CHACHA20-POLY1305](https://www.rfc-editor.org/rfc/rfc7539)**</u>, with the latter offering stronger encryption but at a lower processing speed. The key rotation frequency determines how regularly the encryption keys are changed. More regular rotations increase the level of security to ensure that your information remains safe.
+- **Encryption mechanism**: We only offer encryption services based on the highest performance encryption algorithms. You have the choice of AES-GCM-128, AES-GCP-256 or XCHACHA20-POLY1305, with the latter offering stronger encryption but at a lower processing speed. The key rotation frequency determines how regularly the encryption keys are changed. More regular rotations increase the level of security to ensure that your information remains safe.
 
 You can append the *-h* or *--help* flag to the end of the add command to see the available flags:
 

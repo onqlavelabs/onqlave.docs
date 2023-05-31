@@ -84,7 +84,7 @@ nav:
     - "Quick start": getting-started/quick-start.md
   - "Guides":
       - "Graphical Web Interface":
-          - "Overview - GUI": guides/web-app-guide/overview-gui.md
+          - "Overview - Dashboard": guides/web-app-guide/overview-gui.md
           - "Authentication": guides/web-app-guide/authentication.md
           - "Dashboard": guides/web-app-guide/dashboard.md
           - "Administration":
