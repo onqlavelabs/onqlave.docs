@@ -10,7 +10,7 @@ If you are familiar with allocating cloud computing resources for your company, 
 
 ### **Review the provided permission/role**
 
-Our current release includes 3 defined roles: Platform Owner, Platform Admin and Developer. Each role has its own set of permissions and supported operations. You may need to first skim through the **[documentation on roles and supported operations](../../platform/access)** before proceeding.
+Our current release includes 3 defined roles: Platform Owner, Platform Admin and Developer. Each role has its own set of permissions and supported operations. You may need to first skim through the **[documentation on roles and supported operations](../../../web-app-guide/platform/access)** before proceeding.
 
 Next, you can explore a list of **[available commands](#explore-the-supported-interaction-commands-with-arx)** or explore the **[base value of supported configuration of Arx](#get-base-configuration-information-for-arx).**
 
