@@ -36,4 +36,4 @@ List Users =>
 =====
 ``` -->
 
-To add or invite new users, you need to do so [in the GUI, as explained here](../../../web-app-guide/platform/access).
+To add or invite new users, you need to do so [in the dashboard, as explained here](../../../web-app-guide/platform/access).

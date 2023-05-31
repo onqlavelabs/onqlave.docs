@@ -1,7 +1,7 @@
-## **What does the GUI of the Onqlave platform do?**
+## **What does the dashboard of the Onqlave platform do?**
 
-The GUI of the Onqlave platform is provided via a web interface through your browser.
-With this graphical interface, you can perform a wide range of interactions covering all the essential components of the Onqlave platform:
+The **dashboard** of the Onqlave platform is provided via a web interface through your browser.
+With this dashboard, you can perform a wide range of interactions covering all the essential components of the Onqlave platform:
 
 - **[Arx](../administration/arx)**
 - **[Applications](../administration/application)**

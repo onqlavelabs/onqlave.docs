@@ -1,7 +1,7 @@
 
 ## **Before you start**
 
-You can refer to [this section on the GUI](../../../web-app-guide/platform/account) for more details.
+You can refer to [this section on the dashboard](../../../web-app-guide/platform/account) for more details.
 
 Or you can refer to [this section for getting help about available commands](../../overview-cli/#looking-for-another-way-of-interaction).
 

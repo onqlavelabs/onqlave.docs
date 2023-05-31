@@ -48,7 +48,7 @@ The choice of region allows you to determine within which geography you would li
 
 ### **4. Select your encryption primitive**
 
-We only offer encryption services based on the highest performance encryption algorithms. You have the choice of AES-128, AES-256 or XCHACHA20-POLY1305, with the latter offering stronger encryption but at a lower processing speed.
+We only offer encryption services based on the highest performance encryption algorithms. You have the choice of AES-GCM-128, AES-GCP-256 or XCHACHA20-POLY1305 with the latter offering stronger encryption but at a lower processing speed.
 
 The key rotation frequency determines how regularly the encryption keys are changed. More regular rotations increase the level of security to ensure that your information remains safe.
 
@@ -56,7 +56,7 @@ The key rotation frequency determines how regularly the encryption keys are chan
 
 ### **5. Review Ownership**
 
-Before choosing the owner, make sure that you have skimmed through the <mark>[supported access](../../platform/access)</mark> in this release.
+Before choosing the owner, make sure that you have skimmed through the <u>**[supported access](../../platform/access)**</u> in this release.
 
 ![arx-ownership](https://t36712295.p.clickup-attachments.com/t36712295/64b57df2-cd9b-4b0a-a4eb-7096a24f2eb5/arx-3%20(4).png)
 
