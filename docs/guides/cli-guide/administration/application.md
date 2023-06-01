@@ -14,7 +14,7 @@ You may need to look at the supported **[available commands for an application](
 - **[Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)**
 
 ```
-# onqlave application add your_app_name -d your_preferred_description -t application_technology -o application_owner_id
+# onqlave application add your_app_name -d 'this is my application' -t application_technology -o application_owner_id
 ```
 
 Then the returned output should include your created application ID

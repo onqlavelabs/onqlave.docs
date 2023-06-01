@@ -69,7 +69,7 @@ Next, you can explore the **[base value of supported configuration of Arx](#get-
 After that, when you are ready, just enter the **add** command:
 
 ```
-# onqlave arx add my_1st_arx -d "this is my first arx" -e aes-gcm-128 -i true -o your_login_email@domain.com -p gcp -u development -r au -c monthly -t serverless
+# onqlave arx add my_1st_arx -d 'this is my first arx' -e aes-gcm-128 -i true -o your_login_email@domain.com -p gcp -u development -r au -c monthly -t serverless
 ```
 
 ... and wait for the output logs.
@@ -80,6 +80,7 @@ Arx creation sometime takes up to 10 minutes.
 If the creation is successful, the output will look similar to:
 ```
 🎉 Done!  Arx created successfully.
+Arx ID: {your-arx-id}
 For more information, read our documentation at https://docs.onqlave.com/
 ```
 
@@ -97,6 +98,7 @@ Expected output:
 ```
 Setting default arx sometime takes up to 10 minutes.
 🎉 Done!  Arx set default successfully.
+Arx ID: {your-arx-id}
 For more information, read our documentation at https://docs.onqlave.com/
 ```
 
