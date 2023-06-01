@@ -48,7 +48,9 @@ The choice of region allows you to determine within which geography you would li
 
 ### **4. Select your encryption primitive**
 
+
 We only offer encryption services based on the highest performance encryption algorithms. You have the choice of AES-GCM-128, AES-GCM-256 or XCHACHA20-POLY1305 with the latter offering stronger encryption but at a lower processing speed.
+
 
 The key rotation frequency determines how regularly the encryption keys are changed. More regular rotations increase the level of security to ensure that your information remains safe.
 
