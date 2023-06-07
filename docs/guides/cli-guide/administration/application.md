@@ -14,7 +14,7 @@ You may need to look at the supported **[available commands for an application](
 - **[Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)**
 
 ```
-# onqlave application add your_app_name -d 'this is my application' -t application_technology -o application_owner_id
+onqlave application add your_app_name -d 'this is my application' -t application_technology -o application_owner_id
 ```
 
 Then the returned output should include your created application ID
@@ -31,7 +31,7 @@ For more information, read our documentation at https://docs.onqlave.com
 - **[Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)**
 
 ```
-# onqlave application describe your_app_id
+onqlave application describe your_app_id
 ```
 
 The output is formatted as a table:
@@ -84,7 +84,7 @@ The output is formatted as a table:
 - **[Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)**
 
 ```
-# onqlave application list
+onqlave application list
 ```
 The output will be displayed as a table by default.
 <!-- And you can show the JSON output by appending the **--json** to the end of the above command. -->
@@ -101,12 +101,12 @@ The output will be displayed as a table by default.
 Currently, the Onqlave platform supports updating an application via its ID
 
 ```
-# onqlave application update your_application_id your_list_of_flags_and_values
+onqlave application update your_application_id your_list_of_flags_and_values
 ```
 
 To see the available flags, you can use this command:
 ```
-# onqlave application update
+onqlave application update
 ```
 
 And explore all the flags:
@@ -137,7 +137,7 @@ Global Flags:
 - **[Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)**
 
 ```
-# onqlave application disable your_app_id
+onqlave application disable your_app_id
 ```
 
 ## **Enable an application**
@@ -147,7 +147,7 @@ Global Flags:
 - **[Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)**
 
 ```
-# onqlave application enable your_app_id
+onqlave application enable your_app_id
 ```
 
 ## **Archive an application**
@@ -160,7 +160,7 @@ Since we do not support deleting applications, you can archive it. Before archiv
 
 
 ```
-# onqlave application archive your_app_id
+onqlave application archive your_app_id
 ```
 
 ## **Get base configuration information for Application**
@@ -169,7 +169,7 @@ This information may be useful when you need to input the required flags during 
 
 
 ```
-# onqlave application base
+onqlave application base
 ```
 
 Result will be organized either in tabular format by default or can be converted to JSON by appending **--json** flag at the end of the command
@@ -209,7 +209,7 @@ Application Base Information =>
 ## **Explore available commands**
 
 ```
-# onqlave application
+onqlave application
 ```
 ```
 This command is used to manage applications resources.
