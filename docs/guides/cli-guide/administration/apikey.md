@@ -16,7 +16,7 @@ You may need to look at the supported **[available commands for api keys](#explo
 To create your api key, your have to specify your application_id, application_technology and arx_id
 
 ```
-# onqlave key add -a your_application_id -c your_arx_id -t your_application_technology
+onqlave key add -a your_application_id -c your_arx_id -t your_application_technology
 ```
 
 The output log will include the ID of the newly created APIKey
@@ -34,7 +34,7 @@ For more information, read our documentation at https://docs.onqlave.com
 - **[Developer](../../platform/access/#2-developer)**
 
 ```
-# onqlave key describe your_app_key_id
+onqlave key describe your_app_key_id
 ```
 Output will be formatted in tabular format
 
@@ -48,7 +48,7 @@ Output will be formatted in tabular format
 - **[Developer](../../platform/access/#2-developer)**
 
 ```
-# onqlave key list
+onqlave key list
 ```
 
 By default, the result will be formatted in a table.
@@ -64,7 +64,7 @@ By default, the result will be formatted in a table.
 - **[Developer](../../../web-app-guide/platform/access/#2-developer)**
 
 ```
-# onqlave key delete your_app_key_id
+onqlave key delete your_app_key_id
 ```
 
 ## **Get base configuration information for API Keys**
@@ -73,7 +73,7 @@ Before interacting with the API key, you may need to retrieve all the base infor
 
 
 ```
-# onqlave key base
+onqlave key base
 ```
 
 The output should be similar to to the following:
@@ -85,7 +85,7 @@ The output should be similar to to the following:
 ## **Explore available commands**
 
 ```
-# onqlave key
+onqlave key
 ```
 
 ```

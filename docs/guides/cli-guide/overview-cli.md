@@ -6,7 +6,11 @@ Make sure that you have an <u>**[executable docker](https://www.docker.com/)**</
 
 In addition, you can try to get comfortable with docker before proceeding by reviewing <u>**[the docker documentation](https://docs.docker.com/)**</u>
 
-## **Get the container**
+## **Check the quick start video guide**
+
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/30jkhw" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+
+## **Fetch and run the container**
 
 Use this command to get our latest docker image:
 
@@ -18,16 +22,22 @@ Replace **{$cli-version}** with your preferred version. We always recommend the 
 
 ## **Launch the container**
 
-Use this command to run the image:
+Listing all the existed docker images of Onqlave:
 
 ```
-docker run -it {$image-id} bash
+docker image ls | grep ghcr.io/onqlavelabs/onqlavelabs/onqlave.all
+```
+
+From here you can observe the latest image_id and can copy it to include in the next command to run the image or you can simply run this command to start the container:
+
+```
+docker run -it ghcr.io/onqlavelabs/onqlavelabs/onqlave.all bash
 ```
 
 After entering the container via BASH shell, you can try to type this command to make sure everything works:
 
 ```
-# onqlave
+onqlave
 ```
 
 The output should look like this:
@@ -63,7 +73,7 @@ Use "onqlave [command] --help" for more information about a command.
 ## **Init the configuration**
 
 ```
-# onqlave config init
+onqlave config init
 ```
 
 If the configuration initialization is a success, you will see the following in the terminal
@@ -73,12 +83,28 @@ If the configuration initialization is a success, you will see the following in 
 For more information, read our documentation at https://docs.onqlave.com
 ```
 
+## **Signup/login**
+
+After init the configuration, you can use this command to signup:
+
+```
+onqlave auth signup your_email@domain.com --full_name="You Full Name" --tenant_name="Your tenant name"
+```
+
+Then you will receive and email from our communications service at <comms@onqlave.com> with an activation link to complete the signup process. Just follow the link and confirm your registered email with us. Then you will be ready to proceed to the login step:
+
+```
+onqlave auth login your_email@domain.com --tenant_name="Your tenant name"
+```
+
+You will also receive another email from <comms@onqlave.com> with a login link. After you complete the login verification process. You will be able to interact with the Onqlave platform via CLI.
+
 ## **Explore the help for each command**
 
 In the CLI, you can try this formula to get specific help about each of the available commands:
 
 ```
-# onqlave help {arx}
+onqlave help {arx}
 ```
 
 You may replace {arx} with other commands listed below to get the help.
@@ -102,6 +128,7 @@ Flags:
 
 Use "onqlave [command] --help" for more information about a command.
 ```
+
 
 ## **Looking for another form of interaction?**
 

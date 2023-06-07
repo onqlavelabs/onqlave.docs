@@ -8,7 +8,7 @@ The authentication process will go through 4 steps:
 Use this command to begin the authn process:
 
 ```
-# onqlave auth login your_email_account@domain.com -t your-verified-tenant-name
+onqlave auth login your_email_account@domain.com -t your-verified-tenant-name
 ```
 
 After entering the above command, the output should appear as follows:
@@ -39,19 +39,19 @@ For more information, read our documentation at https://docs.onqlave.com
 From here you can explore the interaction options provided by onqlave-cli using one of the following commands:
 
 ```plain
-# onqlave
+onqlave
 ```
 
 or
 
 ```plain
-# onqlave help
+onqlave help
 ```
 
 or
 
 ```plain
-# onqlave --help
+onqlave --help
 ```
 
 Each will produce instructions for the supported commands of onqlave-cli:
