@@ -36,7 +36,7 @@ There are several configurable attributes of an Arx that are grouped into 4 sect
 You can append the *-h* or *--help* flag to the end of the add command to see the available flags:
 
 ```
-# onqlave arx add -h
+onqlave arx add -h
 ```
 The suggested output should look like this:
 
@@ -70,7 +70,7 @@ Next, you can explore the **[base value of supported configuration of Arx](#get-
 After that, when you are ready, just enter the **add** command:
 
 ```
-# onqlave arx add my_1st_arx -d 'this is my first arx' -e aes-gcm-128 -i true -o your_login_email@domain.com -p gcp -u development -r au -c monthly -t serverless
+onqlave arx add my_1st_arx -d 'this is my first arx' -e aes-gcm-128 -i true -o your_login_email@domain.com -p gcp -u development -r au -c monthly -t serverless
 ```
 
 ... and wait for the output logs.
@@ -93,7 +93,7 @@ For more information, read our documentation at https://docs.onqlave.com/
 
 Input command:
 ```
-# onqlave arx default your_arx_id
+onqlave arx default your_arx_id
 ```
 Expected output:
 ```
@@ -111,7 +111,7 @@ For more information, read our documentation at https://docs.onqlave.com/
 
 You can retrieve all information of your Arx by using this command:
 ```
-# onqlave arx describe your_arx_id
+onqlave arx describe your_arx_id
 ```
 
 ```
@@ -142,7 +142,7 @@ To see a list of your Arx from CLI, simply use this command:
 
 
 ```
-# onqlave arx list
+onqlave arx list
 ```
 The output will be formatted in tabular format
 ![](https://t36712295.p.clickup-attachments.com/t36712295/909f1eed-e921-4371-860b-a85e0d1293b1/image.png)
@@ -197,7 +197,7 @@ List Arx =>
 Firstly, to get help on which fields can be updated in an Arx, use this command:
 
 ```
-# onqlave arx update -h
+onqlave arx update -h
 ```
 
 and see the help output:
@@ -227,7 +227,7 @@ Global Flags:
 Once you decide which field to update, use this command and append your list of flags and values:
 
 ```
-# onqlave arx update arx_id <your_list_of_flags_and_values>
+onqlave arx update arx_id <your_list_of_flags_and_values>
 ```
 
 
@@ -247,7 +247,7 @@ For more information, read our documentation at https://docs.onqlave.com
 This is a feature supporting you to temporarily disable an Arx and enable it in the future without having to reconfigure everything from scratch. To seal an Arx, include its ID in this command:
 
 ```
-# onqlave arx seal arx_id_here
+onqlave arx seal arx_id_here
 ```
 
 And see the logged result:
@@ -267,7 +267,7 @@ For more information, read our documentation at https://docs.onqlave.com/
 
 In contrary to seal, we just need to alter the command:
 ```
-# onqlave arx unseal arx_id_here
+onqlave arx unseal arx_id_here
 ```
 
 And see the result:
@@ -284,7 +284,7 @@ For more information, read our documentation at https://docs.onqlave.com/
 - **[Platform Owner](../../../web-app-guide/platform/access/#1-platform-owner)**
 
 ```
-# onqlave arx delete your_arx_id
+onqlave arx delete your_arx_id
 ```
 ```
 🎉 Done!  Arx deleted successfully.
@@ -296,7 +296,7 @@ For more information, read our documentation at https://docs.onqlave.com/
 
 This information may be useful when you need to input the required flags during the creation of an Arx. To get this information, use the following command:
 ```
-# onqlave arx base
+onqlave arx base
 ```
 The result will be organized in a tabular format.
 
@@ -603,7 +603,7 @@ Arx Base Information =>
 ## **Explore the supported interaction commands with Arx**
 
 ```
-# onqlave arx
+onqlave arx
 This command is used to manage arx resources.
 
 Usage:
