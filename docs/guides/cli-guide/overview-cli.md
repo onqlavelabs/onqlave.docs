@@ -17,10 +17,6 @@ Use this command to get our latest docker image:
 ```
 docker pull ghcr.io/onqlavelabs/onqlavelabs/onqlave.all:latest
 ```
-<!--
-Replace **{$cli-version}** with your preferred version. We always recommend the latest version. You can check out <mark>[the list of our releases here](https://github.com/onqlavelabs/onqlave.all/pkgs/container/onqlavelabs%2Fonqlave.all)</mark> for an exact version number. -->
-
-## **Launch the container**
 
 Listing all the existed docker images of Onqlave:
 
