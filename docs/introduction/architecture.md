@@ -1,0 +1,1 @@
+{!external-sources/architecture.md!lines=1-116}

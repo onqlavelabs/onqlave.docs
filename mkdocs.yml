@@ -80,13 +80,13 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - "Introduction": introduction/architecture.md
   - "Getting started": 
     - "Quick start": getting-started/quick-start.md
   - "Guides":
-      - "Graphical Web Interface":
+      - "Dashboard Interface":
           - "Overview - Dashboard": guides/web-app-guide/overview-gui.md
           - "Authentication": guides/web-app-guide/authentication.md
-          - "Dashboard": guides/web-app-guide/dashboard.md
           - "Administration":
               - "Arx": guides/web-app-guide/administration/arx.md
               - "Application": guides/web-app-guide/administration/application.md
