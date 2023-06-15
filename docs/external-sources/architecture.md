@@ -29,15 +29,15 @@ The Onqlave Encryption Engine (OE2) has the following benefits:
 
 - **Includes secure encryption and signing**. The Onqlave Encryption Engine (OE2) includes secure implementations that encrypt your data using a unique data encryption key, and then sign data to protect it against unauthorised changes.
 
-- **Uses cryptographic materials provided by Onqlave platform**. The Onqlave Encryption Engine (OE2) uses Onqlave crypto infrastructure to generate, encrypt, and decrypt the unique data encryption key that protects your sensitive data. We automatically issue wrapping keys that encrypt that data key. The Onqlave Encryption Engine (OE2) free you from cloud restriction as it doesn't require an AWS, GCP or Azure account or any service provided by them.
+- **Uses cryptographic materials provided by Onqlave platform**.  The Onqlave Encryption Engine (OE2) uses Onqlave crypto infrastructure to generate, encrypt, and decrypt the unique data encryption key that protects your sensitive data. We automatically issue wrapping keys that encrypt that data key. The Onqlave Encryption Engine (OE2) frees you from cloud restriction as it doesn't require an AWS, GCP or Azure account or any service provided by them.
 
 - **Support for cryptographic materials caching (coming soon)**. The Onqlave Encryption Engine (OE2) provides a bespoke key caching solution that reduces the number of calls to our infrastructure. It allows you to protect your cryptographic materials under a symmetric encryption key without calling Onqlave infrastructure every time you encrypt or decrypt data. This is a good choice for applications that need to minimise latency in their encryption process.
 
-- **Format Presenving Encryption (FPE) (coming soon)**. You can design databases that can search encrypted records without decrypting the entire database. Depending on your threat model and requirements, you can use FPE to perform exact match searches or more customized complex queries on your encrypted database.
+- **Format Presenving Encryption (FPE) (coming soon)**. You can design databases that can search encrypted records without decrypting the entire database. Depending on your threat model and requirements, you can use FPE to perform exact match searches or more customised complex queries on your encrypted database.
 
 - **Support for multitenant database schemas**. The Onqlave Encryption Engine (OE2) enables you to protect data stored in your platform by isolating each tenant with distinct encryption materials. If you have multiple customers performing encrypt operations within your platform, use different Onqlave Arx to provide each customer with a distinct material to use in their cryptographic operations.
 
-- **End-to-end encryption**. Everything in your The Onqlave Encryption Engine (OE2) account is always end-to-end encrypted. This makes it impossible for someone to learn anything by intercepting your data while it’s in transit or even obtaining it from Onqlave.
+- **End-to-end encryption**. Everything in your Onqlave Encryption Engine (OE2) account is always end-to-end encrypted. This makes it impossible for someone to learn anything by intercepting your data while it’s in transit or even obtaining it from Onqlave.
 
 - **256-bit AES encryption**. Your data is kept safe by `AES-GCM-256 authenticated encryption` on the Onqlave Encryption Engine (OE2). The data you entrust to Onqlave is effectively impossible to decrypt.
 
@@ -55,7 +55,7 @@ Storing and encrypting data at scale requires using a central cryptographic key 
 
 ### Data encryption key
 
-A data encryption key is an encryption key that the Onqlave Encryption Engine (OE2) SDK uses to encrypt the data. Each data encryption key is a byte array that conforms to the encrytion method of your Onqlave Arx. You don't need to specify, generate, implement, extend, protect, or use data encryption keys. The Onqlave Encryption Engine (OE2) implicitly does that work for you when you call the encrypt and decrypt operations.
+A data encryption key is an encryption key that the Onqlave Encryption Engine (OE2) SDK uses to encrypt the data. Each data encryption key is a byte array that conforms to the encryption method of your Onqlave Arx. You don't need to specify, generate, implement, extend, protect, or use data encryption keys. The Onqlave Encryption Engine (OE2) implicitly does that work for you when you call the encrypt and decrypt operations.
 
 ### Master encryption key
 
@@ -73,7 +73,7 @@ The Onqlave Encryption Engine (OE2) makes sure every encryption operation gets i
 
 ### Encryption primitives
 
-Authenticated Encryption (AE) is an encryption scheme which simultaneously assures the data confidentiality (also known as privacy: encrypted message is impossible to understand without the knowledge of a secret key) and authenticity (it is unforgeable the encrypted message includes an authentication tag that the sender can calculate only if she possesses secret key). Examples of encryption modes that provide AE are GCM, CCM. The Onqlave Encryption Engine (OE2) and extended version of AE called Autheticated Encryption with Additional Data (AEAD) in order to create [Data encryption keys](#data-encryption-key). Additional Autehticated Data (AAD) is bound to the encrypted data, because you cannot decrypt the ciphertext unless you know the AAD, but it is not stored as part of the ciphertext. AAD also does not increase the cryptographic strength of the ciphertext. Instead it is an additional check by The Onqlave Encryption Engine (OE2) SDK to authenticate a decryption request. The Onqlave Encryption Engine (OE2) SDK uses Authenticated Encryption with Additional Data (AEAD) for all encryption operations, so that it guarrantees the confidentiality as well as the integrity of the keys provided for each tenant.  
+Authenticated Encryption (AE) is an encryption scheme which simultaneously assures the data confidentiality (also known as privacy: encrypted message is impossible to understand without the knowledge of a secret key) and authenticity (it is unforgeable the encrypted message includes an authentication tag that the sender can calculate only if she possesses secret key). Examples of encryption modes that provide AE are GCM, CCM. The Onqlave Encryption Engine (OE2) and extended version of AE called Authenticated Encryption with Additional Data (AEAD) in order to create [Data encryption keys](#data-encryption-key). Additional Authenticated Data (AAD) is bound to the encrypted data, because you cannot decrypt the ciphertext unless you know the AAD, but it is not stored as part of the ciphertext. AAD also does not increase the cryptographic strength of the ciphertext. Instead it is an additional check by The Onqlave Encryption Engine (OE2) SDK to authenticate a decryption request. The Onqlave Encryption Engine (OE2) SDK uses Authenticated Encryption with Additional Data (AEAD) for all encryption operations, so that it guarrantees the confidentiality as well as the integrity of the keys provided for each tenant.  
 
 ## How it works
 
@@ -93,9 +93,9 @@ At its core, the Onqlave Encryption Engine (OE2) SDK is a record encryptor that 
 
 The following walkthrough describes how the Onqlave Encryption Engine (OE2) SDK encrypts and signs your data entries.
 
-1. The Onqlave platform provides the Onqlave Encryption Engine (OE2) SDK with unique data encryption key: one wrapped data encryption key, a copy of the data key encrypted wrapped in an ephemeral encrypted assymetric key.
+1. The Onqlave platform provides the Onqlave Encryption Engine (OE2) SDK with unique data encryption key: one wrapped data encryption key, a copy of the data key encrypted wrapped in an ephemeral encrypted asymetric key.
 2. The encryption method encrypts data you specified.
-3. The encryption method encapsulates the encrypted data encryption key, algorithm information and the actual cipher data in data encryption packet.
+3. The encryption method encapsulates the encrypted data encryption key, algorithm information and the actual cipher data in a data encryption packet.
 4. The encryption method signs the data encyption packet using additional data provided by you.
 5. The encryption method returns the encrypted and signed cipher packet to the caller.  
 
