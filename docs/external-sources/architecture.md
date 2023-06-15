@@ -1,6 +1,6 @@
 # Introduction
 
-The Onqlave Encryption Engine (OE2) is a set of infrastructure and SDKs provided to you as a service, letting you easily and efficiently encrypt sensitive data in your platform before it leaves your security boundaries. The Onqlave Encryption Engine (OE2) provides you with a state of the art cloud agnostic key management solution which simplify the daunting task of managing your encryotion keys whilst providing you with the best practices when it comes to protecting your sensitive data. You specify which primitive you would like to use based on your usecase and leave the rest to us. We manage the master encryption key, issue data encryption keys, wrap them with proper keys without storing any of the keys on our platform. You then use our provided SDKs which securely connect to our infrastructure to get the keys, and encrypt and sign to ensure the authenticity of your data. Using our technology helps ensure that your plaintext data isn’t available to any third party, including Onqlave, your cloud or infrastructure provider.
+The Onqlave Encryption Engine (OE2) is a set of infrastructure and SDKs provided to you as a service, letting you easily and efficiently encrypt sensitive data in your platform before it leaves your security boundaries. The Onqlave Encryption Engine (OE2) provides you with a state of the art cloud agnostic key management solution which simplifies the daunting task of managing your encryption keys whilst providing you with the best practices when it comes to protecting your sensitive data. You specify which primitive you would like to use based on your use case and leave the rest to us. We manage the master encryption key, issue data encryption keys, wrap them with proper keys without storing any of the keys on our platform. You then use our provided SDKs which securely connect to our infrastructure to get the keys, and encrypt and sign to ensure the authenticity of your data. Using our technology helps ensure that your plaintext data isn’t available to any third party, including Onqlave, your cloud or infrastructure provider.
 
 This developer guide provides a conceptual overview of the Onqlave Encryption Engine (OE2), including an introduction to its architecture, details about how it protects your data, how it differs from server-side encryption, and guidance on selecting critical components for your application to help you get started.
 
@@ -25,7 +25,7 @@ The Onqlave Encryption Engine (OE2) has the following benefits:
 
 - **Designed especially for security and ease of use**. You don’t need to be a cryptography expert to use the Onqlave Encryption Engine (OE2). The implementations include helper methods that are designed to work with your existing applications. After you create and configure the required components, the SDKs transparently encrypts and signs your data before you store them in your storage, and verifies and decrypts them when you retrieve them.
 
-- **Designed to be infrastructure and cloud agnostic**. Weh you use the Onqlave Encryption Engine (OE2), you are not bound to a specific cloud provider or specific implementation by a cloud provider as it is delivered as a service (think of it as any other `software as a service` you use). you can integrate it with any application, whether in cloud or on-premise, developed in any technology of your choice. We are building SDKs for majority of mainstream programming languages.
+- **Designed to be infrastructure and cloud agnostic**. When you use the Onqlave Encryption Engine (OE2), you are not bound to a specific cloud provider or specific implementation by a cloud provider as it is delivered as a service (think of it as any other `software as a service` you use). you can integrate it with any application, whether in cloud or on-premise, developed in any technology of your choice. We are building SDKs for majority of mainstream programming languages.
 
 - **Includes secure encryption and signing**. The Onqlave Encryption Engine (OE2) includes secure implementations that encrypt your data using a unique data encryption key, and then sign data to protect it against unauthorised changes.
 
@@ -89,7 +89,7 @@ For more information about the terms used in the Onqlave Encryption Engine, see 
 
 ### Encrypt and sign
 
-At its core, the Onqlave Encryption Engine (OE2) SDK is a record encryptor that encrypts, signs, verifies, and decrypts the records in your dataset. It gets the encryption materials, and instructions on how to use them, from a Onqlave platform and use them to encrypt the data.
+At its core, the Onqlave Encryption Engine (OE2) SDK is a record encryptor that encrypts, signs, verifies, and decrypts the records in your dataset. It gets the encryption materials, and instructions on how to use them, from the Onqlave platform and uses them to encrypt the data.
 
 The following walkthrough describes how the Onqlave Encryption Engine (OE2) SDK encrypts and signs your data entries.
 
@@ -97,12 +97,12 @@ The following walkthrough describes how the Onqlave Encryption Engine (OE2) SDK 
 2. The encryption method encrypts data you specified.
 3. The encryption method encapsulates the encrypted data encryption key, algorithm information and the actual cipher data in data encryption packet.
 4. The encryption method signs the data encyption packet using additional data provided by you.
-5. The encryption method returns the encrypted and signed cipther packet to the caller.  
+5. The encryption method returns the encrypted and signed cipher packet to the caller.  
 
 ### Decrypt and verify
 
 1. The decryption method extracts the encrypted data encryption key from cipher packet.
-2. The decryption method extract the encryption algorithm including initialisation vector and tags
+2. The decryption method extracts the encryption algorithm including initialisation vector and tags
 3. The decryption method contacts the Onqlave platform to decrypt the encrypted data encryption key.
 4. The Onqlave platform returns the data encryption key, wrapped in an ethemeral encrypted assymetric key.
 5. The decryption method identifies the data in the cipher packet received as input.
