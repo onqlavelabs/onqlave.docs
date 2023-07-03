@@ -10,61 +10,91 @@ In addition, you can try to get comfortable with docker before proceeding by rev
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/30jkhw" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
-## **Fetch and run the container**
+## **Download Onqlave CLI**
 
-Use this command to get our latest docker image:
+### **Linux**
 
-```
-docker pull ghcr.io/onqlavelabs/onqlavelabs/onqlave.all:latest
-```
-
-Listing all the existed docker images of Onqlave:
+- Download Linux executable file `onqlave-linux` from the release assets
+- Grant executable permission to `onqlave-linux` file
 
 ```
-docker image ls | grep ghcr.io/onqlavelabs/onqlavelabs/onqlave.all
+sudo chmod +x onqlave-linux
 ```
 
-From here you can observe the latest image_id and can copy it to include in the next command to run the image or you can simply run this command to start the container:
+- Make sure `onqlave-linux` is executable:
 
 ```
-docker run -it ghcr.io/onqlavelabs/onqlavelabs/onqlave.all bash
+./onqlave-linux
 ```
 
-After entering the container via BASH shell, you can try to type this command to make sure everything works:
+### **MacOS**
+
+- Download Linux executable file `onqlave-darwin` from the release assets
+- Grant executable permission to `onqlave-darwin` file
+
+```
+sudo chmod +x onqlave-darwin
+```
+
+- Make sure `onqlave-darwin` is executable:
+
+```
+./onqlave-darwin
+```
+
+### **Windows**
+
+- Download Windows executable file `onqlave-windows.exe` from the release assets
+- Make sure `onqlave-windows.exe` is executable:
+
+```
+.\onqlave-windows.exe
+```
+
+### **Docker**
+
+- Download the Docker image from the CLI release note
+
+```
+docker pull ghcr.io/onqlavelabs/onqlavelabs/onqlave.cli:{$version}
+```
+
+- Verify the Docker image
+
+```
+docker images
+```
+
+The Docker image for the CLI package should be visible in the Docker images list:
+
+```
+REPOSITORY                                   TAG         IMAGE ID       CREATED         
+ghcr.io/onqlavelabs/onqlavelabs/onqlave.cli  {$version}  17a828917e85   45 hours ago
+```
+
+- Run the Docker image in interactive mode
+
+```
+docker run -it 17a828917e85
+```
+
+- Make sure `onqlave` CLI package inside the docker image is executable:
 
 ```
 onqlave
 ```
 
-The output should look like this:
+### **Installation Script**
 
+- An installation shell script is provided to download any specific Onqlave CLI version
+- Download and execute the installation script:
+
+```shell
+curl -s "https://raw.githubusercontent.com/onqlavelabs/onqlave.cli/main/scripts/install.sh" | bash -s ${cli-version}
 ```
-Usage:
- onqlave [command]
 
-Examples:
-onqlave
-
-Available Commands:
- application application management
- arx         arx management
- auth        authentication
- completion  Generate the auto completion script for the specified shell
- config      config environment variables
- help        Help about any command
- key         api key management
- tenant      tenant management
- user        user management
-
-Flags:
- -h, --help      help for onqlave
-     --json      JSON Output. Set to true if stdout is not a TTY.
- -v, --version   version for onqlave
-
-Use "onqlave [command] --help" for more information about a command.
-
-
-```
+- For Windows users, it is recommended to have bash executable installed such as `git bash` before using the
+  installation script; Or you can download the CLI executable directly from the release.
 
 ## **Init the configuration**
 
