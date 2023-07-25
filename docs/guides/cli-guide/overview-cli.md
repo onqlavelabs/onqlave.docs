@@ -10,7 +10,48 @@ In addition, you can try to get comfortable with docker before proceeding by rev
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/30jkhw" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
-## **Fetch and run the container**
+## **Fetch and run the Onqlave CLI**
+
+You can run Onqlave CLI across various platforms.
+### **Linux**
+
+- Download Linux executable file `onqlave-linux` from the release assets
+- Grant executable permission to `onqlave-linux` file
+
+```
+sudo chmod +x onqlave-linux
+```
+
+- Make sure `onqlave-linux` is executable:
+
+```
+./onqlave-linux
+```
+### **MacOS**
+
+- Download Linux executable file `onqlave-darwin` from the release assets
+- Grant executable permission to `onqlave-darwin` file
+
+```
+sudo chmod +x onqlave-darwin
+```
+
+- Make sure `onqlave-darwin` is executable:
+
+```
+./onqlave-darwin
+```
+
+### **Windows**
+
+- Download Windows executable file `onqlave-windows.exe` from the release assets
+- Make sure `onqlave-windows.exe` is executable:
+
+```
+.\onqlave-windows.exe
+```
+
+### **Docker**
 
 Use this command to get our latest docker image:
 
@@ -65,6 +106,18 @@ Use "onqlave [command] --help" for more information about a command.
 
 
 ```
+
+### Installation Script
+
+- An installation shell script is provided to download any specific Onqlave CLI version
+- Download and execute the installation script:
+
+```shell
+curl -s "https://raw.githubusercontent.com/onqlavelabs/onqlave.cli/main/scripts/install.sh" | bash -s ${cli-version}
+```
+
+- For Windows users, it is recommended to have bash executable installed such as `git bash` before using the
+  installation script; or you can download the CLI executable directly from the release.
 
 ## **Init the configuration**
 
