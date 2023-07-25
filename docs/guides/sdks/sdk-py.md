@@ -1,1 +1,1 @@
-The SDK for Python will be available soon!
+{!external-sources/sdk-python.md!lines=1-6 24-151}
