@@ -10,7 +10,7 @@ Or you can refer to [this section for getting help about available commands](../
 You can use this command to retrieve the organisation/tenant information:
 
 ```
-# onqlave tenant describe
+onqlave tenant describe
 ```
 
 The result should be displayed in tabular format by default and look like this:
@@ -58,7 +58,7 @@ Tenant 'tenant--cr7ZHkeyjdWycfsPF' Information =>
 There are two fields that you can update: **label** and **name**
 
 ```
-# onqlave tenants update -l dcm -n dc-tenant-1-updated
+onqlave tenants update -l dcm -n dc-tenant-1-updated
 ```
 
 The successful output appears as follows:
@@ -83,7 +83,7 @@ You can double check the updated result by using the **describe** command above:
 ## **Explore available commands**
 
 ```
-# onqlave tenant
+onqlave tenant
 ```
 
 ```

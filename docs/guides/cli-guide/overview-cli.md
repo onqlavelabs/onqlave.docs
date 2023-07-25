@@ -15,19 +15,19 @@ In addition, you can try to get comfortable with docker before proceeding by rev
 Use this command to get our latest docker image:
 
 ```
-docker pull ghcr.io/onqlavelabs/onqlavelabs/onqlave.all:latest
+docker pull ghcr.io/onqlavelabs/onqlavelabs/onqlave.cli:latest
 ```
 
 Listing all the existed docker images of Onqlave:
 
 ```
-docker image ls | grep ghcr.io/onqlavelabs/onqlavelabs/onqlave.all
+docker image ls | grep ghcr.io/onqlavelabs/onqlavelabs/onqlave.cli
 ```
 
 From here you can observe the latest image_id and can copy it to include in the next command to run the image or you can simply run this command to start the container:
 
 ```
-docker run -it ghcr.io/onqlavelabs/onqlavelabs/onqlave.all bash
+docker run -it ghcr.io/onqlavelabs/onqlavelabs/onqlave.cli bash
 ```
 
 After entering the container via BASH shell, you can try to type this command to make sure everything works:
@@ -75,7 +75,7 @@ onqlave config init
 If the configuration initialization is a success, you will see the following in the terminal
 
 ```
-🎉 Done!  You successfully initialize your environment . Next step is to signup/login if you already haven't.
+🎉 Done!  You successfully initialize your environment . Next step is to signup/login.
 For more information, read our documentation at https://docs.onqlave.com
 ```
 
