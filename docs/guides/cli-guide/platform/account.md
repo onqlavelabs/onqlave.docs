@@ -58,7 +58,7 @@ Tenant 'tenant--cr7ZHkeyjdWycfsPF' Information =>
 There are two fields that you can update: **label** and **name**
 
 ```
-onqlave tenants update -l dcm -n dc-tenant-1-updated
+onqlave tenant update -l dcm -n dc-tenant-1-updated
 ```
 
 The successful output appears as follows:
