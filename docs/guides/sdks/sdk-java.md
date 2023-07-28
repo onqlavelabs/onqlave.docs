@@ -1,1 +1,1 @@
-The SDK for Java will be available soon!
+{!external-sources/sdk-java.md!lines=1-4 20-138}
