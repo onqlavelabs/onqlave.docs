@@ -4,6 +4,7 @@ This Python SDK is designed to help developers easily integrate Onqlave `Encrypt
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
+
 # Table of Contents
 
 - [Description](#description)
@@ -37,6 +38,7 @@ To install, simply using this command:
 pip install onqlave-python
 ```
 You can also check the [package detail on PyPI](https://pypi.org/project/onqlave-python)
+
 
 ## Usage
 To use this SDK, you firstly need to obtain credentials to access an Onqlave Arx by signing up to [Onqlave](https://onqlave.com) and following instruction to create your first Onqlave Arx. Documentation can be found at [Onqlave Technical Documentation](https://docs.onqlave.com).
