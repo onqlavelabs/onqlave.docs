@@ -1,8 +1,9 @@
+# onqlave-java
+
 # Description
 This Java SDK is designed to help developers easily integrate Onqlave `Encryption As A Service` into their Java backend.
 
 [![CI](https://img.shields.io/static/v1?label=CI&message=passing&color=green?style=plastic&logo=github)](https://github.com/onqlavelabs/onqlave-java/actions)
-
 # Table of Contents
 - [Description](#description)
 - [Table of Contents](#table-of-contents)
