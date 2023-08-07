@@ -1,1 +1,1 @@
-{!external-sources/sdk-python.md!lines=1-6 24-151}
+{!external-sources/sdk-python.md!lines=1-6 22-130}

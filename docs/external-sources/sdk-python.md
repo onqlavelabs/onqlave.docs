@@ -1,6 +1,7 @@
-# Description
 This Python SDK is designed to help developers easily integrate Onqlave `Encryption As A Service` into their python backend.
 
+[![CI](https://img.shields.io/static/v1?label=CI&message=passing&color=green?style=plastic&logo=github)](https://github.com/onqlavelabs/onqlave-python/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 
@@ -20,8 +21,6 @@ This Python SDK is designed to help developers easily integrate Onqlave `Encrypt
 	- [Reporting a Vulnerability](#reporting-a-vulnerability)
 
 
-
-
 ## Features
 - Encrypt/decrypt pieces of information
 - Encrypt/decrypt stream of data
@@ -33,12 +32,13 @@ This Python SDK is designed to help developers easily integrate Onqlave `Encrypt
 - Python 3.8 and above
 
 ### Configuration
-To install, simply using this command
+To install, simply using this command:
 
 ```bash
-pip install onqlave-python-sdk-pilot
+pip install onqlave-python
 ```
-You can also check the [package detail on PyPI](https://pypi.org/project/onqlave-python-sdk-pilot)
+You can also check the [package detail on PyPI](https://pypi.org/project/onqlave-python)
+
 
 ## Usage
 To use this SDK, you firstly need to obtain credentials to access an Onqlave Arx by signing up to [Onqlave](https://onqlave.com) and following instruction to create your first Onqlave Arx. Documentation can be found at [Onqlave Technical Documentation](https://docs.onqlave.com).
