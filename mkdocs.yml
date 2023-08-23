@@ -111,3 +111,7 @@ nav:
         - "Java": guides/sdks/sdk-java.md
         - "PHP": guides/sdks/sdk-php.md   
         - "C#": guides/sdks/sdk-c-sharp.md
+        - "Ruby": guides/sdks/sdk-ruby.md
+        - "Rust": guides/sdks/sdk-rust.md
+        - "Swift": guides/sdks/sdk-swift.md
+        - "Flutter": guides/sdks/sdk-flutter.md
