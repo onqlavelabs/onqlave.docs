@@ -1,0 +1,1732 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Onqlave Pty">
+      
+      
+      
+        <link rel="prev" href="../..">
+      
+      
+        <link rel="next" href="../../getting-started/quick-start/">
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.3.1">
+    
+    
+      
+        <title>Introduction - Onqlave Platform</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.046329b4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.85d0ee34.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#introduction" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Onqlave Platform" class="md-header__button md-logo" aria-label="Onqlave Platform" data-md-component="logo">
+      
+  <img src="../../img/favicon.ico" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Onqlave Platform
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Introduction
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="white" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Onqlave Platform" class="md-nav__button md-logo" aria-label="Onqlave Platform" data-md-component="logo">
+      
+  <img src="../../img/favicon.ico" alt="logo">
+
+    </a>
+    Onqlave Platform
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#benefits" class="md-nav__link">
+    Benefits
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concepts" class="md-nav__link">
+    Concepts
+  </a>
+  
+    <nav class="md-nav" aria-label="Concepts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#envelope-encryption" class="md-nav__link">
+    Envelope encryption
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-encryption-key" class="md-nav__link">
+    Data encryption key
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#master-encryption-key" class="md-nav__link">
+    Master encryption key
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#symmetric-and-asymmetric-encryption" class="md-nav__link">
+    Symmetric and asymmetric encryption
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#polymorphic-encryption" class="md-nav__link">
+    Polymorphic encryption
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#encryption-primitives" class="md-nav__link">
+    Encryption primitives
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    How it works
+  </a>
+  
+    <nav class="md-nav" aria-label="How it works">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#encrypt-and-sign" class="md-nav__link">
+    Encrypt and sign
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#decrypt-and-verify" class="md-nav__link">
+    Decrypt and verify
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reporting-a-vulnerability" class="md-nav__link">
+    Reporting a Vulnerability
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Getting started
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Getting started
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/quick-start/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quick start
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Guides
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Guides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_1" >
+        
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Dashboard Interface
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            Dashboard Interface
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/web-app-guide/overview-gui/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview - Dashboard
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/web-app-guide/authentication/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Authentication
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_1_3" >
+        
+          <label class="md-nav__link" for="__nav_4_1_3" id="__nav_4_1_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Administration
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_1_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1_3">
+            <span class="md-nav__icon md-icon"></span>
+            Administration
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/web-app-guide/administration/arx/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Arx
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/web-app-guide/administration/application/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Application
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/web-app-guide/administration/apikey/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    API Key
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_1_4" >
+        
+          <label class="md-nav__link" for="__nav_4_1_4" id="__nav_4_1_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Platform
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_1_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1_4">
+            <span class="md-nav__icon md-icon"></span>
+            Platform
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/web-app-guide/platform/account/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Account
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/web-app-guide/platform/access/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Access
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_2" >
+        
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Command Line Interface
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            Command Line Interface
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/cli-guide/overview-cli/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview - CLI
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/cli-guide/authentication/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Authentication
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_2_3" >
+        
+          <label class="md-nav__link" for="__nav_4_2_3" id="__nav_4_2_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Administration
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Administration
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/cli-guide/administration/arx/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Arx
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/cli-guide/administration/application/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Application
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/cli-guide/administration/apikey/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    API Key
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_2_4" >
+        
+          <label class="md-nav__link" for="__nav_4_2_4" id="__nav_4_2_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Platform
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            Platform
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/cli-guide/platform/account/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Account
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/cli-guide/platform/access/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Access
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_3" >
+        
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    SDKs
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            SDKs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/sdks/sdk-go/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Go
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/sdks/sdk-node/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NodeJS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/sdks/sdk-py/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Python
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/sdks/sdk-java/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Java
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/sdks/sdk-php/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PHP
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/sdks/sdk-c-sharp/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    C#
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/sdks/sdk-ruby.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ruby
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/sdks/sdk-rust/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rust
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/sdks/sdk-swift.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Swift
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/sdks/sdk-flutter/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Flutter
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#benefits" class="md-nav__link">
+    Benefits
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concepts" class="md-nav__link">
+    Concepts
+  </a>
+  
+    <nav class="md-nav" aria-label="Concepts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#envelope-encryption" class="md-nav__link">
+    Envelope encryption
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-encryption-key" class="md-nav__link">
+    Data encryption key
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#master-encryption-key" class="md-nav__link">
+    Master encryption key
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#symmetric-and-asymmetric-encryption" class="md-nav__link">
+    Symmetric and asymmetric encryption
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#polymorphic-encryption" class="md-nav__link">
+    Polymorphic encryption
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#encryption-primitives" class="md-nav__link">
+    Encryption primitives
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    How it works
+  </a>
+  
+    <nav class="md-nav" aria-label="How it works">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#encrypt-and-sign" class="md-nav__link">
+    Encrypt and sign
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#decrypt-and-verify" class="md-nav__link">
+    Decrypt and verify
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reporting-a-vulnerability" class="md-nav__link">
+    Reporting a Vulnerability
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h1>
+<p>The Onqlave Encryption Engine (OE2) is a set of infrastructure and SDKs provided to you as a service, letting you easily and efficiently encrypt sensitive data in your platform before it leaves your security boundaries. The Onqlave Encryption Engine (OE2) provides you with a state of the art cloud agnostic key management solution which simplifies the daunting task of managing your encryption keys whilst providing you with the best practices when it comes to protecting your sensitive data. You specify which primitive you would like to use based on your use case and leave the rest to us. We manage the master encryption key, issue data encryption keys, wrap them with proper keys without storing any of the keys on our platform. You then use our provided SDKs which securely connect to our infrastructure to get the keys, and encrypt and sign to ensure the authenticity of your data. Using our technology helps ensure that your plaintext data isn’t available to any third party, including Onqlave, your cloud or infrastructure provider.</p>
+<p>This developer guide provides a conceptual overview of the Onqlave Encryption Engine (OE2), including an introduction to its architecture, details about how it protects your data, how it differs from server-side encryption, and guidance on selecting critical components for your application to help you get started.</p>
+<!-- ## Table of Contents
+
+- [Introduction](#introduction)
+- [Table of Contents](#table-of-contents)
+  - [Benefit](#benefits)
+  - [Concepts](#concepts)
+    - [Envelope encryption](#envelope-encryption)
+    - [Data encryption key](#data-encryption-key)
+    - [Master encryption key](#master-encryption-key)
+    - [Symmetric and asymmetric encryptioncrypt](#symmetric-and-asymmetric-encryption)
+    - [Polymorphic encryption](#polymorphic-encryption)
+    - [Encryption primitives](#encryption-primitives)
+  - [How it works](#how-it-works)
+  - [Reporting a Vulnerability](#reporting-a-vulnerability) -->
+
+<h2 id="benefits">Benefits<a class="headerlink" href="#benefits" title="Permanent link">&para;</a></h2>
+<p>The Onqlave Encryption Engine (OE2) has the following benefits:</p>
+<ul>
+<li>
+<p><strong>Designed especially for security and ease of use</strong>. You don’t need to be a cryptography expert to use the Onqlave Encryption Engine (OE2). The implementations include helper methods that are designed to work with your existing applications. After you create and configure the required components, the SDKs transparently encrypts and signs your data before you store them in your storage, and verifies and decrypts them when you retrieve them.</p>
+</li>
+<li>
+<p><strong>Designed to be infrastructure and cloud agnostic</strong>. When you use the Onqlave Encryption Engine (OE2), you are not bound to a specific cloud provider or specific implementation by a cloud provider as it is delivered as a service (think of it as any other <code>software as a service</code> you use). you can integrate it with any application, whether in cloud or on-premise, developed in any technology of your choice. We are building SDKs for majority of the mainstream programming languages.</p>
+</li>
+<li>
+<p><strong>Includes secure encryption and signing</strong>. The Onqlave Encryption Engine (OE2) includes secure implementations that encrypt your data using a unique data encryption key, and then sign data to protect it against unauthorised changes.</p>
+</li>
+<li>
+<p><strong>Uses cryptographic materials provided by the Onqlave platform</strong>.  The Onqlave Encryption Engine (OE2) uses Onqlave crypto infrastructure to generate, encrypt, and decrypt the unique data encryption key that protects your sensitive data. We automatically issue wrapping keys that encrypt that data key. The Onqlave Encryption Engine (OE2) frees you from cloud restriction as it doesn't require an AWS, GCP or Azure account or any service provided by them.</p>
+</li>
+<li>
+<p><strong>Support for cryptographic materials caching (coming soon)</strong>. The Onqlave Encryption Engine (OE2) provides a bespoke key caching solution that reduces the number of calls to our infrastructure. It allows you to protect your cryptographic materials under a symmetric encryption key without calling Onqlave infrastructure every time you encrypt or decrypt data. This is a good choice for applications that need to minimise latency in their encryption process.</p>
+</li>
+<li>
+<p><strong>Format Preserving Encryption (FPE) (coming soon)</strong>. You can design databases that can search encrypted records without decrypting the entire database. Depending on your threat model and requirements, you can use FPE to perform exact match searches or more customised complex queries on your encrypted database.</p>
+</li>
+<li>
+<p><strong>Support for multitenant database schemas</strong>. The Onqlave Encryption Engine (OE2) enables you to protect data stored in your platform by isolating each tenant with distinct encryption materials. If you have multiple customers performing encrypt operations within your platform, use different Onqlave Arx to provide each customer with a distinct material to use in their cryptographic operations.</p>
+</li>
+<li>
+<p><strong>End-to-end encryption</strong>. Everything in your Onqlave Encryption Engine (OE2) account is always end-to-end encrypted. This makes it impossible for someone to learn anything by intercepting your data while it’s in transit or even obtaining it from Onqlave.</p>
+</li>
+<li>
+<p><strong>256-bit AES encryption</strong>. Your data is kept safe by <code>AES-GCM-256 authenticated encryption</code> on the Onqlave Encryption Engine (OE2). The data you entrust to Onqlave is effectively impossible to decrypt.</p>
+</li>
+<li>
+<p><strong>Secure random numbers</strong>. Encryption keys, initialization vectors, and nonces are all generated using <code>cryptographically secure pseudorandom number generators</code>.</p>
+</li>
+<li>
+<p><strong>Principled privacy policy</strong>. The Onqlave Encryption Engine (OE2) was designed with a deep respect for your privacy. Any information you share with us is only ever used to provide you with service and support.</p>
+</li>
+</ul>
+<h2 id="concepts">Concepts<a class="headerlink" href="#concepts" title="Permanent link">&para;</a></h2>
+<p>This topic explains the concepts and terminology used in the Onqlave Encryption Engine (OE2).</p>
+<h3 id="envelope-encryption">Envelope encryption<a class="headerlink" href="#envelope-encryption" title="Permanent link">&para;</a></h3>
+<p>Storing and encrypting data at scale requires using a central cryptographic key management service with multiple layers of keys for the encrypted data. An example of multiple layer of keys is envelope encryption, which is the process of encrypting a key with another key. The Onqlave Encryption Engine (OE2) uses <a href="#master-encryption-key">Master encryption keys (MEK)</a> to protect <a href="#data-encryption-key">Data encryption keys</a>. The Onqlave Encryption Engine (OE2) uses <a href="#polymorphic-encryption">Polymorphic encryption</a> to ensure that every encryption gets its own unique <a href="#data-encryption-key">Data encryption keys</a>.</p>
+<h3 id="data-encryption-key">Data encryption key<a class="headerlink" href="#data-encryption-key" title="Permanent link">&para;</a></h3>
+<p>A data encryption key is an encryption key that the Onqlave Encryption Engine (OE2) SDK uses to encrypt the data. Each data encryption key is a byte array that conforms to the encryption method of your Onqlave Arx. You don't need to specify, generate, implement, extend, protect, or use data encryption keys. The Onqlave Encryption Engine (OE2) implicitly does that work for you when you call the encrypt and decrypt operations.</p>
+<h3 id="master-encryption-key">Master encryption key<a class="headerlink" href="#master-encryption-key" title="Permanent link">&para;</a></h3>
+<p>A Master encryption key, also known as key encryption key is a key that the Onqlave Encryption Engine (OE2) uses to encrypt the <a href="#data-encryption-key">Data encryption keys</a> that encrypts your data.</p>
+<h3 id="symmetric-and-asymmetric-encryption">Symmetric and asymmetric encryption<a class="headerlink" href="#symmetric-and-asymmetric-encryption" title="Permanent link">&para;</a></h3>
+<p>Symmetric encryption uses the same key to encrypt and decrypt data. Asymmetric encryption uses a mathematically related data key pair. One key in the pair encrypts the data; only the other key in the pair can decrypt the data. The Onqlave Encryption Engine (OE2) uses envelope encryption. It encrypts your data with a symmetric data key. It encrypts the symmetric data key with one or more symmetric or asymmetric wrapping keys.</p>
+<ul>
+<li><strong>Encrypting your data (symmetric encryption)</strong>: To encrypt your data, the Onqlave Encryption Engine (OE2) SDK uses a symmetric data key and an algorithm specified by your configuration of Onqlave Arx that includes a symmetric encryption algorithm. To decrypt the data, the Onqlave Encryption Engine (OE2) SDK uses the same data key and the same algorithm suite.</li>
+</ul>
+<h3 id="polymorphic-encryption">Polymorphic encryption<a class="headerlink" href="#polymorphic-encryption" title="Permanent link">&para;</a></h3>
+<p>The Onqlave Encryption Engine (OE2) makes sure every encryption operation gets its own unique <a href="#data-encryption-key">Data encryption key</a> to preserve the security and privacy of your data. The technique is called <code>Polymorphic encryption</code>.</p>
+<h3 id="encryption-primitives">Encryption primitives<a class="headerlink" href="#encryption-primitives" title="Permanent link">&para;</a></h3>
+<p>Authenticated Encryption (AE) is an encryption scheme which simultaneously assures the data confidentiality (also known as privacy: encrypted message is impossible to understand without the knowledge of a secret key) and authenticity (it is unforgeable the encrypted message includes an authentication tag that the sender can calculate only if she possesses secret key). Examples of encryption modes that provide AE are GCM, CCM. The Onqlave Encryption Engine (OE2) and extended version of AE called Authenticated Encryption with Additional Data (AEAD) in order to create <a href="#data-encryption-key">Data encryption keys</a>. Additional Authenticated Data (AAD) is bound to the encrypted data, because you cannot decrypt the ciphertext unless you know the AAD, but it is not stored as part of the ciphertext. AAD also does not increase the cryptographic strength of the ciphertext. Instead it is an additional check by The Onqlave Encryption Engine (OE2) SDK to authenticate a decryption request. The Onqlave Encryption Engine (OE2) SDK uses Authenticated Encryption with Additional Data (AEAD) for all encryption operations, so that it guarantees the confidentiality as well as the integrity of the keys provided for each tenant.  </p>
+<h2 id="how-it-works">How it works<a class="headerlink" href="#how-it-works" title="Permanent link">&para;</a></h2>
+<p>As explained in the <a href="#introduction">Introduction</a>, The Onqlave platform is comprised of two major parts: The Onqlave Encryption Engine (OE2) which is responsible for managing your keys, and The Onqlave Encryption Engine (OE2) SDK which is used to integrate OE2 with your applications.  </p>
+<p>The Onqlave Encryption Engine (OE2) SDK provides client-side encryption libraries that are designed specifically to protect your sensitive data. The libraries include secure implementations that you can extend or use unchanged. For more information about using SDKs, see our SDK <a href="https://docs.onqlave.com/guides/sdks/sdk-node/">documentation</a> for your programming language.</p>
+<p>The workflows in this section explain how the Onqlave Encryption Engine (OE2) SDK encrypts and signs and decrypts and verifies the data in your applications. These workflows describe the basic process using abstract elements and the default features. For details about how the Onqlave Encryption Engine (OE2) SDK works with your programming language, see our GitHub repositories.</p>
+<p>The Onqlave Encryption Engine (OE2) SDK uses <a href="#envelope-encryption">envelope encryption</a> to protect your data. Each record is encrypted under a unique <a href="#data-encryption-key">data encryption key</a> provided by the Onqlave platform. To decrypt the encrypted record, the Onqlave Encryption Engine (OE2) SDK communicates with the Onqlave platform to decrypt the data encryption key using the <a href="#master-encryption-key">master encryption keys</a> assigned to the Onqlave Arx. Then it can decrypt the ciphertext and return a plaintext entry.</p>
+<p>For more information about the terms used in the Onqlave Encryption Engine, see <a href="#concepts">Concepts</a>.</p>
+<h3 id="encrypt-and-sign">Encrypt and sign<a class="headerlink" href="#encrypt-and-sign" title="Permanent link">&para;</a></h3>
+<p>At its core, the Onqlave Encryption Engine (OE2) SDK is a record encryptor that encrypts, signs, verifies, and decrypts the records in your dataset. It gets the encryption materials, and instructions on how to use them, from the Onqlave platform and uses them to encrypt the data.</p>
+<p>The following walkthrough describes how the Onqlave Encryption Engine (OE2) SDK encrypts and signs your data entries.</p>
+<ol>
+<li>The Onqlave platform provides the Onqlave Encryption Engine (OE2) SDK with unique data encryption key: one wrapped data encryption key, a copy of the data key encrypted wrapped in an ephemeral encrypted asymmetric key.</li>
+<li>The encryption method encrypts data you specified.</li>
+<li>The encryption method encapsulates the encrypted data encryption key, algorithm information and the actual cipher data in a data encryption packet.</li>
+<li>The encryption method signs the data encyption packet using additional data provided by you.</li>
+<li>The encryption method returns the encrypted and signed cipher packet to the caller.  </li>
+</ol>
+<h3 id="decrypt-and-verify">Decrypt and verify<a class="headerlink" href="#decrypt-and-verify" title="Permanent link">&para;</a></h3>
+<ol>
+<li>The decryption method extracts the encrypted data encryption key from cipher packet.</li>
+<li>The decryption method extracts the encryption algorithm including initialisation vector and tags</li>
+<li>The decryption method contacts the Onqlave platform to decrypt the encrypted data encryption key.</li>
+<li>The Onqlave platform returns the data encryption key, wrapped in an ethemeral encrypted assymetric key.</li>
+<li>The decryption method identifies the data in the cipher packet received as input.</li>
+<li>The decryption method unwraps the data encryption key, and use it to decrypt the data.</li>
+<li>The decryption method verifies the integrity of the data using additional data provided by you.</li>
+<li>The decryption method returns the decrypted and verified plain data to the caller.  </li>
+</ol>
+<h2 id="reporting-a-vulnerability">Reporting a Vulnerability<a class="headerlink" href="#reporting-a-vulnerability" title="Permanent link">&para;</a></h2>
+<p>If you discover a potential security issue in this project, please reach out to us at <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#101;&#99;&#117;&#114;&#105;&#116;&#121;&#64;&#111;&#110;&#113;&#108;&#97;&#118;&#101;&#46;&#99;&#111;&#109;">&#115;&#101;&#99;&#117;&#114;&#105;&#116;&#121;&#64;&#111;&#110;&#113;&#108;&#97;&#118;&#101;&#46;&#99;&#111;&#109;</a>. Please do not create public GitHub issues or Pull Requests, as malicious actors could potentially view them.</p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../.." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home" rel="prev">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Home
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../getting-started/quick-start/" class="md-footer__link md-footer__link--next" aria-label="Next: Quick start" rel="next">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Quick start
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2022 - 2023 Onqlave Pty
+    </div>
+  
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/company/onqlave/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77Z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["annouce.dismiss", "navigation.indexes", "navigation.footer", "navigation.instant", "navigation.tracking", "navigation.top", "navigation.path", "navigation.sections", "navigation.expand", "toc.follow", "search.highlight", "search.share", "search.suggest", "header.autohide", "content.code.copy"], "search": "../../assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "0.0.1", "provider": "mike"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.dff1b7c8.min.js"></script>
+      
+    
+  </body>
+</html>
